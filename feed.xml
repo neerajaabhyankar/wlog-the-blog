@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-05-10T00:23:16-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">wlog: the blog</title><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;&quot;/assets/images/bio-photo_3.jpg&quot;, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;neeraja93.a [at] gmail.com&quot;, &quot;links&quot;=&gt;nil}</name><email>neeraja93.a [at] gmail.com</email></author><entry><title type="html">Post: Testing mathjax and video embedding</title><link href="http://localhost:4000/post%20formats/first-post/" rel="alternate" type="text/html" title="Post: Testing mathjax and video embedding" /><published>2022-09-28T00:00:00-07:00</published><updated>2022-09-28T00:00:00-07:00</updated><id>http://localhost:4000/post%20formats/first-post</id><content type="html" xml:base="http://localhost:4000/post%20formats/first-post/"><![CDATA[<p>Testing mathjax -</p>
+
+<p>\[ \nabla E = mc^2  \]</p>
+
+<!-- 
+$$\nabla E = mc^2 $$
+ -->
+
+<p>Testing code embedding -</p>
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">excerpt_separator</span><span class="pi">:</span> <span class="s2">"</span><span class="s">&lt;!--more--&gt;"</span>
+</code></pre></div></div>
+
+<p>Testing video embedding -</p>
+
+<p>YouTube video embed below.</p>
+
+<iframe width="640" height="360" src="https://www.youtube.com/embed/AYesqscNK9g" title="VID_20180607_103102.mp4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>]]></content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;&quot;/assets/images/bio-photo_3.jpg&quot;, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;email&quot;=&gt;&quot;neeraja93.a [at] gmail.com&quot;, &quot;links&quot;=&gt;nil}</name><email>neeraja93.a [at] gmail.com</email></author><category term="Post Formats" /><category term="Post Formats" /><category term="readability" /><category term="standard" /><summary type="html"><![CDATA[Testing mathjax - \[ \nabla E = mc^2 \] Testing code embedding - ```yaml excerpt_separator: “]]></summary></entry></feed>
