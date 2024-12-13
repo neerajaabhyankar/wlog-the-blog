@@ -10,34 +10,34 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>how can i help? - wlog: the blog</title>
-<meta name="description" content="Whether or not you identify as a hardcore utilitarian as per the trolley problem, there is an element of utilitarianism built into most modern thought. I feel that most of the disagreements amongst self-proclaimed utilitarians merely stem from what the definition of useful is, which we as a society should be optimizing for.">
+<!-- begin _includes/seo.html --><title>swarnetz - wlog: the blog</title>
+<meta name="description" content="The ground rules">
 
 
 
 <meta property="og:type" content="article">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="wlog: the blog">
-<meta property="og:title" content="how can i help?">
-<meta property="og:url" content="http://localhost:4000/how-can-i-help/">
+<meta property="og:title" content="swarnetz">
+<meta property="og:url" content="http://localhost:4000/swarnetz/">
 
 
-  <meta property="og:description" content="Whether or not you identify as a hardcore utilitarian as per the trolley problem, there is an element of utilitarianism built into most modern thought. I feel that most of the disagreements amongst self-proclaimed utilitarians merely stem from what the definition of useful is, which we as a society should be optimizing for.">
-
-
-
-
-
-
-
-  <meta property="article:published_time" content="2024-05-02T00:00:00+05:30">
+  <meta property="og:description" content="The ground rules">
 
 
 
 
 
 
-<link rel="canonical" href="http://localhost:4000/how-can-i-help/">
+
+  <meta property="article:published_time" content="2024-12-12T00:00:00+05:30">
+
+
+
+
+
+
+<link rel="canonical" href="http://localhost:4000/swarnetz/">
 
 
 
@@ -165,7 +165,7 @@
         <span class="sep">/</span>
       
       
-        <li class="current">how can i help?</li>
+        <li class="current">swarnetz</li>
       
     
   </ol>
@@ -270,36 +270,42 @@
 
   <div class="archive">
     
-      <h1 id="page-title" class="page__title">how can i help?</h1>
+      <h1 id="page-title" class="page__title">swarnetz</h1>
     
-    <p>Whether or not you identify as a hardcore utilitarian as per the <a href="https://en.wikipedia.org/wiki/Trolley_problem">trolley problem</a>, there is an element of utilitarianism built into most modern thought. I feel that most of the disagreements amongst self-proclaimed utilitarians merely stem from what the definition of useful is, which we as a society should be optimizing for.</p>
+    <h3 id="the-ground-rules">The ground rules</h3>
 
-<p>Before I propose my model, I’ll define a modified &amp; simpler version of the Maslow’s Hierarchy of Needs:</p>
+<p>A musical note at frequency <code class="language-plaintext highlighter-rouge">2f</code> is perceived by the human ear as “the same note” as one at a frequency of <code class="language-plaintext highlighter-rouge">f</code> – except at a higher octave. For all music-theoretical purposes, these two are the same note, and in this article we’ll be operating under such an octave-invariant paradigm.<br />
+Two musical notes of frequencies <code class="language-plaintext highlighter-rouge">p</code> and <code class="language-plaintext highlighter-rouge">q</code> sound harmonious when <code class="language-plaintext highlighter-rouge">p/q</code> is a “small” rational number, since the first note’s <code class="language-plaintext highlighter-rouge">q^th</code> harmonic overlaps with the second note’s <code class="language-plaintext highlighter-rouge">p^th</code> harmonic.<br />
+While these <code class="language-plaintext highlighter-rouge">p</code>s and <code class="language-plaintext highlighter-rouge">q</code>s can have any prime factorization, for this article, we’ll be restricting ourselves to powers of 3 and 5, since these are both easy to tune on an instrument and occur in most commonly-heard music. A stretch goal would be to include 7.</p>
 
-<p style="text-align:center;"><img width="500" class="text-center" src="/assets/images/for_posts/simplified-maslow.png" alt="simplified-maslow" /></p>
+<h4 id="a-glimpse">A glimpse…</h4>
 
-<p>Now imagine a society called NOI — the No Output Island. No energy or matter can come out of NOI. You have the power to “intervene” or play god, but you can only input stuff onto NOI. There are a small number of people on NOI. They have managed a lifestyle for survival; they build huts with natural materials, eat vegetation and animals, all Level 1 needs satisfied. They are strictly degrading the island’s biome (negatively affecting other species, not occupying any ecological niche, you name it).</p>
+<p>Thus, relative to a root node (tonic) with frequency <code class="language-plaintext highlighter-rouge">f</code> we can plot all natural tones in a subspace spanned by two “basis” harmonic relationships: <code class="language-plaintext highlighter-rouge">3f</code> and <code class="language-plaintext highlighter-rouge">5f</code>. In order to map these to a note we recogrnize, we’ll always be looking at values between the octave <code class="language-plaintext highlighter-rouge">[f, 2f)</code> and hence throwing around poers of 2 “for free”. Our “basis vectors” are now <code class="language-plaintext highlighter-rouge">3f/2</code> (= Pa or the perfect fifth) and <code class="language-plaintext highlighter-rouge">5f/4</code> (= Ga or the perfect third). The “negative axes” or inverse relationships in this case are <code class="language-plaintext highlighter-rouge">4f/3</code> = ma and <code class="language-plaintext highlighter-rouge">8f/5</code> = dha.<br />
+By “basis”, I mean that all the notes that we’ll ever consider, can be obtained by stringing together a series of these fractions. e.g. we find a Re at <code class="language-plaintext highlighter-rouge">9f/8</code> which is <code class="language-plaintext highlighter-rouge">a Pa of the Pa</code>.</p>
 
-<p>As a benevolent puppeteer, you have many possible actions, some examples below:</p>
+<h3 id="the-tonnetz-diagram-adapted-to-indian-classical-music">The Tonnetz diagram adapted to Indian Classical Music</h3>
+
+<p>Western classical music uses the following diagram to visualize chords. The “basis vectors” described above are at 0 degrees and 60 degrees, and the reason these bases are tilted is because we can now visualize chords well (blue = major and red = minor).</p>
+
+<p style="text-align:center;"><img width="500" class="text-center" src="/assets/images/for_posts/tonnetz-wcm.png" alt="hfda-problem" /></p>
+
+<p>In ICM however, we have no reason to visualize chords and we’d like to stay in relative note notation, so our Tonnetz diagram will look like this:</p>
+
+<p style="text-align:center;"><img width="800" class="text-center" src="/assets/tonnetz/images/all_notes.png" alt="all-notes" />
+<br /></p>
+
+<h3 id="raags">Raags</h3>
+
+<p>See <a href="https://www.withoutlossofgenerality.com/raagfinder-by-name/">this page</a> for a list of raag shrutis as per what I have read, heard, and thought. <strong>These are not a definitive, and will be updated as I understand more.</strong></p>
+
+<h3 id="references">References</h3>
 
 <ol>
-  <li>Kill all NOI-kars: they’re not gonna help anyone on Earth and they’re just worsening the biome (which you’d like to preserve for whatever reason).</li>
-  <li>Let them live as is: after all, they’ve got Level 1 sorted.</li>
-  <li>Provide them with more Level 1 or basic comfort stuff: air-drop good food, alcohol, drugs, etc. They can spend their entire life reveling in the dopamine and would forever be happy.</li>
-  <li>Be the “HR”: conduct parties and games to breed more Level 2 need satisfaction.</li>
-  <li>Provide access to education/books/art: may catalyze “self-actualization”.</li>
-  <li>Anything else that you may think of.</li>
+  <li><a href="https://en.wikipedia.org/wiki/Tonnetz">https://en.wikipedia.org/wiki/Tonnetz</a><br /></li>
+  <li><a href="https://22shruti.com/research_topic_54.asp">Dr Oak’s explanation of a Tonnetz net truncated at 22 nodes</a><br /></li>
+  <li><a href="https://22shruti.com/research_topic_53.asp">Dr Oak’s derivation of Shrutis in Raags</a><br /></li>
+  <li><a href="https://arxiv.org/abs/2111.00436">A. Giri’s derivation of Shrutis in Raags</a><br /></li>
 </ol>
-
-<p>What would you do and why?</p>
-
-<p>Back to Earth. My personal* value system has often placed more importance on higher-level needs of the pyramid, even though in order to achieve those, the lower-level ones need to be in place. It is almost as if life is not worth living without the moments where you get Level 3 satisfaction. In trolley-problem terms, if I see a hundred happy drug addicts on one track (for simplicity, let’s assume they’ll never be rehabilitated and will always have a constant but non-lethal supply of their drug), and a sad artist on another, I will save the sad artist.</p>
-
-<p>On a tangential note, it appears that the lower-level needs are something you can more directly give to someone, and the higher up one goes in the pyramid, things become more of a personal endeavor to achieve on one’s own. Due to the आपण-घोड्याला-पाण्याजवळ-नेऊ-शकतो-पण-शेवटी-पाणी-त्याला-स्वतःलाच-प्यावं-लागतं nature of self-actualization, working to achieve that myself might just be the best thing to do (if I want to increase the “net happiness” of the world), than <em>trying</em> to give that to others.</p>
-
-<hr />
-
-<p>[* bear in mind that I have never been deprived of Level 1 needs, so my opinion may be dismissed as one of the armchair kind.]</p>
 
 
 
@@ -311,9 +317,11 @@
     <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
     <span itemprop="keywords">
     
-      <a href="/tags/#30" class="page__taxonomy-item p-category" rel="tag">30</a><span class="sep">, </span>
+      <a href="/tags/#math" class="page__taxonomy-item p-category" rel="tag">math</a><span class="sep">, </span>
     
-      <a href="/tags/#life" class="page__taxonomy-item p-category" rel="tag">life</a>
+      <a href="/tags/#music" class="page__taxonomy-item p-category" rel="tag">music</a><span class="sep">, </span>
+    
+      <a href="/tags/#theory" class="page__taxonomy-item p-category" rel="tag">theory</a>
     
     </span>
   </p>
@@ -328,7 +336,7 @@
     <strong><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Categories: </strong>
     <span itemprop="keywords">
     
-      <a href="/categories/#meta" class="page__taxonomy-item p-category" rel="tag">meta</a>
+      <a href="/categories/#music" class="page__taxonomy-item p-category" rel="tag">music</a>
     
     </span>
   </p>
