@@ -1,0 +1,78 @@
+{
+    "name": "Gurjari Todi",
+    "aaroha": [
+        "S",
+        "r",
+        "g",
+        "M",
+        "d",
+        "N",
+        "`S"
+    ],
+    "avaroha": [
+        "`S",
+        "N",
+        "d",
+        "M",
+        "d",
+        "M",
+        "g",
+        "r",
+        "g",
+        "r",
+        "S",
+        ",d",
+        ",N",
+        "S"
+    ],
+    "mukhyanga": [
+        [
+            "S",
+            "r",
+            ",N",
+            ",d",
+            "S"
+        ],
+        [
+            "r",
+            "g",
+            "M",
+            "d"
+        ],
+        [
+            "M",
+            "d",
+            "N",
+            "d"
+        ],
+        [
+            "N",
+            "d",
+            "M",
+            "g",
+            "r"
+        ],
+        [
+            "g",
+            "r",
+            "S"
+        ],
+        []
+    ],
+    "aarohi_nyas": [
+        "r",
+        "g",
+        "d",
+        "`S"
+    ],
+    "avarohi_nyas": [
+        "r",
+        "g",
+        "d",
+        "`S"
+    ],
+    "vaadi": "d",
+    "samvaadi": "r",
+    "thaat": "Todi",
+    "prahar": "day 2nd"
+}

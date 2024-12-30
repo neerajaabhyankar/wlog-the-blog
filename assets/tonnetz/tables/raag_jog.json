@@ -1,0 +1,59 @@
+{
+    "name": "Jog",
+    "aaroha": [
+        "S",
+        "G",
+        "m",
+        "P",
+        "n",
+        "`S"
+    ],
+    "avaroha": [
+        "`S",
+        "n",
+        "P",
+        "m",
+        "g",
+        "S",
+        ",n",
+        "S"
+    ],
+    "mukhyanga": [
+        [
+            "G",
+            "m",
+            "P",
+            "n",
+            "P"
+        ],
+        [
+            "P",
+            "n",
+            "P",
+            "m",
+            "G",
+            "m"
+        ],
+        [
+            "G",
+            "m",
+            "g",
+            "S"
+        ],
+        []
+    ],
+    "aarohi_nyas": [
+        "G",
+        "m",
+        "P"
+    ],
+    "avarohi_nyas": [
+        "P",
+        "m",
+        "G"
+    ],
+    "vaadi": "m",
+    "samvaadi": "S",
+    "thaat": "Kafi",
+    "prahar": "night 2nd"
+}

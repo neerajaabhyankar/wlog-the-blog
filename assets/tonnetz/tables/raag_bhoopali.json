@@ -1,0 +1,71 @@
+{
+    "name": "Bhoopali",
+    "aaroha": [
+        "S",
+        "R",
+        "G",
+        "P",
+        "D",
+        "`S"
+    ],
+    "avaroha": [
+        "`S",
+        "D",
+        "P",
+        "G",
+        "R",
+        "S",
+        "R",
+        ",D",
+        "S"
+    ],
+    "mukhyanga": [
+        [
+            "G",
+            "R",
+            "G"
+        ],
+        [
+            "P",
+            "G"
+        ],
+        [
+            "D",
+            "P"
+        ],
+        [
+            "`S",
+            "D",
+            "P",
+            "G"
+        ],
+        [
+            "P",
+            "G",
+            "R",
+            "G"
+        ],
+        [
+            "G",
+            "R",
+            "S"
+        ],
+        []
+    ],
+    "aarohi_nyas": [
+        "S",
+        "R",
+        "G",
+        "P"
+    ],
+    "avarohi_nyas": [
+        "P",
+        "G",
+        "R",
+        "S"
+    ],
+    "vaadi": "G",
+    "samvaadi": "D",
+    "thaat": "Kalyan",
+    "prahar": "night 1st"
+}

@@ -1,0 +1,74 @@
+{
+    "name": "Shuddha Sarang",
+    "aaroha": [
+        ",N",
+        "S",
+        "R",
+        "M",
+        "P",
+        "N",
+        "`S"
+    ],
+    "avaroha": [
+        "`S",
+        "N",
+        "D",
+        "P",
+        "M",
+        "P",
+        "M",
+        "m",
+        "R",
+        "S",
+        ",N",
+        "S"
+    ],
+    "mukhyanga": [
+        [
+            ",N",
+            "S",
+            "R",
+            "M",
+            "M",
+            "P"
+        ],
+        [
+            "M",
+            "P",
+            "M",
+            "m",
+            "R"
+        ],
+        [
+            "R",
+            ",N",
+            ",N",
+            "S"
+        ],
+        [
+            ",N",
+            ",D",
+            "S",
+            ",N",
+            "R",
+            "S"
+        ],
+        []
+    ],
+    "aarohi_nyas": [
+        ",N",
+        "R",
+        "P",
+        "N"
+    ],
+    "avarohi_nyas": [
+        "`S",
+        "N",
+        "P",
+        "R"
+    ],
+    "vaadi": "R",
+    "samvaadi": "P",
+    "thaat": "Kalyan",
+    "prahar": "day 2nd"
+}

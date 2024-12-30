@@ -1,0 +1,61 @@
+{
+    "name": "Nut-Bhairav",
+    "aaroha": [
+        "S",
+        "R",
+        "G",
+        "m",
+        "P",
+        "d",
+        "N",
+        "`S"
+    ],
+    "avaroha": [
+        "`S",
+        "N",
+        "d",
+        "P",
+        "m",
+        "G",
+        "R",
+        "S"
+    ],
+    "mukhyanga": [
+        [
+            "R",
+            "G",
+            "m",
+            "d",
+            "P"
+        ],
+        [
+            "m",
+            "G",
+            "R"
+        ],
+        [
+            "G",
+            "m",
+            "R",
+            "S",
+            ",N",
+            ",d",
+            "S"
+        ],
+        []
+    ],
+    "aarohi_nyas": [
+        "R",
+        "m",
+        "d"
+    ],
+    "avarohi_nyas": [
+        "d",
+        "m",
+        "R"
+    ],
+    "vaadi": "m",
+    "samvaadi": "S",
+    "thaat": "Bhairav",
+    "prahar": "day 1st"
+}

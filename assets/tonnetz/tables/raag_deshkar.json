@@ -1,0 +1,69 @@
+{
+    "name": "Deshkar",
+    "aaroha": [
+        "S",
+        "R",
+        "G",
+        "P",
+        "D",
+        "`S"
+    ],
+    "avaroha": [
+        "`S",
+        "D",
+        "P",
+        "D",
+        "G",
+        "P",
+        "G",
+        "R",
+        "S"
+    ],
+    "mukhyanga": [
+        [
+            "S",
+            "R",
+            "G",
+            "P",
+            "D"
+        ],
+        [
+            "D",
+            "G",
+            "P"
+        ],
+        [
+            "`S",
+            "D"
+        ],
+        [
+            "P",
+            "D",
+            "G",
+            "P"
+        ],
+        [
+            "G",
+            "R",
+            "S"
+        ],
+        [
+            ",D",
+            "S"
+        ]
+    ],
+    "aarohi_nyas": [
+        "P",
+        "D",
+        "`S"
+    ],
+    "avarohi_nyas": [
+        "`S",
+        "D",
+        "P"
+    ],
+    "vaadi": "D",
+    "samvaadi": "G",
+    "thaat": "Bilawal",
+    "prahar": "day 1st"
+}

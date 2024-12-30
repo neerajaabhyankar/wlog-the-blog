@@ -1,0 +1,78 @@
+{
+    "name": "Jhinjhoti",
+    "aaroha": [
+        "S",
+        "R",
+        "m",
+        "P",
+        "D",
+        "`S"
+    ],
+    "avaroha": [
+        "`S",
+        "n",
+        "D",
+        "P",
+        "m",
+        "G",
+        "R",
+        "G",
+        "S"
+    ],
+    "mukhyanga": [
+        [
+            ",D",
+            "S",
+            "R",
+            "m",
+            "G"
+        ],
+        [
+            "R",
+            "G",
+            "S",
+            "R",
+            ",n",
+            ",D",
+            ",P",
+            ",D",
+            "S"
+        ],
+        [
+            ",P",
+            ",D",
+            "S",
+            "R",
+            "G",
+            "m",
+            "G"
+        ],
+        [
+            "m",
+            "G",
+            "R",
+            "S"
+        ],
+        [
+            "R",
+            ",n",
+            ",D",
+            "S"
+        ],
+        []
+    ],
+    "aarohi_nyas": [
+        "S",
+        "P",
+        "D"
+    ],
+    "avarohi_nyas": [
+        "`S",
+        "P",
+        "G"
+    ],
+    "vaadi": "G",
+    "samvaadi": "n",
+    "thaat": "Khamaj",
+    "prahar": "night 2nd"
+}

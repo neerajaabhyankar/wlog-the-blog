@@ -1,0 +1,80 @@
+{
+    "name": "Bihag",
+    "aaroha": [
+        "S",
+        "G",
+        "m",
+        "P",
+        "N",
+        "`S"
+    ],
+    "avaroha": [
+        "`S",
+        "N",
+        "D",
+        "P",
+        "M",
+        "P",
+        "G",
+        "m",
+        "G",
+        "R",
+        "S",
+        "`S",
+        "N",
+        "D",
+        "P",
+        "M",
+        "G",
+        "m",
+        "G",
+        "R",
+        "S"
+    ],
+    "mukhyanga": [
+        [
+            ",N",
+            "S",
+            "G"
+        ],
+        [
+            "G",
+            "m",
+            "G"
+        ],
+        [
+            "P",
+            "M",
+            "P",
+            "G",
+            "m",
+            "G"
+        ],
+        [
+            "P",
+            "M",
+            "G",
+            "m",
+            "G",
+            "R",
+            "S"
+        ],
+        []
+    ],
+    "aarohi_nyas": [
+        "S",
+        "G",
+        "P",
+        "N"
+    ],
+    "avarohi_nyas": [
+        "`S",
+        "N",
+        "P",
+        "G"
+    ],
+    "vaadi": "G",
+    "samvaadi": "N",
+    "thaat": "Kalyan",
+    "prahar": "day 2nd"
+}

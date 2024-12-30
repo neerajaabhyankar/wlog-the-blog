@@ -1,0 +1,66 @@
+{
+    "name": "Madhukauns",
+    "aaroha": [
+        "S",
+        "g",
+        "M",
+        "P",
+        "n",
+        "`S"
+    ],
+    "avaroha": [
+        "`S",
+        "n",
+        "P",
+        "M",
+        "g",
+        "S"
+    ],
+    "mukhyanga": [
+        [
+            "S",
+            "g",
+            "M"
+        ],
+        [
+            "P",
+            "M",
+            "g",
+            "M",
+            "P"
+        ],
+        [
+            "M",
+            "P",
+            "n",
+            "`S"
+        ],
+        [
+            "`S",
+            "n",
+            "P",
+            "M"
+        ],
+        [
+            "g",
+            "M",
+            "g",
+            "S"
+        ],
+        []
+    ],
+    "aarohi_nyas": [
+        "M",
+        "P",
+        "`S"
+    ],
+    "avarohi_nyas": [
+        "P",
+        "M",
+        "S"
+    ],
+    "vaadi": "P",
+    "samvaadi": "S",
+    "thaat": "Kafi",
+    "prahar": "day 2nd"
+}

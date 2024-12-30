@@ -1,0 +1,58 @@
+{
+    "name": "Todi",
+    "aaroha": [
+        "S",
+        "r",
+        "g",
+        "M",
+        "P",
+        "d",
+        "N",
+        "`S"
+    ],
+    "avaroha": [
+        "`S",
+        "N",
+        "d",
+        "P",
+        "M",
+        "g",
+        "r",
+        "S"
+    ],
+    "mukhyanga": [
+        [
+            ",d"
+        ],
+        [
+            ",N",
+            "S",
+            "r",
+            "g"
+        ],
+        [
+            "M",
+            "r",
+            "g"
+        ],
+        [
+            "r",
+            "S"
+        ],
+        []
+    ],
+    "aarohi_nyas": [
+        "S",
+        "g",
+        "d"
+    ],
+    "avarohi_nyas": [
+        "d",
+        "g",
+        "S"
+    ],
+    "vaadi": "d",
+    "samvaadi": "g",
+    "thaat": "Todi",
+    "prahar": "day 2nd"
+}

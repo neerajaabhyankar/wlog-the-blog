@@ -1,0 +1,71 @@
+{
+    "name": "Charukeshi",
+    "aaroha": [
+        "S",
+        "R",
+        "G",
+        "m",
+        "P",
+        "d",
+        "n",
+        "`S"
+    ],
+    "avaroha": [
+        "`S",
+        "n",
+        "d",
+        "P",
+        "m",
+        "G",
+        "R",
+        "S",
+        ",d",
+        ",n",
+        "S"
+    ],
+    "mukhyanga": [
+        [
+            ",d",
+            ",n",
+            "S",
+            "R",
+            "G",
+            "m",
+            "G",
+            "R"
+        ],
+        [
+            "R",
+            "G",
+            "m",
+            "d",
+            "P"
+        ],
+        [
+            "R",
+            "G",
+            "m",
+            "R",
+            "S"
+        ],
+        []
+    ],
+    "aarohi_nyas": [
+        "R",
+        "G",
+        "m",
+        "P",
+        "d"
+    ],
+    "avarohi_nyas": [
+        "R",
+        "G",
+        "m",
+        "P",
+        "d"
+    ],
+    "vaadi": "m",
+    "samvaadi": "S",
+    "thaat": "Not Defined",
+    "prahar": "day 2nd"
+}

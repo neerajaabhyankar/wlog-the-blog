@@ -1,0 +1,83 @@
+{
+    "name": "Keerwani",
+    "aaroha": [
+        "S",
+        "R",
+        "g",
+        "m",
+        "P",
+        "d",
+        "N",
+        "`S"
+    ],
+    "avaroha": [
+        "`S",
+        "N",
+        "d",
+        "P",
+        "m",
+        "g",
+        "R",
+        "S"
+    ],
+    "mukhyanga": [
+        [
+            "P",
+            "d",
+            "`S"
+        ],
+        [
+            "`S",
+            "N",
+            "`S",
+            "`R",
+            "`g",
+            "`R",
+            "`S",
+            "N",
+            "d",
+            "P"
+        ],
+        [
+            "d",
+            "P",
+            "m",
+            "P"
+        ],
+        [
+            "P",
+            "m",
+            "g",
+            "R"
+        ],
+        [
+            "g",
+            "m"
+        ],
+        [
+            "g",
+            "R",
+            "S",
+            ",N",
+            ",d",
+            ",N",
+            "R",
+            "S"
+        ],
+        []
+    ],
+    "aarohi_nyas": [
+        "S",
+        "R",
+        "P"
+    ],
+    "avarohi_nyas": [
+        "`S",
+        "P",
+        "R"
+    ],
+    "vaadi": "P",
+    "samvaadi": "S",
+    "thaat": "Not Defined",
+    "prahar": "day 2nd"
+}

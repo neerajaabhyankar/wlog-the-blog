@@ -1,0 +1,70 @@
+{
+    "name": "Saalag Varali",
+    "aaroha": [
+        "S",
+        "r",
+        "g",
+        "P",
+        "D",
+        "n",
+        "`S"
+    ],
+    "avaroha": [
+        "`S",
+        "n",
+        "D",
+        "P",
+        "g",
+        "r",
+        "S"
+    ],
+    "mukhyanga": [
+        [
+            "g",
+            "P",
+            "D",
+            "n",
+            "D",
+            "P"
+        ],
+        [
+            "D",
+            "n",
+            "D",
+            "`S"
+        ],
+        [
+            "`S",
+            "n",
+            "D",
+            "P"
+        ],
+        [
+            "D",
+            "n",
+            "D",
+            "P"
+        ],
+        [
+            "r",
+            "g",
+            "r",
+            "S"
+        ],
+        []
+    ],
+    "aarohi_nyas": [
+        "S",
+        "g",
+        "P"
+    ],
+    "avarohi_nyas": [
+        "S",
+        "g",
+        "P"
+    ],
+    "vaadi": "P",
+    "samvaadi": "S",
+    "thaat": "Todi",
+    "prahar": "day 2nd"
+}

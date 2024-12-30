@@ -1,0 +1,65 @@
+{
+    "name": "Jaldhar Kedar",
+    "aaroha": [
+        "S",
+        "R",
+        "m",
+        "P",
+        "D",
+        "`S"
+    ],
+    "avaroha": [
+        "`S",
+        "D",
+        "P",
+        "m",
+        "R",
+        "S"
+    ],
+    "mukhyanga": [
+        [
+            "S",
+            "R",
+            "S",
+            "m"
+        ],
+        [
+            "m",
+            "R",
+            "P",
+            "m"
+        ],
+        [
+            "m",
+            "P",
+            "D",
+            "`S"
+        ],
+        [
+            "`R",
+            "`S",
+            "D",
+            "P",
+            "m"
+        ],
+        [
+            "P",
+            "m",
+            "R",
+            "S"
+        ],
+        []
+    ],
+    "aarohi_nyas": [
+        "m",
+        "S"
+    ],
+    "avarohi_nyas": [
+        "m",
+        "S"
+    ],
+    "vaadi": "m",
+    "samvaadi": "S",
+    "thaat": "Bilawal",
+    "prahar": "night 2nd"
+}

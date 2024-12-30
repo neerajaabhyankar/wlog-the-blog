@@ -1,0 +1,72 @@
+{
+    "name": "Marwa",
+    "aaroha": [
+        "S",
+        ",D",
+        ",N",
+        "r",
+        "G",
+        "M",
+        "D",
+        "N",
+        "`S"
+    ],
+    "avaroha": [
+        "`S",
+        "N",
+        "D",
+        "M",
+        "G",
+        "r",
+        "S",
+        ",N",
+        ",D",
+        "S",
+        ",N",
+        "r",
+        "S"
+    ],
+    "mukhyanga": [
+        [
+            "S"
+        ],
+        [
+            ",N",
+            ",D",
+            "S",
+            ",N",
+            "r"
+        ],
+        [
+            "r",
+            "G",
+            "M",
+            "D"
+        ],
+        [
+            "D",
+            "M",
+            "G",
+            "r"
+        ],
+        [
+            ",N",
+            ",D",
+            "r",
+            "S"
+        ],
+        []
+    ],
+    "aarohi_nyas": [
+        "r",
+        "D"
+    ],
+    "avarohi_nyas": [
+        "D",
+        "r"
+    ],
+    "vaadi": "r",
+    "samvaadi": "D",
+    "thaat": "Marwa",
+    "prahar": "day 4th"
+}

@@ -1,0 +1,72 @@
+{
+    "name": "Jaunpuri",
+    "aaroha": [
+        "S",
+        "R",
+        "m",
+        "P",
+        "d",
+        "n",
+        "`S"
+    ],
+    "avaroha": [
+        "`S",
+        "n",
+        "d",
+        "P",
+        "m",
+        "g",
+        "R",
+        "S"
+    ],
+    "mukhyanga": [
+        [
+            "R",
+            "m",
+            "P",
+            "d",
+            "m",
+            "P",
+            "`S"
+        ],
+        [
+            "`R",
+            "n",
+            "d",
+            "P"
+        ],
+        [
+            "m",
+            "P",
+            "n",
+            "d",
+            "P"
+        ],
+        [
+            "d",
+            "m",
+            "P",
+            "g",
+            "R",
+            "m",
+            "P"
+        ],
+        []
+    ],
+    "aarohi_nyas": [
+        "R",
+        "P",
+        "d",
+        "`S"
+    ],
+    "avarohi_nyas": [
+        "d",
+        "P",
+        "g",
+        "R"
+    ],
+    "vaadi": "d",
+    "samvaadi": "g",
+    "thaat": "Asawari",
+    "prahar": "day 2nd"
+}

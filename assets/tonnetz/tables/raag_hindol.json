@@ -1,0 +1,59 @@
+{
+    "name": "Hindol",
+    "aaroha": [
+        "S",
+        "G",
+        "M",
+        "D",
+        "N",
+        "M",
+        "D",
+        "`S"
+    ],
+    "avaroha": [
+        "`S",
+        "N",
+        "D",
+        "M",
+        "G",
+        "M",
+        "G",
+        "S",
+        ",D",
+        "S"
+    ],
+    "mukhyanga": [
+        [
+            "D",
+            "D",
+            "N",
+            "M",
+            "D",
+            "`S"
+        ],
+        [
+            "D",
+            "M",
+            "G"
+        ],
+        [
+            "S",
+            ",D",
+            ",D",
+            "S"
+        ]
+    ],
+    "aarohi_nyas": [
+        "G",
+        "D",
+        "`S"
+    ],
+    "avarohi_nyas": [
+        "D",
+        "G"
+    ],
+    "vaadi": "D",
+    "samvaadi": "G",
+    "thaat": "Kalyan",
+    "prahar": "day 3rd"
+}

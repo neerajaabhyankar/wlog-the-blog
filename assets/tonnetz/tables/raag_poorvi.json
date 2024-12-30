@@ -1,0 +1,77 @@
+{
+    "name": "Poorvi",
+    "aaroha": [
+        "S",
+        "r",
+        "G",
+        "M",
+        "P",
+        "d",
+        "N",
+        "`S"
+    ],
+    "avaroha": [
+        "`S",
+        "N",
+        "d",
+        "P",
+        "M",
+        "G",
+        "m",
+        "G",
+        "r",
+        "S"
+    ],
+    "mukhyanga": [
+        [
+            "S",
+            "r",
+            "G"
+        ],
+        [
+            "M",
+            "G",
+            "m",
+            "G"
+        ],
+        [
+            "M",
+            "d",
+            "P"
+        ],
+        [
+            "N",
+            "d",
+            "P"
+        ],
+        [
+            "G",
+            "M",
+            "P"
+        ],
+        [
+            "M",
+            "G",
+            "m",
+            "G",
+            "r",
+            "S"
+        ],
+        []
+    ],
+    "aarohi_nyas": [
+        "S",
+        "G",
+        "P",
+        "N"
+    ],
+    "avarohi_nyas": [
+        "`S",
+        "P",
+        "G"
+    ],
+    "vaadi": "G",
+    "samvaadi": "N",
+    "thaat": "Purvi",
+    "prahar": "day 4th"
+}

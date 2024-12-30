@@ -1,0 +1,76 @@
+{
+    "name": "Khamaj",
+    "aaroha": [
+        "S",
+        "G",
+        "m",
+        "P",
+        "D",
+        "N",
+        "`S"
+    ],
+    "avaroha": [
+        "`S",
+        "n",
+        "D",
+        "P",
+        "m",
+        "G",
+        "R",
+        "G",
+        "S",
+        ",N",
+        "S",
+        "G",
+        "m",
+        "P"
+    ],
+    "mukhyanga": [
+        [
+            "G",
+            "m",
+            "P",
+            "D"
+        ],
+        [
+            "G",
+            "m",
+            "G"
+        ],
+        [
+            "P",
+            "`S",
+            "N",
+            "`S"
+        ],
+        [
+            "n",
+            "D",
+            "P"
+        ],
+        [
+            "m",
+            "P",
+            "m",
+            "G"
+        ],
+        [
+            "R",
+            "S"
+        ]
+    ],
+    "aarohi_nyas": [
+        "S",
+        "m",
+        "P"
+    ],
+    "avarohi_nyas": [
+        "`S",
+        "P",
+        "G"
+    ],
+    "vaadi": "G",
+    "samvaadi": "N",
+    "thaat": "Khamaj",
+    "prahar": "day 2nd"
+}

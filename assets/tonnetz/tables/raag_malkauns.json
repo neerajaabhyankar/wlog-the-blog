@@ -1,0 +1,61 @@
+{
+    "name": "Malkauns",
+    "aaroha": [
+        "S",
+        "g",
+        "m",
+        "d",
+        "n",
+        "`S"
+    ],
+    "avaroha": [
+        "`S",
+        "n",
+        "d",
+        "m",
+        "g",
+        "S"
+    ],
+    "mukhyanga": [
+        [
+            ",d",
+            ",n",
+            "S",
+            "g",
+            "m"
+        ],
+        [
+            "g",
+            "m",
+            "n",
+            "d",
+            "m"
+        ],
+        [
+            "d",
+            "n",
+            "`S"
+        ],
+        [
+            "`g",
+            "`S",
+            "n",
+            "d"
+        ],
+        []
+    ],
+    "aarohi_nyas": [
+        "S",
+        "g",
+        "m"
+    ],
+    "avarohi_nyas": [
+        "m",
+        "g",
+        "S"
+    ],
+    "vaadi": "m",
+    "samvaadi": "S",
+    "thaat": "Bhairavi",
+    "prahar": "day 3rd"
+}

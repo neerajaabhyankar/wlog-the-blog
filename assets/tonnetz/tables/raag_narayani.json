@@ -1,0 +1,77 @@
+{
+    "name": "Narayani",
+    "aaroha": [
+        "S",
+        "R",
+        "m",
+        "P",
+        "D",
+        "`S"
+    ],
+    "avaroha": [
+        "`S",
+        "n",
+        "D",
+        "P",
+        "m",
+        "R",
+        "S"
+    ],
+    "mukhyanga": [
+        [
+            "S",
+            "R",
+            ",n",
+            ",D",
+            ",P"
+        ],
+        [
+            ",m",
+            ",P",
+            ",D",
+            "S"
+        ],
+        [
+            "m",
+            "R"
+        ],
+        [
+            "m",
+            "R",
+            "S"
+        ],
+        [
+            "S",
+            "R",
+            "P"
+        ],
+        [
+            "m",
+            "P",
+            "n",
+            "D",
+            "D",
+            "P"
+        ],
+        [
+            "D",
+            "P",
+            "m",
+            "R",
+            "S"
+        ],
+        []
+    ],
+    "aarohi_nyas": [
+        "S",
+        "P"
+    ],
+    "avarohi_nyas": [
+        "P",
+        "S"
+    ],
+    "vaadi": "S",
+    "samvaadi": "P",
+    "thaat": "Khamaj",
+    "prahar": "day 2nd"
+}

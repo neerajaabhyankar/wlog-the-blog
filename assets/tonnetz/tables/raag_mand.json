@@ -1,0 +1,65 @@
+{
+    "name": "Mand",
+    "aaroha": [
+        "S",
+        "R",
+        "G",
+        "m",
+        "P",
+        "D",
+        "N",
+        "P",
+        "D",
+        "`S"
+    ],
+    "avaroha": [
+        "`S",
+        "N",
+        "D",
+        "P",
+        "m",
+        "G",
+        "R",
+        "G",
+        "S"
+    ],
+    "mukhyanga": [
+        [
+            "G",
+            "m",
+            "P",
+            "D",
+            "`S",
+            "N",
+            "D"
+        ],
+        [
+            "D",
+            "P",
+            "m"
+        ],
+        [
+            "m",
+            "P",
+            "G",
+            "R",
+            "G",
+            "S"
+        ]
+    ],
+    "aarohi_nyas": [
+        "S",
+        "m",
+        "P"
+    ],
+    "avarohi_nyas": [
+        "`S",
+        "D",
+        "m",
+        "G"
+    ],
+    "vaadi": "S",
+    "samvaadi": "P",
+    "thaat": "Bilawal",
+    "prahar": "day 2nd"
+}

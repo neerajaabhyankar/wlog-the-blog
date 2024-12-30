@@ -1,0 +1,53 @@
+{
+    "name": "Bairagi Todi",
+    "aaroha": [
+        "S",
+        "r",
+        "g",
+        "P",
+        "n",
+        "`S"
+    ],
+    "avaroha": [
+        "`S",
+        "n",
+        "P",
+        "g",
+        "r",
+        "S"
+    ],
+    "mukhyanga": [
+        [
+            ",n",
+            "S",
+            "r",
+            "g"
+        ],
+        [
+            "g",
+            "r",
+            ",n",
+            ",P"
+        ],
+        [
+            ",n",
+            "r",
+            "S"
+        ],
+        []
+    ],
+    "aarohi_nyas": [
+        "S",
+        "r",
+        "P"
+    ],
+    "avarohi_nyas": [
+        "S",
+        "r",
+        "P"
+    ],
+    "vaadi": "P",
+    "samvaadi": "S",
+    "thaat": "Todi",
+    "prahar": "day 1st"
+}

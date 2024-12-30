@@ -1,0 +1,62 @@
+{
+    "name": "Multani",
+    "aaroha": [
+        ",N",
+        "S",
+        "g",
+        "M",
+        "P",
+        "N",
+        "`S"
+    ],
+    "avaroha": [
+        "`S",
+        "N",
+        "d",
+        "P",
+        "M",
+        "g",
+        "r",
+        "S"
+    ],
+    "mukhyanga": [
+        [
+            ",N",
+            "S"
+        ],
+        [
+            "M",
+            "g"
+        ],
+        [
+            "M",
+            "g",
+            "P"
+        ],
+        [
+            "M",
+            "g",
+            "M",
+            "g",
+            "r",
+            "S"
+        ],
+        []
+    ],
+    "aarohi_nyas": [
+        "S",
+        "g",
+        "P",
+        "N"
+    ],
+    "avarohi_nyas": [
+        "N",
+        "P",
+        "g",
+        "S"
+    ],
+    "vaadi": "P",
+    "samvaadi": "S",
+    "thaat": "Todi",
+    "prahar": "day 3rd"
+}

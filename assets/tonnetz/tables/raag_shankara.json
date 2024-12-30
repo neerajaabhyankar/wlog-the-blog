@@ -1,0 +1,65 @@
+{
+    "name": "Shankara",
+    "aaroha": [
+        "S",
+        "G",
+        "P",
+        "N",
+        "D",
+        "`S"
+    ],
+    "avaroha": [
+        "`S",
+        "N",
+        "P",
+        "G",
+        "P",
+        "D",
+        "P",
+        "G",
+        "P",
+        "R",
+        "G",
+        "R",
+        "S"
+    ],
+    "mukhyanga": [
+        [
+            "G",
+            "P",
+            "N",
+            "D",
+            "`S",
+            "N"
+        ],
+        [
+            "D",
+            "P",
+            "G",
+            "P"
+        ],
+        [
+            "R",
+            "G",
+            "R",
+            "S"
+        ],
+        []
+    ],
+    "aarohi_nyas": [
+        "S",
+        "G",
+        "P",
+        "N"
+    ],
+    "avarohi_nyas": [
+        "N",
+        "P",
+        "G",
+        "S"
+    ],
+    "vaadi": "G",
+    "samvaadi": "N",
+    "thaat": "Bilawal",
+    "prahar": "night 2nd"
+}

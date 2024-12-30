@@ -1,0 +1,77 @@
+{
+    "name": "Yaman",
+    "aaroha": [
+        ",N",
+        "R",
+        "G",
+        "M",
+        "D",
+        "N",
+        "`S"
+    ],
+    "avaroha": [
+        "`S",
+        "N",
+        "D",
+        "P",
+        "M",
+        "G",
+        "R",
+        "S",
+        ",N",
+        "R",
+        "S"
+    ],
+    "mukhyanga": [
+        [
+            ",N",
+            "R",
+            "G"
+        ],
+        [
+            ",N",
+            "R",
+            "M",
+            "G"
+        ],
+        [
+            "M",
+            "P"
+        ],
+        [
+            "M",
+            "D",
+            "P",
+            "N",
+            "D",
+            "P",
+            "M",
+            "R",
+            "G",
+            "R"
+        ],
+        [
+            ",N",
+            "R",
+            ",D",
+            ",N",
+            "S"
+        ],
+        []
+    ],
+    "aarohi_nyas": [
+        "S",
+        "G",
+        "N"
+    ],
+    "avarohi_nyas": [
+        "`S",
+        "N",
+        "P",
+        "G"
+    ],
+    "vaadi": "G",
+    "samvaadi": "N",
+    "thaat": "Kalyan",
+    "prahar": "night 1st"
+}

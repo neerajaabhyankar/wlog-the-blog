@@ -1,0 +1,76 @@
+{
+    "name": "Kafi",
+    "aaroha": [
+        "S",
+        "R",
+        "g",
+        "m",
+        "P",
+        "D",
+        "n",
+        "`S"
+    ],
+    "avaroha": [
+        "`S",
+        "n",
+        "D",
+        "P",
+        "m",
+        "g",
+        "R",
+        "S"
+    ],
+    "mukhyanga": [
+        [
+            "g",
+            "R"
+        ],
+        [
+            "m",
+            "P"
+        ],
+        [
+            "m",
+            "P",
+            "D",
+            "P"
+        ],
+        [
+            "D",
+            "n",
+            "`S"
+        ],
+        [
+            "n",
+            "D",
+            "P"
+        ],
+        [
+            "S",
+            "R",
+            "m",
+            "P"
+        ],
+        [
+            "D",
+            "m",
+            "P",
+            "g",
+            "R"
+        ],
+        []
+    ],
+    "aarohi_nyas": [
+        "S",
+        "P"
+    ],
+    "avarohi_nyas": [
+        "`S",
+        "P",
+        "R"
+    ],
+    "vaadi": "P",
+    "samvaadi": "S",
+    "thaat": "Kafi",
+    "prahar": "day 2nd"
+}

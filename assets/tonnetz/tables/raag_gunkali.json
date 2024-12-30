@@ -1,0 +1,77 @@
+{
+    "name": "Gunkali",
+    "aaroha": [
+        "S",
+        "r",
+        "m",
+        "P",
+        "d",
+        "`S"
+    ],
+    "avaroha": [
+        "`S",
+        "d",
+        "P",
+        "m",
+        "r",
+        "r",
+        "S",
+        ",d",
+        "S"
+    ],
+    "mukhyanga": [
+        [
+            "S",
+            "r",
+            "m",
+            "P",
+            "d"
+        ],
+        [
+            "P",
+            "d",
+            "m",
+            "r"
+        ],
+        [
+            "r",
+            "S",
+            ",d",
+            "S"
+        ],
+        [
+            "m",
+            "P",
+            "d",
+            "d",
+            "`S"
+        ],
+        [
+            "d",
+            "P",
+            "d",
+            "m"
+        ],
+        [
+            "P",
+            "m",
+            "r",
+            "S"
+        ],
+        []
+    ],
+    "aarohi_nyas": [
+        "S",
+        "r",
+        "d"
+    ],
+    "avarohi_nyas": [
+        "d",
+        "r",
+        "S"
+    ],
+    "vaadi": "d",
+    "samvaadi": "r",
+    "thaat": "Bhairav",
+    "prahar": "day 1st"
+}

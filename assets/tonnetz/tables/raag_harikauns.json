@@ -1,0 +1,75 @@
+{
+    "name": "Harikauns",
+    "aaroha": [
+        "S",
+        "g",
+        "M",
+        "D",
+        "n",
+        "`S"
+    ],
+    "avaroha": [
+        "`S",
+        "n",
+        "D",
+        "M",
+        "g",
+        "S"
+    ],
+    "mukhyanga": [
+        [
+            "S",
+            ",D",
+            ",n",
+            "S"
+        ],
+        [
+            "g",
+            "M",
+            "g",
+            "S"
+        ],
+        [
+            "g",
+            "M",
+            "D",
+            "n",
+            "`S"
+        ],
+        [
+            "`S",
+            "n",
+            "D",
+            "M",
+            "g",
+            "S"
+        ],
+        [
+            "g",
+            "M",
+            "g",
+            "S",
+            ",n",
+            "S",
+            ",D",
+            ",n",
+            "g",
+            "S"
+        ],
+        []
+    ],
+    "aarohi_nyas": [
+        "S",
+        "g",
+        "D"
+    ],
+    "avarohi_nyas": [
+        "D",
+        "g",
+        "S"
+    ],
+    "vaadi": "g",
+    "samvaadi": "n",
+    "thaat": "Kafi",
+    "prahar": "day 2nd"
+}

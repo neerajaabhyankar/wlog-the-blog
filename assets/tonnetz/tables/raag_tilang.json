@@ -1,0 +1,54 @@
+{
+    "name": "Tilang",
+    "aaroha": [
+        "S",
+        "G",
+        "m",
+        "P",
+        "N",
+        "`S"
+    ],
+    "avaroha": [
+        "`S",
+        "n",
+        "P",
+        "m",
+        "G",
+        "S"
+    ],
+    "mukhyanga": [
+        [
+            "G",
+            "m",
+            "P",
+            "n",
+            "P",
+            "m",
+            "G"
+        ],
+        [
+            "n",
+            "P",
+            "G",
+            "m",
+            "G"
+        ],
+        []
+    ],
+    "aarohi_nyas": [
+        "S",
+        "G",
+        "P",
+        "N"
+    ],
+    "avarohi_nyas": [
+        "S",
+        "P",
+        "G",
+        "S"
+    ],
+    "vaadi": "G",
+    "samvaadi": "N",
+    "thaat": "Khamaj",
+    "prahar": "day 2nd"
+}

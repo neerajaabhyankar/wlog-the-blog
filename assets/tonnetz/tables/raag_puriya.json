@@ -1,0 +1,79 @@
+{
+    "name": "Puriya",
+    "aaroha": [
+        ",N",
+        "r",
+        "G",
+        "M",
+        "D",
+        "N",
+        "`S"
+    ],
+    "avaroha": [
+        "`S",
+        "N",
+        "D",
+        "M",
+        "G",
+        "M",
+        "D",
+        "G",
+        "M",
+        "G",
+        "r",
+        "S"
+    ],
+    "mukhyanga": [
+        [
+            "N",
+            "R",
+            "G"
+        ],
+        [
+            "G",
+            "M",
+            "D",
+            "G",
+            "M",
+            "G"
+        ],
+        [
+            "N",
+            "M",
+            "G"
+        ],
+        [
+            "G",
+            "M",
+            "G",
+            "r",
+            "S"
+        ],
+        [
+            ",N",
+            ",M",
+            ",D",
+            "S"
+        ],
+        [
+            ",N",
+            "r",
+            "G",
+            "r",
+            "S"
+        ],
+        []
+    ],
+    "aarohi_nyas": [
+        "G",
+        "N"
+    ],
+    "avarohi_nyas": [
+        "N",
+        "G"
+    ],
+    "vaadi": "G",
+    "samvaadi": "N",
+    "thaat": "Marwa",
+    "prahar": "day 2nd"
+}

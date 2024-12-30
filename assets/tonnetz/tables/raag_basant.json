@@ -1,0 +1,79 @@
+{
+    "name": "Basant",
+    "aaroha": [
+        "S",
+        "G",
+        "M",
+        "d",
+        "N",
+        "`S"
+    ],
+    "avaroha": [
+        "`S",
+        "N",
+        "d",
+        "P",
+        "M",
+        "G",
+        "M",
+        "N",
+        "d",
+        "M",
+        "G",
+        "r",
+        "S"
+    ],
+    "mukhyanga": [
+        [
+            "M",
+            "d",
+            "`r",
+            "`S"
+        ],
+        [
+            "N",
+            "`S",
+            "`r",
+            "N",
+            "d",
+            "P"
+        ],
+        [
+            "G",
+            "M",
+            "d",
+            "N",
+            "M",
+            "G"
+        ],
+        [
+            "M",
+            "d",
+            "G",
+            "M",
+            "G"
+        ],
+        [
+            "M",
+            "G",
+            "M",
+            "G",
+            "r",
+            "S"
+        ],
+        []
+    ],
+    "aarohi_nyas": [
+        "S",
+        "G"
+    ],
+    "avarohi_nyas": [
+        "`S",
+        "P",
+        "G"
+    ],
+    "vaadi": "`S",
+    "samvaadi": "P",
+    "thaat": "Poorvi",
+    "prahar": "day 1st"
+}

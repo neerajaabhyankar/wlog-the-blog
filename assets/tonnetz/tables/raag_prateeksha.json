@@ -1,0 +1,62 @@
+{
+    "name": "Prateeksha",
+    "aaroha": [
+        "S",
+        "R",
+        "G",
+        "P",
+        "d",
+        "`S"
+    ],
+    "avaroha": [
+        "`S",
+        "d",
+        "P",
+        "G",
+        "R",
+        "S"
+    ],
+    "mukhyanga": [
+        [
+            "G",
+            "P",
+            "d"
+        ],
+        [
+            "P",
+            "d",
+            "`S",
+            "`R",
+            "`G",
+            "`R"
+        ],
+        [
+            "`R",
+            "`S",
+            "d",
+            "P"
+        ],
+        [
+            "P",
+            "R",
+            "G",
+            "R"
+        ]
+    ],
+    "aarohi_nyas": [
+        "S",
+        "R",
+        "P",
+        "d"
+    ],
+    "avarohi_nyas": [
+        "S",
+        "R",
+        "P",
+        "d"
+    ],
+    "vaadi": "R",
+    "samvaadi": "P",
+    "thaat": "",
+    "prahar": "night 3rd"
+}

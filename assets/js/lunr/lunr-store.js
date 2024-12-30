@@ -17,12 +17,6 @@ var store = [{
         "url": "/swarnetz/",
         "teaser": "/assets/images/origami/makalu.jpg"
       },{
-        "title": "raagfinder-by-name",
-        "excerpt":"TODO  ","categories": ["music"],
-        "tags": ["music","theory"],
-        "url": "/raagfinder-by-name/",
-        "teaser": "/assets/images/origami/makalu.jpg"
-      },{
     "title": "preamble",
     "excerpt":"Around the time I turned 30, I went through a 1/3rd-life crisis. “A third of my life is over and what have I done all these years?”. Feels like zilch. घोडी ३० वर्षांची झाली तरी लोळतीये बघा कशी गाढवासारखी. Sure, might have brought a smile ot two to a bunch of friends and family here and there, but it doesn’t justify the amount of resources of this planet that my privileged ass has consumed. And the amount of work my parents and teachers have put into making me burst with “potential”. At the same time, my nihilist, anti-natal, quarter-life crisis phase is slightly behind me, and I’ve self-declared myself wise enough to be more constructive about solving this problem.   Now if you’re here to tell me “You’re a human Being, not a human Doing!”, I again invite you to estimate the carbon footprint of this Being. तर, नुसतंच जगावं? का काहीतरी करावं, हा एकच सवाल आहे. A no-brainer starting point is to put something — anything — out there. Otherwise known by the nickname “output”. Although all I have is a bunch of unconnected thoughts across varied themes with no momentum to any of them. I’ve been हातावर हात ठेवून waiting for something to come out of them, and a natural starting point is to put the metaphorical pen to the metaphorical paper.   An article a day, keeps the anxiety at bay. Well, not everyday, but I’ll be frequently outputting posts here. If anyone reads them, they will serve as some signal for what I’ve been thinking about, and be an invitation to comment, collaborate, and criticize. If only I read them, they would solidify my ideas for what I want to do next. आणि ह्या ना त्या प्रकारे, म्हातारपणातील सत्काराच्या दिशेने पण काही पावलं उचलली जातील lol.  ","url": "http://localhost:4000/preamble/"
   },{
@@ -31,12 +25,6 @@ var store = [{
   },{
     "title": "swarnetz",
     "excerpt":"The ground rules   A musical note at frequency 2f is perceived by the human ear as “the same note” as one at a frequency of f – except at a higher octave. For all music-theoretical purposes, these two are the same note, and in this article we’ll be operating under such an octave-invariant paradigm.  Two musical notes of frequencies p and q sound harmonious when p/q is a “small” rational number, since the first note’s q^th harmonic overlaps with the second note’s p^th harmonic.  While these ps and qs can have any prime factorization, for this article, we’ll be restricting ourselves to powers of 3 and 5, since these are both easy to tune on an instrument and occur in most commonly-heard music. A stretch goal would be to include 7.   A glimpse…   Thus, relative to a root node (tonic) with frequency f we can plot all natural tones in a subspace spanned by two “basis” harmonic relationships: 3f and 5f. In order to map these to a note we recogrnize, we’ll always be looking at values between the octave [f, 2f) and hence throwing around poers of 2 “for free”. Our “basis vectors” are now 3f/2 (= Pa or the perfect fifth) and 5f/4 (= Ga or the perfect third). The “negative axes” or inverse relationships in this case are 4f/3 = ma and 8f/5 = dha.  By “basis”, I mean that all the notes that we’ll ever consider, can be obtained by stringing together a series of these fractions. e.g. we find a Re at 9f/8 which is a Pa of the Pa.   The Tonnetz diagram adapted to Indian Classical Music   Western classical music uses the following diagram to visualize chords. The “basis vectors” described above are at 0 degrees and 60 degrees, and the reason these bases are tilted is because we can now visualize chords well (blue = major and red = minor).      In ICM however, we have no reason to visualize chords and we’d like to stay in relative note notation, so our Tonnetz diagram will look like this:        Raags   See this page for a list of raag shrutis as per what I have read, heard, and thought. These are not a definitive, and will be updated as I understand more.   References      https://en.wikipedia.org/wiki/Tonnetz    Dr Oak’s explanation of a Tonnetz net truncated at 22 nodes    Dr Oak’s derivation of Shrutis in Raags    A. Giri’s derivation of Shrutis in Raags   ","url": "http://localhost:4000/swarnetz/"
-  },{
-    "title": "raagfinder-by-name",
-    "excerpt":"TODO  ","url": "http://localhost:4000/raagfinder-by-name/"
-  },{
-    "title": "raagfinder-by-notes",
-    "excerpt":"TODO  ","url": "http://localhost:4000/raagfinder-by-notes/"
   },{
     "title": "about",
     "excerpt":"On a quest to formulate the most general theories  of the most specific things  (chosen without loss of generality).        ","url": "http://localhost:4000/about/"

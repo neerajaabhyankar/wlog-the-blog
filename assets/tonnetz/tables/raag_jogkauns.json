@@ -1,0 +1,82 @@
+{
+    "name": "Jogkauns",
+    "aaroha": [
+        "S",
+        "G",
+        "m",
+        "d",
+        "N",
+        "`S"
+    ],
+    "avaroha": [
+        "`S",
+        "N",
+        "d",
+        "P",
+        "m",
+        "P",
+        "d",
+        "n",
+        "d",
+        "P",
+        "m",
+        "G",
+        "m",
+        "S",
+        "g",
+        "S"
+    ],
+    "mukhyanga": [
+        [
+            "G",
+            "m"
+        ],
+        [
+            "G",
+            "m",
+            "P",
+            "m"
+        ],
+        [
+            "G",
+            "m",
+            "d",
+            "N",
+            "`S"
+        ],
+        [
+            "`S",
+            "N",
+            "d"
+        ],
+        [
+            "P",
+            "d",
+            "n",
+            "d",
+            "m",
+            "P",
+            "m"
+        ],
+        [
+            "G",
+            "m",
+            "S",
+            "g",
+            "S"
+        ],
+        []
+    ],
+    "aarohi_nyas": [
+        "S",
+        "m"
+    ],
+    "avarohi_nyas": [
+        "m",
+        "S"
+    ],
+    "vaadi": "m",
+    "samvaadi": "S",
+    "thaat": "Bhairavi",
+    "prahar": "day 3rd"
+}

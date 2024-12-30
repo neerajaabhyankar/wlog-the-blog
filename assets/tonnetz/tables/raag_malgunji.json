@@ -1,0 +1,60 @@
+{
+    "name": "Malgunji",
+    "aaroha": [
+        "S",
+        "R",
+        "G",
+        "m",
+        "D",
+        "n",
+        "`S"
+    ],
+    "avaroha": [
+        "`S",
+        "n",
+        "D",
+        "P",
+        "m",
+        "G",
+        "R",
+        "G",
+        "m",
+        "g",
+        "R",
+        "S"
+    ],
+    "mukhyanga": [
+        [
+            "G",
+            "m",
+            "g",
+            "R",
+            "S"
+        ],
+        [
+            ",n",
+            "S"
+        ],
+        [
+            ",D",
+            ",n",
+            "S",
+            "R",
+            "G",
+            "m"
+        ],
+        []
+    ],
+    "aarohi_nyas": [
+        "S",
+        "m"
+    ],
+    "avarohi_nyas": [
+        "m",
+        "S"
+    ],
+    "vaadi": "m",
+    "samvaadi": "S",
+    "thaat": "Kafi",
+    "prahar": "day 3rd"
+}

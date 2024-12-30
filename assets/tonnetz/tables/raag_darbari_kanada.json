@@ -1,0 +1,83 @@
+{
+    "name": "Darbari Kanada",
+    "aaroha": [
+        "S",
+        "R",
+        "g",
+        "m",
+        "P",
+        "d",
+        "n",
+        "`S"
+    ],
+    "avaroha": [
+        "`S",
+        "d",
+        "n",
+        "P",
+        "m",
+        "P",
+        "g",
+        "m",
+        "R",
+        "S"
+    ],
+    "mukhyanga": [
+        [
+            "S",
+            "R",
+            "g",
+            "R",
+            "g"
+        ],
+        [
+            "m",
+            "P",
+            "d",
+            "P",
+            "d",
+            "n",
+            "P"
+        ],
+        [
+            "n",
+            "m",
+            "P",
+            "`S"
+        ],
+        [
+            "`S",
+            "n",
+            "d",
+            "n",
+            "P",
+            "m",
+            "P",
+            "m",
+            "g",
+            "m",
+            "R",
+            "S"
+        ],
+        [
+            ",d",
+            ",n",
+            "S"
+        ],
+        []
+    ],
+    "aarohi_nyas": [
+        "S",
+        "R",
+        "P"
+    ],
+    "avarohi_nyas": [
+        "`S",
+        "P",
+        "R"
+    ],
+    "vaadi": "R",
+    "samvaadi": "P",
+    "thaat": "Asawari",
+    "prahar": "day 3rd"
+}

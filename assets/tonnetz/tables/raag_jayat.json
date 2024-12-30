@@ -1,0 +1,65 @@
+{
+    "name": "Jayat",
+    "aaroha": [
+        "S",
+        "r",
+        "G",
+        "P",
+        "D",
+        "P",
+        "`S"
+    ],
+    "avaroha": [
+        "`S",
+        "P",
+        "D",
+        "P",
+        "P",
+        "D",
+        "G",
+        "P",
+        "P",
+        "G",
+        "r",
+        "S"
+    ],
+    "mukhyanga": [
+        [
+            "P",
+            "D",
+            "P",
+            "`S"
+        ],
+        [
+            "`S",
+            "P"
+        ],
+        [
+            "P",
+            "D",
+            "G",
+            "P"
+        ],
+        [
+            "P",
+            "G",
+            "r",
+            "S"
+        ],
+        []
+    ],
+    "aarohi_nyas": [
+        "S",
+        "G",
+        "P"
+    ],
+    "avarohi_nyas": [
+        "S",
+        "G",
+        "P"
+    ],
+    "vaadi": "P",
+    "samvaadi": "S",
+    "thaat": "Marwa",
+    "prahar": "day 1st"
+}

@@ -1,0 +1,85 @@
+{
+    "name": "Kalawati",
+    "aaroha": [
+        "S",
+        "G",
+        "P",
+        "D",
+        "n",
+        "`S"
+    ],
+    "avaroha": [
+        "`S",
+        "n",
+        "D",
+        "P",
+        "G",
+        "P",
+        "G",
+        "S",
+        ",n",
+        ",D",
+        "S"
+    ],
+    "mukhyanga": [
+        [
+            "S",
+            "G",
+            "P",
+            "D"
+        ],
+        [
+            "P",
+            "D",
+            "n",
+            "D"
+        ],
+        [
+            "D",
+            "P"
+        ],
+        [
+            "G",
+            "P",
+            "D",
+            "S",
+            "n"
+        ],
+        [
+            "D",
+            "n",
+            "S"
+        ],
+        [
+            "n",
+            "P"
+        ],
+        [
+            "D",
+            "G"
+        ],
+        [
+            "P",
+            "G",
+            "S"
+        ],
+        [
+            "n",
+            "D",
+            "S"
+        ],
+        []
+    ],
+    "aarohi_nyas": [
+        "G",
+        "D"
+    ],
+    "avarohi_nyas": [
+        "D",
+        "G"
+    ],
+    "vaadi": "P",
+    "samvaadi": "S",
+    "thaat": "Khamaj",
+    "prahar": "night 1st"
+}

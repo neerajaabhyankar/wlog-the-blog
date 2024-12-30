@@ -1,0 +1,69 @@
+{
+    "name": "Adana",
+    "aaroha": [
+        "S",
+        "R",
+        "m",
+        "P",
+        "d",
+        "n",
+        "`S"
+    ],
+    "avaroha": [
+        "`S",
+        "d",
+        "n",
+        "P",
+        "m",
+        "P",
+        "g",
+        "m",
+        "R",
+        "S"
+    ],
+    "mukhyanga": [
+        [
+            "m",
+            "P",
+            "d",
+            "n",
+            "`S"
+        ],
+        [
+            "`S",
+            "d",
+            "n",
+            "`S"
+        ],
+        [
+            "`S",
+            "d",
+            "n",
+            "P"
+        ],
+        [
+            "m",
+            "P"
+        ],
+        [
+            "g",
+            "m",
+            "R",
+            "S"
+        ],
+        []
+    ],
+    "aarohi_nyas": [
+        "P",
+        "n"
+    ],
+    "avarohi_nyas": [
+        "`S",
+        "P",
+        "R"
+    ],
+    "vaadi": "S",
+    "samvaadi": "P",
+    "thaat": "Asawari",
+    "prahar": "day 2nd"
+}

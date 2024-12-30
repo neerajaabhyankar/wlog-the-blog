@@ -1,0 +1,75 @@
+{
+    "name": "Chandrakauns",
+    "aaroha": [
+        "S",
+        "g",
+        "m",
+        "d",
+        "N",
+        "`S"
+    ],
+    "avaroha": [
+        "`S",
+        "N",
+        "d",
+        "m",
+        "g",
+        "m",
+        "g",
+        "S",
+        ",N",
+        "S"
+    ],
+    "mukhyanga": [
+        [
+            "S",
+            "g",
+            "m",
+            "g",
+            "S",
+            ",N"
+        ],
+        [
+            ",N",
+            "S"
+        ],
+        [
+            "g",
+            "m",
+            "d",
+            "N",
+            "`S"
+        ],
+        [
+            "N",
+            "d",
+            "`S"
+        ],
+        [
+            "N",
+            "d",
+            "m",
+            "g",
+            "m",
+            "g",
+            "S",
+            ",N",
+            "S"
+        ],
+        []
+    ],
+    "aarohi_nyas": [
+        "S",
+        "m",
+        "N"
+    ],
+    "avarohi_nyas": [
+        "`S",
+        "N",
+        "m"
+    ],
+    "vaadi": "m",
+    "samvaadi": "S",
+    "thaat": "Not Defined",
+    "prahar": "night 2nd"
+}

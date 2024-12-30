@@ -1,0 +1,80 @@
+{
+    "name": "Sundarkauns",
+    "aaroha": [
+        "S",
+        "g",
+        "m",
+        "D",
+        "n",
+        "`S"
+    ],
+    "avaroha": [
+        "`S",
+        "n",
+        "D",
+        "m",
+        "g",
+        "m",
+        "g",
+        "S",
+        ",n",
+        "S"
+    ],
+    "mukhyanga": [
+        [
+            ",n",
+            ",n",
+            ",D"
+        ],
+        [
+            ",D",
+            ",n",
+            "S"
+        ],
+        [
+            "g",
+            "m",
+            "g",
+            "S"
+        ],
+        [
+            "g",
+            "m",
+            "D"
+        ],
+        [
+            "n",
+            "D"
+        ],
+        [
+            "m",
+            "D",
+            "n",
+            "`S"
+        ],
+        [
+            "`S",
+            "D",
+            "n",
+            "D",
+            "m",
+            "g",
+            "S"
+        ],
+        []
+    ],
+    "aarohi_nyas": [
+        "S",
+        "m",
+        "D"
+    ],
+    "avarohi_nyas": [
+        "`S",
+        "D",
+        "m"
+    ],
+    "vaadi": "m",
+    "samvaadi": "S",
+    "prahar": "night 2nd",
+    "thaat": "Not Defined"
+}

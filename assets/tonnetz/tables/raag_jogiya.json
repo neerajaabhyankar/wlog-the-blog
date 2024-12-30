@@ -1,0 +1,64 @@
+{
+    "name": "Jogiya",
+    "aaroha": [
+        "S",
+        "r",
+        "m",
+        "P",
+        "d",
+        "`S"
+    ],
+    "avaroha": [
+        "`S",
+        "N",
+        "d",
+        "P",
+        "m",
+        "m",
+        "r",
+        "S"
+    ],
+    "mukhyanga": [
+        [
+            "r",
+            "m",
+            "m"
+        ],
+        [
+            "m",
+            "P",
+            "d"
+        ],
+        [
+            "P",
+            "d",
+            "N",
+            "d",
+            "P"
+        ],
+        [
+            "P",
+            "d",
+            "m",
+            "r",
+            "S"
+        ],
+        []
+    ],
+    "aarohi_nyas": [
+        "S",
+        "m",
+        "P",
+        "d"
+    ],
+    "avarohi_nyas": [
+        "`S",
+        "d",
+        "m",
+        "r"
+    ],
+    "vaadi": "m",
+    "samvaadi": "S",
+    "thaat": "Bhairav",
+    "prahar": "day 1st"
+}
