@@ -7,9 +7,10 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.11"
-libmogra = "0.3.1"
+libmogra = "0.2.2"
 numpy = "^2.2.0"
 plotly = "^5.24.1"
+kaleido = "1.0.0rc0"
 
 
 [build-system]
