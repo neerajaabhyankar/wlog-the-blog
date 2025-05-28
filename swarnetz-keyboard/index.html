@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Swarnetz Synth</title>
+  <style>
+    body {
+      margin: 0;
+      overflow: hidden;
+      background: #f3f3f3;
+    }
+    .key {
+      position: absolute;
+      width: 21px;
+      height: 21px;
+      border-radius: 50%;
+      /* background: #702070; */
+      border: 0px solid #ccc;
+      color: white;
+      font-size: 13px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+    }
+    .key:active, .active {
+      background: #f08b65;
+    }
+    .footer_container{
+      background-color: #d14d4d;
+      height: 60px;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+
+<body>
+  <p>
+    `S` = `G` on your keyboard. All other notes located as pictured.<br>
+    <!-- Press Shift+Key for higher octave and Alt+Shift+Key for the lower octave.<br> -->
+    The notes are set to `S` @ 440Hz. Transpose functionality coming soon.. <br>
+  </p>
+
+  <script>
+    const AudioContext = window.AudioContext || window.webkitAudioContext;
+    const audioCtx = new AudioContext();
+
+    // Play tone for a short duration
+    const durationDiscrete = 1.0;
+    function playDiscreteTone(freq) {
+      const osc = audioCtx.createOscillator();
+      const gain = audioCtx.createGain();
+
+      osc.type = 'sine';
+      osc.frequency.value = freq;
+
+      gain.gain.setValueAtTime(1.0, audioCtx.currentTime);
+      gain.gain.exponentialRampToValueAtTime(0.001, audioCtx.currentTime + durationDiscrete);
+
+      osc.connect(gain);
+      gain.connect(audioCtx.destination);
+      osc.start();
+      osc.stop(audioCtx.currentTime + durationDiscrete);
+    }
+
+    // Play tone continuously while key is pressed
+    const durationContinuousMin = 0.5;
+    function playContinuousTone(freq) {
+      const osc = audioCtx.createOscillator();
+      osc.type = 'sine';
+      osc.frequency.value = freq;
+      osc.connect(audioCtx.destination);
+      osc.start();
+      return osc;
+    }
+
+    const data = [{"id": "512/405", "display_name": "G", "display_color": "#622070", "x": 310, "y": 350, "freq": 262.5135868839506, "keymap": "z"}, {"id": "128/81", "display_name": "d", "display_color": "#702060", "x": 300, "y": 300, "freq": 328.1419836049382, "keymap": "a"}, {"id": "160/81", "display_name": "S", "display_color": "#702044", "x": 290, "y": 250, "freq": 410.1774795061728, "keymap": "q"}, {"id": "100/81", "display_name": "G", "display_color": "#702027", "x": 280, "y": 200, "freq": 256.360924691358, "keymap": "z"}, {"id": "256/135", "display_name": "N", "display_color": "#602070", "x": 360, "y": 350, "freq": 393.77038032592594, "keymap": "x"}, {"id": "32/27", "display_name": "g", "display_color": "#702062", "x": 350, "y": 300, "freq": 246.10648770370366, "keymap": "s"}, {"id": "40/27", "display_name": "P", "display_color": "#702046", "x": 340, "y": 250, "freq": 307.6331096296296, "keymap": "w"}, {"id": "50/27", "display_name": "N", "display_color": "#702030", "x": 330, "y": 200, "freq": 384.541387037037, "keymap": "x"}, {"id": "64/45", "display_name": "M", "display_color": "#582070", "x": 410, "y": 350, "freq": 295.32778524444444, "keymap": "c"}, {"id": "16/9", "display_name": "n", "display_color": "#702065", "x": 400, "y": 300, "freq": 369.15973155555554, "keymap": "d"}, {"id": "10/9", "display_name": "R", "display_color": "#702048", "x": 390, "y": 250, "freq": 230.7248322222222, "keymap": "e"}, {"id": "25/18", "display_name": "M", "display_color": "#702032", "x": 380, "y": 200, "freq": 288.4060402777778, "keymap": "c"}, {"id": "16/15", "display_name": "r", "display_color": "#552070", "x": 460, "y": 350, "freq": 221.49583893333332, "keymap": "v"}, {"id": "4/3", "display_name": "m", "display_color": "#702067", "x": 450, "y": 300, "freq": 276.8697986666666, "keymap": "f"}, {"id": "5/3", "display_name": "D", "display_color": "#702051", "x": 440, "y": 250, "freq": 346.0872483333333, "keymap": "r"}, {"id": "25/24", "display_name": "r", "display_color": "#702034", "x": 430, "y": 200, "freq": 216.30453020833335, "keymap": "v"}, {"id": "8/5", "display_name": "d", "display_color": "#532070", "x": 510, "y": 350, "freq": 332.2437584, "keymap": "b"}, {"id": "1", "display_name": "S", "display_color": "#702070", "x": 500, "y": 300, "freq": 207.652349, "keymap": "g"}, {"id": "5/4", "display_name": "G", "display_color": "#702053", "x": 490, "y": 250, "freq": 259.56543625, "keymap": "t"}, {"id": "25/16", "display_name": "d", "display_color": "#702037", "x": 480, "y": 200, "freq": 324.4567953125, "keymap": "b"}, {"id": "6/5", "display_name": "g", "display_color": "#512070", "x": 560, "y": 350, "freq": 249.18281879999998, "keymap": "n"}, {"id": "3/2", "display_name": "P", "display_color": "#672070", "x": 550, "y": 300, "freq": 311.4785235, "keymap": "h"}, {"id": "15/8", "display_name": "N", "display_color": "#702055", "x": 540, "y": 250, "freq": 389.348154375, "keymap": "y"}, {"id": "75/64", "display_name": "g", "display_color": "#702039", "x": 530, "y": 200, "freq": 243.34259648437498, "keymap": "n"}, {"id": "9/5", "display_name": "n", "display_color": "#482070", "x": 610, "y": 350, "freq": 373.7742282, "keymap": "m"}, {"id": "9/8", "display_name": "R", "display_color": "#652070", "x": 600, "y": 300, "freq": 233.60889262499998, "keymap": "j"}, {"id": "45/32", "display_name": "M", "display_color": "#702058", "x": 590, "y": 250, "freq": 292.01111578125, "keymap": "u"}, {"id": "225/128", "display_name": "n", "display_color": "#702041", "x": 580, "y": 200, "freq": 365.01389472656246, "keymap": "m"}, {"id": "27/20", "display_name": "m", "display_color": "#462070", "x": 660, "y": 350, "freq": 280.33067115, "keymap": ","}, {"id": "27/16", "display_name": "D", "display_color": "#622070", "x": 650, "y": 300, "freq": 350.4133389375, "keymap": "k"}, {"id": "135/128", "display_name": "r", "display_color": "#702060", "x": 640, "y": 250, "freq": 219.00833683593748, "keymap": "i"}, {"id": "675/512", "display_name": "m", "display_color": "#702044", "x": 630, "y": 200, "freq": 273.7604210449219, "keymap": ","}, {"id": "81/80", "display_name": "S", "display_color": "#442070", "x": 710, "y": 350, "freq": 210.2480033625, "keymap": "."}, {"id": "81/64", "display_name": "G", "display_color": "#602070", "x": 700, "y": 300, "freq": 262.810004203125, "keymap": "l"}, {"id": "405/256", "display_name": "d", "display_color": "#702062", "x": 690, "y": 250, "freq": 328.5125052539062, "keymap": "o"}, {"id": "2025/1024", "display_name": "S", "display_color": "#702046", "x": 680, "y": 200, "freq": 410.6406315673828, "keymap": "."}]
+    // // load data from assets/tonnetz/keyboard/key_layout.json
+    // var data = $.getJSON( "./key_layout.json", function() {
+    //   console.log( "success" );
+    // })
+
+    let elementMap = {};
+    
+    data.forEach(({ id, display_name, display_color, x, y, freq, keymap }) => {
+
+      // Create the key element
+      el = document.createElement("div");
+          el.id = id;
+          el.className = "key";
+          el.style.left = `${x}px`;
+          el.style.top = `${y}px`;
+          el.textContent = `${display_name}`;
+          el.style.backgroundColor = `${display_color}`;
+          document.body.appendChild(el);
+
+      // Save to elementMap
+      elementMap[keymap.toLowerCase()] = { el: el, freq: freq };
+    });
+
+    // fetch("./key_layout.json")
+    // .then(res => res.json())
+    // .then(data => {
+    //   data.forEach(({ id, display_name, x, y, freq, keymap }) => {
+
+    //     // Log to console
+    //     console.log(`Key: ${keymap}, Display Name: ${display_name}, Frequency: ${freq}, Position: (${x}, ${y})`);
+
+    //     // Create the key element
+    //     el = document.createElement("div");
+    //         el.id = id;
+    //         el.className = "key";
+    //         el.style.left = `${x}px`;
+    //         el.style.top = `${y}px`;
+    //         el.textContent = `${display_name}`;
+    //         document.body.appendChild(el);
+
+    //     // Save to elementMap
+    //     elementMap[keymap.toLowerCase()] = { el: el, freq: freq };
+    //   });
+    // });
+
+    // Keyboard listener
+    let oscMap = {};
+    window.addEventListener('keydown', (e) => {
+      const k = e.key.toLowerCase();
+      if (elementMap[k]) {
+        elementMap[k].el.classList.add('active');
+        if (oscMap[k]) {
+          return;
+        } else {
+          oscMap[k] = playContinuousTone(elementMap[k].freq);
+        }
+      }
+    });
+    window.addEventListener('keyup', (e) => {
+      const k = e.key.toLowerCase();
+      if (elementMap[k]) {
+        elementMap[k].el.classList.remove('active');
+        if (oscMap[k]) {
+          if (oscMap[k].context.currentTime < audioCtx.currentTime + durationContinuousMin) {
+            oscMap[k].stop(audioCtx.currentTime + durationContinuousMin);
+            delete oscMap[k];
+          } else {
+            oscMap[k].stop();
+            delete oscMap[k];
+          }
+        }
+      }
+    });
+
+    // Mouse Listener
+    Object.values(elementMap).forEach(({ freq, el }) => {
+      el.addEventListener('mousedown', () => {
+        el.classList.add('active');
+        playDiscreteTone(freq);
+      });
+      el.addEventListener('mouseup', () => {
+        el.classList.remove('active');
+      });
+    });
+  
+  const footer = document.createElement('div');
+  footer.className = 'footer_container';
+  document.body.appendChild(footer);
+  
+  </script>
+
+  <div class="footer_container">
+  </div>
+
+</body>
+</html>
+
