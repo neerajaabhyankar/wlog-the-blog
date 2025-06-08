@@ -52,4 +52,4 @@ for node_ratio, node_name, node_coord in zip(tn.node_ratios, tn.node_names, tn.n
     })
 
 with open("keyboard/key_layout.json", "w") as f:
-    json.dump(key_data, f)
+    json.dump(key_data, f, indent=4)
