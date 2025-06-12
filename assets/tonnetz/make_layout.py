@@ -19,7 +19,7 @@ def coord_to_keyboard(tonnetz_x, tonnetz_y) -> str:
         ["a", "s", "d", "f", "g", "h", "j", "k", "l", ";", "'"],
         ["z", "x", "c", "v", "b", "n", "m", ",", ".", "/"]
     ]
-    if tonnetz_x < -4 or tonnetz_x > 5 or tonnetz_y < 0 or tonnetz_y > 2:
+    if tonnetz_x < -4 or tonnetz_x > 5 or tonnetz_y < -1 or tonnetz_y > 1:
         return ""
     try:
         keymap = keyboard_arr[1 - tonnetz_y][tonnetz_x + 4]
