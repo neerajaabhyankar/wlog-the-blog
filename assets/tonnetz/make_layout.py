@@ -4,6 +4,9 @@ from libmogra import tonnetz
 from typing import Tuple
 
 Sa = 207.652349
+DEVANAGARI_MAPPING = {
+    "S": "सा", "r": "रे्", "R": "रे", "g": "ग्", "G": "ग", "m": "म", "M": "म्", "P": "प", "d": "ध्", "D": "ध", "n": "नी्", "N": "नी"
+}
 
 gs = tonnetz.EFGenus.from_list(tonnetz.GT_GENUS)
 tn = tonnetz.Tonnetz(gs)
@@ -44,6 +47,7 @@ for node_ratio, node_name, node_coord in zip(tn.node_ratios, tn.node_names, tn.n
     key_data.append({
         "id": str(node_ratio),
         "display_name": node_name,
+        "display_name_dvngri": DEVANAGARI_MAPPING[node_name],
         "display_color": tn.get_node_color(node_coord),
         "x": pos_x,
         "y": pos_y,

@@ -1,16 +1,23 @@
 // scripts.js
 
-const allRaagNames = [
-    "aheer_bhairav", "alhaiya_bilawal", "all", "bageshree", "bahar", "bairagi",
-    "bhairav", "bhairavi", "bheempalasi", "bhoopali", "bihag", "chandrakauns",
-    "charukeshi", "des", "dhani", "durga", "gorakh_kalyan", "gauri_(bhairav_ang)",
-    "gurjari_todi", "hans_dhwani", "hindol", "jhinjhoti", "jog", "kafi",
-    "kaushik_dhwani_(bhinn_shadj)", "kedar", "keerwani", "khamaj", "malhar",
-    "madhukauns", "maru_bihag", "nand", "none", "nut-bhairav", "puriya",
-    "puriya_dhanashri", "prateeksha", "rageshree", "sarang_(brindavani_sarang)",
-    "saraswati", "shankara", "shree", "shuddha_kalyan", "shuddha_sarang",
-    "shyam_kalyan", "tilak_kamod", "tilang", "vachaspati", "vibhas", "yaman"
-]
+// Populate dropdown on page load by fetching the raag list
+document.addEventListener('DOMContentLoaded', async () => {
+    const dropdown = document.getElementById('raag-name');
+    try {
+        const response = await fetch('../assets/tonnetz/images/list.txt');
+        const text = await response.text();
+        const allRaagNames = text.trim().split('\n').filter(line => line.trim() !== '');
+
+        allRaagNames.forEach(raag => {
+            const option = document.createElement('option');
+            option.value = raag;
+            option.textContent = raag.replace(/_/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
+            dropdown.appendChild(option);
+        });
+    } catch (error) {
+        console.error('Error loading raag list:', error);
+    }
+});
 
 const cellWidthShort = 150;
 const cellWidthLong = 450;
