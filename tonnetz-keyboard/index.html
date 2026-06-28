@@ -163,7 +163,7 @@
     position: relative;
     width: 100%;
     max-width: 1200px;
-    height: 600px;
+    height: 320px;
     overflow: hidden;
     background: #f3f3f3;
     margin: 0 auto;
@@ -191,17 +191,13 @@
     background: #f08b65 !important;
   }
   .transpose-container {
-    position: relative;
-    top: -360px;  /* adjust vertical position */
-    left: -90px;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 20px;
-    padding: 30px;
+    padding: 20px 30px;
     background: #f3f3f3;
     font-family: sans-serif;
-    margin-bottom: 80px;
   }
   .transpose-container * {
     border: none !important;
@@ -286,6 +282,16 @@
     color: #333;
     font-size: 18px;
   }
+  .also-see {
+    padding: 24px 28px 8px;
+    font-size: 18px;
+    color: #444;
+    background: #f3f3f3;
+  }
+  .also-see ul { margin: 6px 0 0; padding-left: 20px; }
+  .also-see li { margin-bottom: 6px; }
+  .also-see a { color: #960b2e; }
+
   .footer_container{
     background-color: #d14d4d;
     height: 60px;
@@ -294,12 +300,32 @@
     width: 100%;
     z-index: 50;
   }
+  .tbtn {
+    padding: 5px 13px;
+    border-radius: 4px;
+    border: 2px solid #960b2e;
+    background: transparent;
+    color: #960b2e;
+    font-family: 'Overpass', sans-serif;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background 0.12s, color 0.12s;
+    line-height: 1.4;
+  }
+  .tbtn.on {
+    background: #960b2e;
+    color: white;
+  }
+  .tbtn:hover:not(.on) {
+    background: rgba(150, 11, 46, 0.1);
+  }
 </style>
 
 <div class="instructions">
+  How to use this tonnetz keyboard:
   <ul>
     <li>Sa = 🇬 on your keyboard. All other notes located as pictured.</li>
-    <li>The notes are set to Sa @ 440Hz.</li>
+    <li>The notes are set to Sa = 220 Hz.</li>
     <li>Use the slider at the bottom of the page to transpose.</li>
     <li>Click on the circles to play discrete notes. Use the keyboard for holding them longer.</li>
     <li>Press Shift+Key for higher octave and Alt+Shift+Key or Ctrl+Shift+Key for the lower octave.</li>
@@ -309,9 +335,9 @@
 
 <div class="keyboard-wrapper">
 
-<div style="margin-bottom: 10px;">
-  <a href="/tonnetz-keyboard/" style="padding: 5px 10px; margin-left: 100px; background: #960b2e; color: white; text-decoration: none; border-radius: 3px; font-size: 15px;">English</a>
-  <a href="/tonnetz-keyboard/?notation=devanagari" style="padding: 5px 10px; background: #960b2e; color: white; text-decoration: none; border-radius: 3px; font-size: 15px;">देवनागरी</a>
+<div style="margin-bottom: 10px; margin-left: 100px; display: flex; gap: 8px;">
+  <button class="tbtn on" id="btn-en"     onclick="setNotation('en')">English</button>
+  <button class="tbtn"    id="btn-dvngri" onclick="setNotation('dvngri')">देवनागरी</button>
 </div>
 
 <script>
@@ -368,33 +394,37 @@
       return { oscillator: osc, gain: gainNode };
     }
 
+    let notation = 'en';
     let elementMap = {};
+
+    function setNotation(val) {
+      notation = val;
+      document.getElementById('btn-en').classList.toggle('on', val === 'en');
+      document.getElementById('btn-dvngri').classList.toggle('on', val === 'dvngri');
+      Object.values(elementMap).forEach(({ el, display_name, display_name_dvngri }) => {
+        el.textContent = val === 'en' ? display_name : display_name_dvngri;
+      });
+    }
 
     // Create container for all keys
     const keysContainer = document.createElement('div');
     keysContainer.className = 'keys-container';
     document.body.appendChild(keysContainer);
 
-    // Check if we should use Devanagari
-    const urlParams = new URLSearchParams(window.location.search);
-    const useDevanagari = urlParams.get('notation') === 'devanagari';
-
     fetch("/assets/tonnetz/keyboard/key_layout.json")
     .then(res => res.json())
     .then(data => {
       data.forEach(({ id, display_name, display_name_dvngri, display_color, x, y, freq, keymap }) => {
-        // Create the key element
-        el = document.createElement("div");
-            el.id = id;
-            el.className = "key";
-            el.style.left = `${x}px`;
-            el.style.top = `${y}px`;
-            el.textContent = useDevanagari ? display_name_dvngri : display_name;
-            el.style.backgroundColor = `${display_color}`;
-            keysContainer.appendChild(el);
+        const el = document.createElement("div");
+        el.id = id;
+        el.className = "key";
+        el.style.left = `${x}px`;
+        el.style.top = `${y}px`;
+        el.textContent = display_name;
+        el.style.backgroundColor = display_color;
+        keysContainer.appendChild(el);
 
-        // Save to elementMap
-        elementMap[keymap.toLowerCase()] = { el: el, freq: freq };
+        elementMap[keymap.toLowerCase()] = { el, freq, display_name, display_name_dvngri };
       });
 
       // Mouse Listener
@@ -471,6 +501,15 @@
   </div>
 </div>
 
+<div class="also-see">
+  Also on this site:
+  <ul>
+    <li>For an explainer on how the Tonnetz is constructed for Indian Classical Music <a href="/swarnetz/" style="text-decoration: none;"><button style="font-size: small; display: inline-block;">here</button></a></li>
+    <li>For exploring which shrutis appear in each raag <a href="/raagfinder-by-name/" style="text-decoration: none;"><button style="font-size: small; display: inline-block;">here</button></a></li>
+    <li>For a clean, interactive tool to click notes and chords on the Tonnetz <a href="/tonnetz-interactive/" style="text-decoration: none;"><button style="font-size: small; display: inline-block;">here</button></a></li>
+  </ul>
+</div>
+
 <div class="footer_container">
 </div>
 
@@ -522,7 +561,7 @@
   </ul>
 </div>
 
-<div class="page__footer-copyright">&copy; 2025 wlog: the blog. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+<div class="page__footer-copyright">&copy; 2026 wlog: the blog. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
  -->
       </footer>
     </div>

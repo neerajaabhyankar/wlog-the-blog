@@ -1,0 +1,588 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>an interactive tonnetz - wlog: the blog</title>
+<meta name="description" content="">
+
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="wlog: the blog">
+<meta property="og:title" content="an interactive tonnetz">
+<meta property="og:url" content="http://localhost:4000/tonnetz-interactive/">
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="canonical" href="http://localhost:4000/tonnetz-interactive/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": null,
+      "url": "http://localhost:4000/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+<!-- for mathjax support -->
+<!--  -->
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<link rel="stylesheet" href="/assets/academicons/css/academicons.css">
+
+<link rel="icon" type="image/png" href="/assets/images/origami/makalu-logofy-transparent.png">
+<link rel="apple-touch-icon" href="/assets/images/origami/makalu-logofy-transparent.png">
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--default wide">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/"><img src="/assets/images/origami/makalu.jpg" alt="wlog: the blog"></a>
+        
+        <a class="site-title" href="/">
+          wlog: the blog
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/about/">about</a>
+            </li><li class="masthead__menu-item">
+              <a href="/music-theory/">music theory</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      <style>
+  @import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;600&display=swap');
+
+  #main { max-width: 100%; padding: 0; }
+  .page__content { margin: 0; padding: 0; max-width: 100%; }
+  .initial-content { margin: 0; padding: 0; }
+
+  .tn-wrapper {
+    background: #f3f3f3;
+    padding: 24px 28px 32px;
+    font-family: 'Overpass', sans-serif;
+  }
+
+  .instructions {
+    padding: 20px;
+    background: #f3f3f3;
+    font-size: 18px;
+  }
+  .instructions ul {
+    margin: 0;
+    padding-left: 20px;
+  }
+
+  .transpose-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 0 10px;
+  }
+  .transpose-label {
+    min-width: 200px;
+    white-space: nowrap;
+    color: #333;
+    font-size: 15px;
+    font-family: 'Overpass', sans-serif;
+  }
+  .slider-wrapper {
+    position: relative;
+    width: 300px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+  }
+  .slider-ticks {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-100%);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 7px;
+    box-sizing: border-box;
+    pointer-events: none;
+  }
+  .tick { width: 10px; height: 10px; background: #b9b9b9; border-radius: 50%; flex-shrink: 0; }
+  .transpose-slider {
+    width: 100%;
+    position: absolute;
+    background: transparent;
+    -webkit-appearance: none;
+    appearance: none;
+    cursor: pointer;
+  }
+  .transpose-slider::-webkit-slider-runnable-track {
+    height: 6px; background: #b9b9b9; border-radius: 3px;
+  }
+  .transpose-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 16px; height: 16px;
+    background: #960b2e; border-radius: 50%;
+    cursor: pointer; margin-top: -5px;
+  }
+  .transpose-slider:hover::-webkit-slider-thumb { background: #d14d4d; }
+  .transpose-slider::-moz-range-track {
+    height: 6px; background: #b9b9b9; border-radius: 3px;
+  }
+  .transpose-slider::-moz-range-thumb {
+    width: 16px; height: 16px;
+    background: #960b2e; border: none; border-radius: 50%; cursor: pointer;
+  }
+  .transpose-slider:hover::-moz-range-thumb { background: #d14d4d; }
+
+  .controls {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    align-items: center;
+  }
+
+  .ctrl-sep {
+    width: 1px;
+    height: 28px;
+    background: #ccc;
+    margin: 0 4px;
+  }
+
+  .tbtn {
+    padding: 5px 13px;
+    border-radius: 4px;
+    border: 2px solid #960b2e;
+    background: transparent;
+    color: #960b2e;
+    font-family: 'Overpass', sans-serif;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background 0.12s, color 0.12s;
+    line-height: 1.4;
+  }
+  .tbtn.on {
+    background: #960b2e;
+    color: white;
+  }
+  .tbtn:hover:not(.on) {
+    background: rgba(150, 11, 46, 0.1);
+  }
+
+  .svg-wrap { overflow-x: auto; }
+
+  svg .node circle { cursor: pointer; }
+  svg .node circle:hover { filter: brightness(1.25); }
+  svg .chord-tri { cursor: pointer; opacity: 0.45; transition: opacity 0.1s; }
+  svg .chord-tri:hover { opacity: 0.8; }
+
+  .also-see {
+    padding: 24px 28px 8px;
+    font-size: 18px;
+    color: #444;
+    background: #f3f3f3;
+  }
+  .also-see ul { margin: 6px 0 0; padding-left: 20px; }
+  .also-see li { margin-bottom: 6px; }
+  .also-see a { color: #960b2e; }
+
+  .footer_container {
+    background-color: #d14d4d;
+    height: 60px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 50;
+  }
+</style>
+
+<div class="instructions">
+  How to use this interactive tonnetz diagram:
+  <ul>
+    <li>The notes are set to Sa = 220 Hz.</li>
+    <li>Use the slider at the bottom to transpose.</li>
+    <li>Click on a circle to play the note, or on a triangle to play the chord.</li>
+    <li>Shift+click for the octave above; Alt+Shift+click or Ctrl+Shift+click for the octave below.</li>
+    <li>Note: this page is not optimized for mobile devices.</li>
+  </ul>
+</div>
+
+<div class="tn-wrapper">
+  <div class="controls">
+    <button class="tbtn on"  id="btn-en"       onclick="setNotation('en')">English</button>
+    <button class="tbtn"     id="btn-dvngri"   onclick="setNotation('dvngri')">देवनागरी</button>
+    <div class="ctrl-sep"></div>
+    <button class="tbtn on"  id="btn-twilight" onclick="setTheme('twilight')">Twilight</button>
+    <button class="tbtn"     id="btn-daylight" onclick="setTheme('daylight')">Daylight</button>
+    <div class="ctrl-sep"></div>
+    <button class="tbtn"     id="btn-ratios"   onclick="toggleRatios()">Ratios</button>
+    <button class="tbtn"     id="btn-chords"   onclick="toggleChords()">Chords</button>
+  </div>
+
+  <div class="svg-wrap">
+    <svg id="tn-svg" xmlns="http://www.w3.org/2000/svg"></svg>
+  </div>
+
+  <div class="transpose-container">
+    <label class="transpose-label" id="transposeLabel">Transpose: 0 semitones</label>
+    <div class="slider-wrapper">
+      <div class="slider-ticks">
+        <span class="tick"></span><span class="tick"></span><span class="tick"></span>
+        <span class="tick"></span><span class="tick"></span><span class="tick"></span>
+        <span class="tick"></span><span class="tick"></span><span class="tick"></span>
+        <span class="tick"></span><span class="tick"></span><span class="tick"></span>
+        <span class="tick"></span><span class="tick"></span><span class="tick"></span>
+        <span class="tick"></span><span class="tick"></span><span class="tick"></span>
+        <span class="tick"></span>
+      </div>
+      <input type="range" min="-9" max="9" value="0" step="1"
+             class="transpose-slider" id="transposeSlider">
+    </div>
+  </div>
+
+</div>
+
+<div class="also-see">
+  Also on this site:
+  <ul>
+    <li>For an explainer on how the Tonnetz is constructed for Indian Classical Music <a href="/swarnetz/" style="text-decoration: none;"><button style="font-size: small; display: inline-block;">here</button></a></li>
+    <li>For exploring which shrutis appear in each raag <a href="/raagfinder-by-name/" style="text-decoration: none;"><button style="font-size: small; display: inline-block;">here</button></a></li>
+    <li>For playing these notes using your computer keyboard <a href="/tonnetz-keyboard/" style="text-decoration: none;"><button style="font-size: small; display: inline-block;">here</button></a></li>
+  </ul>
+</div>
+
+<script>
+let NODE_DATA = null;
+
+let META = null;
+
+fetch("/assets/tonnetz/interactive/tonnetz_layout.json")
+  .then(r => r.json())
+  .then(({ meta, nodes }) => { META = meta; NODE_DATA = nodes; render(); })
+  .catch(err => console.error("Failed to load tonnetz_layout.json:", err));
+
+const CELL = 70, R = 14;
+const PAD_X = 54, PAD_Y = 38;
+const X_MIN = -4, X_MAX = 4, Y_MIN = -2, Y_MAX = 2;
+const SVG_W = (X_MAX - X_MIN) * CELL + 2 * PAD_X;
+const SVG_H = (Y_MAX - Y_MIN) * CELL + 2 * PAD_Y;
+const AO = Math.round(0.10 * CELL);
+const AOT = Math.round(0.75 * CELL);
+
+let state = { notation: 'en', theme: 'twilight', ratios: false, chords: false };
+let transposeMultiplier = 1.0;
+
+const audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+
+function octaveOf(e) {
+  return e.shiftKey ? ((e.altKey || e.ctrlKey) ? 0.5 : 2) : 1;
+}
+
+function playFreq(freq, gain = 0.65, dur = 1.2) {
+  audioCtx.resume();
+  const osc = audioCtx.createOscillator();
+  const g = audioCtx.createGain();
+  osc.type = 'sine';
+  osc.frequency.value = freq;
+  g.gain.setValueAtTime(gain, audioCtx.currentTime);
+  g.gain.exponentialRampToValueAtTime(0.001, audioCtx.currentTime + dur);
+  osc.connect(g);
+  g.connect(audioCtx.destination);
+  osc.start();
+  osc.stop(audioCtx.currentTime + dur);
+}
+
+function playChord(freqs) {
+  freqs.forEach(f => playFreq(f, 0.4, 1.5));
+}
+
+function toPixel(x, y) {
+  return [PAD_X + (x - X_MIN) * CELL, PAD_Y + (Y_MAX - y) * CELL];
+}
+
+function ns(tag) { return document.createElementNS('http://www.w3.org/2000/svg', tag); }
+
+function render() {
+  if (!NODE_DATA) return;
+  const svg = document.getElementById('tn-svg');
+  svg.innerHTML = '';
+  svg.setAttribute('width', SVG_W);
+  svg.setAttribute('height', SVG_H);
+  svg.setAttribute('viewBox', `0 0 ${SVG_W} ${SVG_H}`);
+
+  const { notation, theme, ratios, chords } = state;
+  const chordMajorColor = META.chord_major[theme];
+  const chordMinorColor = META.chord_minor[theme];
+  const annotColor = '#6d6d84';
+
+  const coordMap = {};
+  NODE_DATA.forEach(n => { coordMap[`${n.x},${n.y}`] = n; });
+
+  // Chord triangles (drawn first, behind nodes)
+  if (chords) {
+    NODE_DATA.forEach(n => {
+      const [px, py] = toPixel(n.x, n.y);
+
+      // Major: upper-right triangle; nodes (x,y), (x+1,y), (x,y+1)
+      if (n.x < X_MAX && n.y < Y_MAX) {
+        const n1 = coordMap[`${n.x + 1},${n.y}`];
+        const n2 = coordMap[`${n.x},${n.y + 1}`];
+        if (n1 && n2) {
+          const poly = ns('polygon');
+          poly.setAttribute('points', `${px+AO},${py-AO} ${px+AOT},${py-AO} ${px+AO},${py-AOT}`);
+          poly.setAttribute('fill', chordMajorColor);
+          poly.classList.add('chord-tri');
+          poly.addEventListener('click', (e) => {
+            const m = transposeMultiplier * octaveOf(e);
+            playChord([n.freq, n1.freq, n2.freq].map(f => f * m));
+          });
+          svg.appendChild(poly);
+        }
+      }
+
+      // Minor: lower-left triangle; nodes (x,y), (x-1,y), (x,y-1)
+      if (n.x > X_MIN && n.y > Y_MIN) {
+        const n1 = coordMap[`${n.x - 1},${n.y}`];
+        const n2 = coordMap[`${n.x},${n.y - 1}`];
+        if (n1 && n2) {
+          const poly = ns('polygon');
+          poly.setAttribute('points', `${px-AO},${py+AO} ${px-AOT},${py+AO} ${px-AO},${py+AOT}`);
+          poly.setAttribute('fill', chordMinorColor);
+          poly.classList.add('chord-tri');
+          poly.addEventListener('click', (e) => {
+            const m = transposeMultiplier * octaveOf(e);
+            playChord([n.freq, n1.freq, n2.freq].map(f => f * m));
+          });
+          svg.appendChild(poly);
+        }
+      }
+    });
+  }
+
+  // Nodes
+  NODE_DATA.forEach(n => {
+    const [px, py] = toPixel(n.x, n.y);
+    const color = n.color[theme];
+
+    const g = ns('g');
+    g.classList.add('node');
+
+    const circle = ns('circle');
+    circle.setAttribute('cx', px);
+    circle.setAttribute('cy', py);
+    circle.setAttribute('r', R);
+    circle.setAttribute('fill', color);
+    circle.addEventListener('click', (e) => playFreq(n.freq * transposeMultiplier * octaveOf(e)));
+    g.appendChild(circle);
+
+    const label = ns('text');
+    label.setAttribute('x', px);
+    label.setAttribute('y', py);
+    label.setAttribute('text-anchor', 'middle');
+    label.setAttribute('dominant-baseline', 'central');
+    label.setAttribute('fill', 'white');
+    label.setAttribute('font-size', notation === 'dvngri' ? '11' : '12');
+    label.setAttribute('font-family', 'Overpass, sans-serif');
+    label.textContent = notation === 'en' ? n.name : n.dvngri;
+    g.appendChild(label);
+
+    if (ratios) {
+      const rt = ns('text');
+      rt.setAttribute('x', px + 0.3 * CELL);
+      rt.setAttribute('y', py - R - 6);
+      rt.setAttribute('text-anchor', 'middle');
+      rt.setAttribute('dominant-baseline', 'central');
+      rt.setAttribute('fill', annotColor);
+      rt.setAttribute('font-size', '8.5');
+      rt.setAttribute('font-family', 'Overpass, sans-serif');
+      rt.textContent = n.ratio;
+      g.appendChild(rt);
+    }
+
+    svg.appendChild(g);
+  });
+}
+
+// Control handlers
+
+function setNotation(val) {
+  state.notation = val;
+  document.getElementById('btn-en').classList.toggle('on', val === 'en');
+  document.getElementById('btn-dvngri').classList.toggle('on', val === 'dvngri');
+  render();
+}
+
+function setTheme(val) {
+  state.theme = val;
+  document.getElementById('btn-twilight').classList.toggle('on', val === 'twilight');
+  document.getElementById('btn-daylight').classList.toggle('on', val === 'daylight');
+  render();
+}
+
+function toggleRatios() {
+  state.ratios = !state.ratios;
+  if (state.ratios) state.chords = false;
+  document.getElementById('btn-ratios').classList.toggle('on', state.ratios);
+  document.getElementById('btn-chords').classList.toggle('on', state.chords);
+  render();
+}
+
+function toggleChords() {
+  state.chords = !state.chords;
+  if (state.chords) state.ratios = false;
+  document.getElementById('btn-chords').classList.toggle('on', state.chords);
+  document.getElementById('btn-ratios').classList.toggle('on', state.ratios);
+  render();
+}
+
+document.getElementById('transposeSlider').addEventListener('input', (e) => {
+  const semitones = parseInt(e.target.value);
+  transposeMultiplier = Math.pow(2, semitones / 12);
+  const sign = semitones > 0 ? '+' : '';
+  document.getElementById('transposeLabel').textContent = `Transpose: ${sign}${semitones} semitones`;
+});
+
+</script>
+
+<div class="footer_container"></div>
+
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';" role="search">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <!-- <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li>let's connect:</li>
+    
+
+    
+
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2026 wlog: the blog. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+ -->
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+<script src="/assets/js/lunr/lunr.min.js"></script>
+<script src="/assets/js/lunr/lunr-store.js"></script>
+<script src="/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+
+
+
+  </body>
+</html>
+
+<script src="http://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id=”MathJax-script” async src="http://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>

@@ -1,0 +1,559 @@
+{
+  "meta": {
+    "sa_hz": 220.0,
+    "chord_major": {
+      "twilight": "#F08B65",
+      "daylight": "#BA8FAD"
+    },
+    "chord_minor": {
+      "twilight": "#F4C05B",
+      "daylight": "#9B8DC7"
+    },
+    "node_blank": {
+      "twilight": "#A5A9BB",
+      "daylight": "#A5A9BB"
+    }
+  },
+  "nodes": [
+    {
+      "x": -4,
+      "y": -2,
+      "name": "S",
+      "dvngri": "सा",
+      "ratio": "2048/2025",
+      "freq": 222.4988,
+      "color": {
+        "twilight": "#462070",
+        "daylight": "#1099b0"
+      }
+    },
+    {
+      "x": -4,
+      "y": -1,
+      "name": "G",
+      "dvngri": "ग",
+      "ratio": "512/405",
+      "freq": 278.1235,
+      "color": {
+        "twilight": "#622070",
+        "daylight": "#1d9974"
+      }
+    },
+    {
+      "x": -4,
+      "y": 0,
+      "name": "d",
+      "dvngri": "ध्",
+      "ratio": "128/81",
+      "freq": 347.6543,
+      "color": {
+        "twilight": "#702060",
+        "daylight": "#80991b"
+      }
+    },
+    {
+      "x": -4,
+      "y": 1,
+      "name": "S",
+      "dvngri": "सा",
+      "ratio": "160/81",
+      "freq": 434.5679,
+      "color": {
+        "twilight": "#702044",
+        "daylight": "#b6990f"
+      }
+    },
+    {
+      "x": -4,
+      "y": 2,
+      "name": "G",
+      "dvngri": "ग",
+      "ratio": "100/81",
+      "freq": 271.6049,
+      "color": {
+        "twilight": "#702027",
+        "daylight": "#dd9907"
+      }
+    },
+    {
+      "x": -3,
+      "y": -2,
+      "name": "P",
+      "dvngri": "प",
+      "ratio": "1024/675",
+      "freq": 333.7481,
+      "color": {
+        "twilight": "#442070",
+        "daylight": "#0f99b6"
+      }
+    },
+    {
+      "x": -3,
+      "y": -1,
+      "name": "N",
+      "dvngri": "नी",
+      "ratio": "256/135",
+      "freq": 417.1852,
+      "color": {
+        "twilight": "#602070",
+        "daylight": "#1b9980"
+      }
+    },
+    {
+      "x": -3,
+      "y": 0,
+      "name": "g",
+      "dvngri": "ग्",
+      "ratio": "32/27",
+      "freq": 260.7407,
+      "color": {
+        "twilight": "#702062",
+        "daylight": "#74991d"
+      }
+    },
+    {
+      "x": -3,
+      "y": 1,
+      "name": "P",
+      "dvngri": "प",
+      "ratio": "40/27",
+      "freq": 325.9259,
+      "color": {
+        "twilight": "#702046",
+        "daylight": "#b09910"
+      }
+    },
+    {
+      "x": -3,
+      "y": 2,
+      "name": "N",
+      "dvngri": "नी",
+      "ratio": "50/27",
+      "freq": 407.4074,
+      "color": {
+        "twilight": "#702030",
+        "daylight": "#d89908"
+      }
+    },
+    {
+      "x": -2,
+      "y": -2,
+      "name": "R",
+      "dvngri": "रे",
+      "ratio": "256/225",
+      "freq": 250.3111,
+      "color": {
+        "twilight": "#412070",
+        "daylight": "#0e99bc"
+      }
+    },
+    {
+      "x": -2,
+      "y": -1,
+      "name": "M",
+      "dvngri": "म्",
+      "ratio": "64/45",
+      "freq": 312.8889,
+      "color": {
+        "twilight": "#582070",
+        "daylight": "#199989"
+      }
+    },
+    {
+      "x": -2,
+      "y": 0,
+      "name": "n",
+      "dvngri": "नी्",
+      "ratio": "16/9",
+      "freq": 391.1111,
+      "color": {
+        "twilight": "#702065",
+        "daylight": "#679920"
+      }
+    },
+    {
+      "x": -2,
+      "y": 1,
+      "name": "R",
+      "dvngri": "रे",
+      "ratio": "10/9",
+      "freq": 244.4444,
+      "color": {
+        "twilight": "#702048",
+        "daylight": "#a99912"
+      }
+    },
+    {
+      "x": -2,
+      "y": 2,
+      "name": "M",
+      "dvngri": "म्",
+      "ratio": "25/18",
+      "freq": 305.5556,
+      "color": {
+        "twilight": "#702032",
+        "daylight": "#d39909"
+      }
+    },
+    {
+      "x": -1,
+      "y": -2,
+      "name": "D",
+      "dvngri": "ध",
+      "ratio": "128/75",
+      "freq": 375.4667,
+      "color": {
+        "twilight": "#392070",
+        "daylight": "#0c99c2"
+      }
+    },
+    {
+      "x": -1,
+      "y": -1,
+      "name": "r",
+      "dvngri": "रे्",
+      "ratio": "16/15",
+      "freq": 234.6667,
+      "color": {
+        "twilight": "#552070",
+        "daylight": "#179992"
+      }
+    },
+    {
+      "x": -1,
+      "y": 0,
+      "name": "m",
+      "dvngri": "म",
+      "ratio": "4/3",
+      "freq": 293.3333,
+      "color": {
+        "twilight": "#702067",
+        "daylight": "#569924"
+      }
+    },
+    {
+      "x": -1,
+      "y": 1,
+      "name": "D",
+      "dvngri": "ध",
+      "ratio": "5/3",
+      "freq": 366.6667,
+      "color": {
+        "twilight": "#702051",
+        "daylight": "#a29913"
+      }
+    },
+    {
+      "x": -1,
+      "y": 2,
+      "name": "r",
+      "dvngri": "रे्",
+      "ratio": "25/24",
+      "freq": 229.1667,
+      "color": {
+        "twilight": "#702034",
+        "daylight": "#cd990a"
+      }
+    },
+    {
+      "x": 0,
+      "y": -2,
+      "name": "G",
+      "dvngri": "ग",
+      "ratio": "32/25",
+      "freq": 281.6,
+      "color": {
+        "twilight": "#372070",
+        "daylight": "#0b99c8"
+      }
+    },
+    {
+      "x": 0,
+      "y": -1,
+      "name": "d",
+      "dvngri": "ध्",
+      "ratio": "8/5",
+      "freq": 352.0,
+      "color": {
+        "twilight": "#532070",
+        "daylight": "#15999a"
+      }
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "name": "S",
+      "dvngri": "सा",
+      "ratio": "1",
+      "freq": 220.0,
+      "color": {
+        "twilight": "#702070",
+        "daylight": "#2d992d"
+      }
+    },
+    {
+      "x": 0,
+      "y": 1,
+      "name": "G",
+      "dvngri": "ग",
+      "ratio": "5/4",
+      "freq": 275.0,
+      "color": {
+        "twilight": "#702053",
+        "daylight": "#9a9915"
+      }
+    },
+    {
+      "x": 0,
+      "y": 2,
+      "name": "d",
+      "dvngri": "ध्",
+      "ratio": "25/16",
+      "freq": 343.75,
+      "color": {
+        "twilight": "#702037",
+        "daylight": "#c8990b"
+      }
+    },
+    {
+      "x": 1,
+      "y": -2,
+      "name": "N",
+      "dvngri": "नी",
+      "ratio": "48/25",
+      "freq": 422.4,
+      "color": {
+        "twilight": "#342070",
+        "daylight": "#0a99cd"
+      }
+    },
+    {
+      "x": 1,
+      "y": -1,
+      "name": "g",
+      "dvngri": "ग्",
+      "ratio": "6/5",
+      "freq": 264.0,
+      "color": {
+        "twilight": "#512070",
+        "daylight": "#1399a2"
+      }
+    },
+    {
+      "x": 1,
+      "y": 0,
+      "name": "P",
+      "dvngri": "प",
+      "ratio": "3/2",
+      "freq": 330.0,
+      "color": {
+        "twilight": "#672070",
+        "daylight": "#249956"
+      }
+    },
+    {
+      "x": 1,
+      "y": 1,
+      "name": "N",
+      "dvngri": "नी",
+      "ratio": "15/8",
+      "freq": 412.5,
+      "color": {
+        "twilight": "#702055",
+        "daylight": "#929917"
+      }
+    },
+    {
+      "x": 1,
+      "y": 2,
+      "name": "g",
+      "dvngri": "ग्",
+      "ratio": "75/64",
+      "freq": 257.8125,
+      "color": {
+        "twilight": "#702039",
+        "daylight": "#c2990c"
+      }
+    },
+    {
+      "x": 2,
+      "y": -2,
+      "name": "M",
+      "dvngri": "म्",
+      "ratio": "36/25",
+      "freq": 316.8,
+      "color": {
+        "twilight": "#322070",
+        "daylight": "#0999d3"
+      }
+    },
+    {
+      "x": 2,
+      "y": -1,
+      "name": "n",
+      "dvngri": "नी्",
+      "ratio": "9/5",
+      "freq": 396.0,
+      "color": {
+        "twilight": "#482070",
+        "daylight": "#1299a9"
+      }
+    },
+    {
+      "x": 2,
+      "y": 0,
+      "name": "R",
+      "dvngri": "रे",
+      "ratio": "9/8",
+      "freq": 247.5,
+      "color": {
+        "twilight": "#652070",
+        "daylight": "#209967"
+      }
+    },
+    {
+      "x": 2,
+      "y": 1,
+      "name": "M",
+      "dvngri": "म्",
+      "ratio": "45/32",
+      "freq": 309.375,
+      "color": {
+        "twilight": "#702058",
+        "daylight": "#899919"
+      }
+    },
+    {
+      "x": 2,
+      "y": 2,
+      "name": "n",
+      "dvngri": "नी्",
+      "ratio": "225/128",
+      "freq": 386.7188,
+      "color": {
+        "twilight": "#702041",
+        "daylight": "#bc990e"
+      }
+    },
+    {
+      "x": 3,
+      "y": -2,
+      "name": "r",
+      "dvngri": "रे्",
+      "ratio": "27/25",
+      "freq": 237.6,
+      "color": {
+        "twilight": "#302070",
+        "daylight": "#0899d8"
+      }
+    },
+    {
+      "x": 3,
+      "y": -1,
+      "name": "m",
+      "dvngri": "म",
+      "ratio": "27/20",
+      "freq": 297.0,
+      "color": {
+        "twilight": "#462070",
+        "daylight": "#1099b0"
+      }
+    },
+    {
+      "x": 3,
+      "y": 0,
+      "name": "D",
+      "dvngri": "ध",
+      "ratio": "27/16",
+      "freq": 371.25,
+      "color": {
+        "twilight": "#622070",
+        "daylight": "#1d9974"
+      }
+    },
+    {
+      "x": 3,
+      "y": 1,
+      "name": "r",
+      "dvngri": "रे्",
+      "ratio": "135/128",
+      "freq": 232.0312,
+      "color": {
+        "twilight": "#702060",
+        "daylight": "#80991b"
+      }
+    },
+    {
+      "x": 3,
+      "y": 2,
+      "name": "m",
+      "dvngri": "म",
+      "ratio": "675/512",
+      "freq": 290.0391,
+      "color": {
+        "twilight": "#702044",
+        "daylight": "#b6990f"
+      }
+    },
+    {
+      "x": 4,
+      "y": -2,
+      "name": "d",
+      "dvngri": "ध्",
+      "ratio": "81/50",
+      "freq": 356.4,
+      "color": {
+        "twilight": "#272070",
+        "daylight": "#0799dd"
+      }
+    },
+    {
+      "x": 4,
+      "y": -1,
+      "name": "S",
+      "dvngri": "सा",
+      "ratio": "81/80",
+      "freq": 222.75,
+      "color": {
+        "twilight": "#442070",
+        "daylight": "#0f99b6"
+      }
+    },
+    {
+      "x": 4,
+      "y": 0,
+      "name": "G",
+      "dvngri": "ग",
+      "ratio": "81/64",
+      "freq": 278.4375,
+      "color": {
+        "twilight": "#602070",
+        "daylight": "#1b9980"
+      }
+    },
+    {
+      "x": 4,
+      "y": 1,
+      "name": "d",
+      "dvngri": "ध्",
+      "ratio": "405/256",
+      "freq": 348.0469,
+      "color": {
+        "twilight": "#702062",
+        "daylight": "#74991d"
+      }
+    },
+    {
+      "x": 4,
+      "y": 2,
+      "name": "S",
+      "dvngri": "सा",
+      "ratio": "2025/1024",
+      "freq": 435.0586,
+      "color": {
+        "twilight": "#702046",
+        "daylight": "#b09910"
+      }
+    }
+  ]
+}

@@ -3,13 +3,14 @@ import numpy as np
 from libmogra import tonnetz
 from typing import Tuple
 
-Sa = 207.652349
+Sa = 220.0
 DEVANAGARI_MAPPING = {
     "S": "सा", "r": "रे्", "R": "रे", "g": "ग्", "G": "ग", "m": "म", "M": "म्", "P": "प", "d": "ध्", "D": "ध", "n": "नी्", "N": "नी"
 }
 
 gs = tonnetz.EFGenus.from_list(tonnetz.GT_GENUS)
 tn = tonnetz.Tonnetz(gs)
+tn.set_color_scheme("twilight")
 
 
 def coord_to_keyboard(tonnetz_x, tonnetz_y) -> str:
@@ -32,8 +33,8 @@ def coord_to_keyboard(tonnetz_x, tonnetz_y) -> str:
 
 def coord_to_ui(tonnetz_x: int, tonnetz_y: int) -> Tuple[int, int]:
     return (
-        500 + 50*tonnetz_x - 8*tonnetz_y,
-        300 - 50*tonnetz_y
+        int(500 + 50*tonnetz_x - 8*tonnetz_y),
+        int(300 - 50*tonnetz_y)
     )
 
 key_data = []
