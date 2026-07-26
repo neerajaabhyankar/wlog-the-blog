@@ -42,6 +42,44 @@ astroid = ["astroid (>=2,<4)"]
 test = ["astroid (>=2,<4)", "pytest", "pytest-cov", "pytest-xdist"]
 
 [[package]]
+name = "beautifulsoup4"
+version = "4.15.0"
+description = "Screen-scraping library"
+optional = false
+python-versions = ">=3.7.0"
+groups = ["main"]
+files = [
+    {file = "beautifulsoup4-4.15.0-py3-none-any.whl", hash = "sha256:d6f88de62e1d4e38ecb1077eb9724cd0eff29d2a08ca16a401e9b9e93f117cf9"},
+    {file = "beautifulsoup4-4.15.0.tar.gz", hash = "sha256:288e3ca7d54b06f2ac191970bc275c1939cb46d450b255bf6718b04aa37ab4f7"},
+]
+
+[package.dependencies]
+soupsieve = ">=1.6.1"
+typing-extensions = ">=4.0.0"
+
+[package.extras]
+cchardet = ["cchardet"]
+chardet = ["chardet"]
+charset-normalizer = ["charset-normalizer"]
+html5lib = ["html5lib"]
+lxml = ["lxml"]
+
+[[package]]
+name = "bs4"
+version = "0.0.2"
+description = "Dummy package for Beautiful Soup (beautifulsoup4)"
+optional = false
+python-versions = "*"
+groups = ["main"]
+files = [
+    {file = "bs4-0.0.2-py2.py3-none-any.whl", hash = "sha256:abf8742c0805ef7f662dce4b51cca104cffe52b835238afc169142ab9b3fbccc"},
+    {file = "bs4-0.0.2.tar.gz", hash = "sha256:a48685c58f50fe127722417bae83fe6badf500d54b55f7e39ffe43b798653925"},
+]
+
+[package.dependencies]
+beautifulsoup4 = "*"
+
+[[package]]
 name = "cffi"
 version = "1.17.1"
 description = "Foreign Function Interface for Python calling C code."
@@ -415,18 +453,19 @@ orjson = ">=3.10.15"
 
 [[package]]
 name = "libmogra"
-version = "0.4.1"
+version = "0.4.2"
 description = "\"A Python Toolbox for Indian (Classical) Music\""
 optional = false
 python-versions = "<4.0,>=3.11"
 groups = ["main"]
 files = [
-    {file = "libmogra-0.4.1-py3-none-any.whl", hash = "sha256:50e7448609fe8f1a593f72af981c3c9a0de2fb053515d2b18866473b0375be44"},
-    {file = "libmogra-0.4.1.tar.gz", hash = "sha256:7810c632fbe7bd4b2d1427a354342adc81d783ad62807562049f962045b532db"},
+    {file = "libmogra-0.4.2-py3-none-any.whl", hash = "sha256:ad308321e56da630d9b24941c9a5c967a3965e95b6b0abf53d8c83ffeb12081c"},
+    {file = "libmogra-0.4.2.tar.gz", hash = "sha256:3d95eb58f12f7c76f9a5f10b0797e7bf79fa0b75271ba825bb6e9269c6f8d929"},
 ]
 
 [package.dependencies]
 argparse = ">=1.4.0,<2.0.0"
+bs4 = ">=0.0.2,<0.0.3"
 dill = ">=0.3.9,<0.4.0"
 ipykernel = ">=6.29.5,<7.0.0"
 kaleido = "1.0.0rc11"
@@ -1501,6 +1540,18 @@ files = [
 ]
 
 [[package]]
+name = "soupsieve"
+version = "2.9.1"
+description = "A modern CSS selector implementation for Beautiful Soup."
+optional = false
+python-versions = ">=3.10"
+groups = ["main"]
+files = [
+    {file = "soupsieve-2.9.1-py3-none-any.whl", hash = "sha256:4f4477399246b7a0c720a88ca2454b11cd6bb9ae4c9d170140786e916776c14c"},
+    {file = "soupsieve-2.9.1.tar.gz", hash = "sha256:c33e6605bbc71dd628b00c632d58ae607c22bade247e52553928f83bbb75b4ba"},
+]
+
+[[package]]
 name = "stack-data"
 version = "0.6.3"
 description = "Extract data from python stack frames and tracebacks for informative displays"
@@ -1598,7 +1649,6 @@ description = "Backported and Experimental Type Hints for Python 3.8+"
 optional = false
 python-versions = ">=3.8"
 groups = ["main"]
-markers = "python_version == \"3.11\""
 files = [
     {file = "typing_extensions-4.12.2-py3-none-any.whl", hash = "sha256:04e5ca0351e0f3f85c6853954072df659d0d13fac324d0072316b67d7794700d"},
     {file = "typing_extensions-4.12.2.tar.gz", hash = "sha256:1a7ead55c7e559dd4dee8856e3a88b41225abfe1ce8df57b7c13915fe121ffb8"},
@@ -1631,4 +1681,4 @@ files = [
 [metadata]
 lock-version = "2.1"
 python-versions = "^3.11"
-content-hash = "7c2186b6923555447d95309f4212f30b4e7259d1a4618610d8921b37f1b43b03"
+content-hash = "fc6fa56bba0499fa7f5275aa84f3687c73019feab635b5dfdf86afd0899326e7"

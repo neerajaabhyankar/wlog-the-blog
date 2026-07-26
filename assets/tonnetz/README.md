@@ -12,3 +12,7 @@ Procedure to update keyboard layout:
 Procedure to update the interactive tonnetz (`/tonnetz-interactive/`):
 1. Make necessary edits (Sa frequency, Devanagari mappings, or genus) in `make_tonnetz_interactive.py`
 2. Run `poetry run python make_tonnetz_interactive.py` in this dir --> this will regenerate `interactive/tonnetz_layout.json`, which is fetched at runtime by `tonnetz-interactive/index.html`.
+
+Procedure to update the raag finder (`/raagfinder-by-notes/`):
+1. Bump the `libmogra` version in `pyproject.toml` (the raag data and the by-swar-set index both live in the package).
+2. Run `poetry run python make_raagfinder_db.py` in this dir --> this will regenerate `raagfinder/raagdb.json`, which is fetched at runtime by `raagfinder-by-notes/index.html`. It is the browser equivalent of `mogra search <swars>`.

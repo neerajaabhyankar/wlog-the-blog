@@ -1,0 +1,5154 @@
+{
+ "swar_order": {
+  "S": 0,
+  "r": 1,
+  "R": 2,
+  "g": 3,
+  "G": 4,
+  "m": 5,
+  "M": 6,
+  "P": 7,
+  "d": 8,
+  "D": 9,
+  "n": 10,
+  "N": 11
+ },
+ "by_swar": {
+  "S,R,g,m,D": [
+   "abhogi kanada"
+  ],
+  "S,R,g,m,P,d,n": [
+   "adana",
+   "darbari kanada",
+   "jaunpuri",
+   "kausi kanada"
+  ],
+  "S,r,G,m,P,D,n": [
+   "aheer bhairav"
+  ],
+  "S,R,G,m,P,D,n,N": [
+   "alhaiya bilawal",
+   "bihagda",
+   "des",
+   "devgiri bilawal",
+   "gaud malhar",
+   "khamaj"
+  ],
+  "S,R,g,m,P,D,n": [
+   "bageshree",
+   "bheempalasi",
+   "desi",
+   "kafi",
+   "shahana kanada",
+   "sindhura"
+  ],
+  "S,R,g,m,P,D,n,N": [
+   "bahar",
+   "lanka dahan sarang",
+   "malhar"
+  ],
+  "S,r,m,P,n": [
+   "bairagi"
+  ],
+  "S,r,g,P,n": [
+   "bairagi todi"
+  ],
+  "S,r,G,M,P,d,N": [
+   "basant",
+   "puriya dhanashri",
+   "shree"
+  ],
+  "S,r,G,m,P,d,n": [
+   "basant mukhari"
+  ],
+  "S,r,G,m,P,d,N": [
+   "bhairav",
+   "gauri (bhairav ang)"
+  ],
+  "S,r,g,m,P,d,n": [
+   "bhairavi",
+   "bilaskhani todi",
+   "dhanashree (bhairavi ang)",
+   "komal rishabh asawari"
+  ],
+  "S,r,G,m,M,P,D,N": [
+   "bhatiyar"
+  ],
+  "S,R,G,m,P,D,n": [
+   "bheem",
+   "jhinjhoti",
+   "khambavati"
+  ],
+  "S,R,G,P,D": [
+   "bhoopali",
+   "deshkar"
+  ],
+  "S,r,g,P,d": [
+   "bhupal todi"
+  ],
+  "S,R,G,m,M,P,D,N": [
+   "bihag",
+   "chhayanut",
+   "gaud sarang",
+   "hameer",
+   "kamod",
+   "nand",
+   "shyam kalyan"
+  ],
+  "S,g,m,d,N": [
+   "chandrakauns"
+  ],
+  "S,R,G,m,P,d,n": [
+   "charukeshi"
+  ],
+  "S,R,g,G,m,P,d,n": [
+   "dev gandhar"
+  ],
+  "S,R,M,P,n": [
+   "devshree"
+  ],
+  "S,g,m,P,n": [
+   "dhani"
+  ],
+  "S,R,m,P,D": [
+   "durga",
+   "jaldhar kedar"
+  ],
+  "S,g,m,P,d,n": [
+   "gopika basant"
+  ],
+  "S,R,m,D,n": [
+   "gorakh kalyan"
+  ],
+  "S,r,m,P,d": [
+   "gunkali"
+  ],
+  "S,r,g,M,d,N": [
+   "gurjari todi"
+  ],
+  "S,R,G,P,N": [
+   "hans dhwani"
+  ],
+  "S,R,g,G,m,P,D,n,N": [
+   "hans kinkini",
+   "jaijaivanti",
+   "pilu",
+   "ramdasi malhar"
+  ],
+  "S,g,M,D,n": [
+   "harikauns"
+  ],
+  "S,R,G,m,P,D,N": [
+   "hemant",
+   "mand",
+   "tilak kamod"
+  ],
+  "S,g,m,P,n,N": [
+   "hemshri"
+  ],
+  "S,G,M,D,N": [
+   "hindol"
+  ],
+  "S,r,G,P,D": [
+   "jayat"
+  ],
+  "S,g,G,m,P,n": [
+   "jog"
+  ],
+  "S,g,G,m,D,n": [
+   "jogeshwari"
+  ],
+  "S,r,m,P,d,N": [
+   "jogiya"
+  ],
+  "S,g,G,m,P,d,n,N": [
+   "jogkauns"
+  ],
+  "S,G,P,D,n": [
+   "kalawati"
+  ],
+  "S,G,m,D,N": [
+   "kaushik dhwani (bhinn shadj)"
+  ],
+  "S,R,m,M,P,D,N": [
+   "kedar",
+   "shuddha sarang"
+  ],
+  "S,R,g,m,P,d,N": [
+   "keerwani"
+  ],
+  "S,r,G,m,M,d,N": [
+   "lalit"
+  ],
+  "S,g,M,P,n": [
+   "madhukauns"
+  ],
+  "S,R,m,P,n": [
+   "madhumad sarang",
+   "megh malhar"
+  ],
+  "S,R,g,M,P,D,N": [
+   "madhuvanti"
+  ],
+  "S,R,g,G,m,P,D,n": [
+   "malgunji"
+  ],
+  "S,g,m,d,n": [
+   "malkauns"
+  ],
+  "S,R,G,M,P,D,N": [
+   "maru bihag",
+   "shuddha kalyan",
+   "yaman"
+  ],
+  "S,r,G,M,D,N": [
+   "marwa",
+   "puriya",
+   "sohani"
+  ],
+  "S,g,G,m,d,n": [
+   "mohankauns"
+  ],
+  "S,r,g,M,P,d,N": [
+   "multani",
+   "todi"
+  ],
+  "S,R,m,P,D,n": [
+   "narayani"
+  ],
+  "S,R,g,m,P,n": [
+   "nayaki kanada"
+  ],
+  "S,R,G,m,P,d,N": [
+   "nut-bhairav"
+  ],
+  "S,g,G,m,P,D,n": [
+   "pancham jogeshwari"
+  ],
+  "S,r,g,m,D,n": [
+   "parameshwari"
+  ],
+  "S,R,g,m,P,D,N": [
+   "patdeep"
+  ],
+  "S,r,G,m,M,P,d,N": [
+   "poorvi"
+  ],
+  "S,r,G,M,P,D,N": [
+   "puriya kalyan"
+  ],
+  "S,R,G,m,D,n": [
+   "rageshree"
+  ],
+  "S,r,G,m,M,P,d,n,N": [
+   "ramkali"
+  ],
+  "S,r,g,P,D,n": [
+   "saalag varali"
+  ],
+  "S,R,m,P,n,N": [
+   "sarang (brindavani sarang)"
+  ],
+  "S,R,M,P,D,n": [
+   "saraswati"
+  ],
+  "S,R,m,M,P,D,n": [
+   "saraswati kedar"
+  ],
+  "S,R,G,P,D,N": [
+   "shankara"
+  ],
+  "S,R,g,P,D": [
+   "shivranjani"
+  ],
+  "S,g,m,D,n": [
+   "sundarkauns"
+  ],
+  "S,R,m,P,D,n,N": [
+   "surdasi malhar"
+  ],
+  "S,G,m,P,n,N": [
+   "tilang"
+  ],
+  "S,R,G,M,P,D,n": [
+   "vachaspati"
+  ],
+  "S,r,G,P,d": [
+   "vibhas"
+  ]
+ },
+ "raags": {
+  "abhogi kanada": [
+   [
+    "name",
+    "Abhogi Kanada"
+   ],
+   [
+    "aaroha",
+    "S, R, g, m, D, `S"
+   ],
+   [
+    "avaroha",
+    "`S, D, m, g, R, g, m, R, S, R, ,D, ,D, S"
+   ],
+   [
+    "mukhyanga",
+    "-- S, R, ,D, S\n-- R, g, m\n-- g, m, R, S"
+   ],
+   [
+    "aarohi_nyas",
+    "R, m, D, S"
+   ],
+   [
+    "avarohi_nyas",
+    "R, m, D, S"
+   ],
+   [
+    "vaadi",
+    "m"
+   ],
+   [
+    "samvaadi",
+    "S"
+   ],
+   [
+    "thaat",
+    "Kafi"
+   ],
+   [
+    "prahar",
+    "day 2nd"
+   ]
+  ],
+  "adana": [
+   [
+    "name",
+    "Adana"
+   ],
+   [
+    "aaroha",
+    "S, R, m, P, d, n, `S"
+   ],
+   [
+    "avaroha",
+    "`S, d, n, P, m, P, g, m, R, S"
+   ],
+   [
+    "mukhyanga",
+    "-- m, P, d, n, `S\n-- `S, d, n, `S\n-- `S, d, n, P\n-- m, P\n-- g, m, R, S"
+   ],
+   [
+    "aarohi_nyas",
+    "P, n"
+   ],
+   [
+    "avarohi_nyas",
+    "`S, P, R"
+   ],
+   [
+    "vaadi",
+    "S"
+   ],
+   [
+    "samvaadi",
+    "P"
+   ],
+   [
+    "thaat",
+    "Asawari"
+   ],
+   [
+    "prahar",
+    "day 2nd"
+   ]
+  ],
+  "aheer bhairav": [
+   [
+    "name",
+    "Aheer Bhairav"
+   ],
+   [
+    "aaroha",
+    "S, r, G, m, P, D, n, `S"
+   ],
+   [
+    "avaroha",
+    "`S, n, D, P, m, G, r, S"
+   ],
+   [
+    "mukhyanga",
+    "-- G, m, P\n-- D, n, D\n-- P, D, P\n-- `S, n, D\n-- n, D, P, m, G, m\n-- G, m, P, m, r, r, S\n-- ,n, ,D, ,n, r, "
+   ],
+   [
+    "aarohi_nyas",
+    "S, r, m, P"
+   ],
+   [
+    "avarohi_nyas",
+    "`S, P, m, r"
+   ],
+   [
+    "vaadi",
+    "m"
+   ],
+   [
+    "samvaadi",
+    "S"
+   ],
+   [
+    "thaat",
+    "Bhairav"
+   ],
+   [
+    "prahar",
+    "day 1st"
+   ]
+  ],
+  "alhaiya bilawal": [
+   [
+    "name",
+    "Alhaiya Bilawal"
+   ],
+   [
+    "aaroha",
+    "S, R, G, P, D, N, `S"
+   ],
+   [
+    "avaroha",
+    "`S, N, D, P, D, n, D, P, m, G, R, S"
+   ],
+   [
+    "mukhyanga",
+    "-- G, R, G, P\n-- D, n, D, P\n-- m, G, R\n-- G, P, D, N, `S"
+   ],
+   [
+    "aarohi_nyas",
+    "S, G, P"
+   ],
+   [
+    "avarohi_nyas",
+    "`S, P, G"
+   ],
+   [
+    "vaadi",
+    "D"
+   ],
+   [
+    "samvaadi",
+    "G"
+   ],
+   [
+    "thaat",
+    "Bilawal"
+   ],
+   [
+    "prahar",
+    "day 1st"
+   ]
+  ],
+  "bageshree": [
+   [
+    "name",
+    "Bageshree"
+   ],
+   [
+    "aaroha",
+    "S, R, g, m, D, n, `S"
+   ],
+   [
+    "avaroha",
+    "`S, n, D, m, P, D, m, g, R, S, ,n, S"
+   ],
+   [
+    "mukhyanga",
+    "-- ,n, S, m\n-- S, g, m\n-- g, R, S\n-- ,n, ,D\n-- m, D, n, D\n-- m, g, R, S"
+   ],
+   [
+    "aarohi_nyas",
+    "S, m, D"
+   ],
+   [
+    "avarohi_nyas",
+    "`S, D, m, g"
+   ],
+   [
+    "vaadi",
+    "m"
+   ],
+   [
+    "samvaadi",
+    "S"
+   ],
+   [
+    "thaat",
+    "Kafi"
+   ],
+   [
+    "prahar",
+    "day 2nd"
+   ]
+  ],
+  "bahar": [
+   [
+    "name",
+    "Bahar"
+   ],
+   [
+    "aaroha",
+    "S, R, S, m, P, m, g, m, D, N, `S"
+   ],
+   [
+    "avaroha",
+    "`S, n, P, m, g, m, R, S, ,N, S"
+   ],
+   [
+    "mukhyanga",
+    "-- S, m\n-- P, m, g, m\n-- n, P, m\n-- m, n, D, N, `S\n-- n, P, m\n-- P, m\n-- g, m, R, S"
+   ],
+   [
+    "aarohi_nyas",
+    "S, m, P"
+   ],
+   [
+    "avarohi_nyas",
+    "`S, m, R"
+   ],
+   [
+    "vaadi",
+    "m"
+   ],
+   [
+    "samvaadi",
+    "S"
+   ],
+   [
+    "thaat",
+    "Kafi"
+   ],
+   [
+    "prahar",
+    "day 2nd"
+   ]
+  ],
+  "bairagi": [
+   [
+    "name",
+    "Bairagi"
+   ],
+   [
+    "aaroha",
+    "S, r, m, P, n, `S"
+   ],
+   [
+    "avaroha",
+    "`S, n, P, m, r, S"
+   ],
+   [
+    "mukhyanga",
+    "-- m, P, n, P, m, r\n-- r, P, m, r, S\n-- ,n, S, r, S"
+   ],
+   [
+    "aarohi_nyas",
+    "S, r, m, P"
+   ],
+   [
+    "avarohi_nyas",
+    "S, r, m, P"
+   ],
+   [
+    "vaadi",
+    "m"
+   ],
+   [
+    "samvaadi",
+    "S"
+   ],
+   [
+    "thaat",
+    "Bhairav"
+   ],
+   [
+    "prahar",
+    "day 1st"
+   ]
+  ],
+  "bairagi todi": [
+   [
+    "name",
+    "Bairagi Todi"
+   ],
+   [
+    "aaroha",
+    "S, r, g, P, n, `S"
+   ],
+   [
+    "avaroha",
+    "`S, n, P, g, r, S"
+   ],
+   [
+    "mukhyanga",
+    "-- ,n, S, r, g\n-- g, r, ,n, ,P\n-- ,n, r, S"
+   ],
+   [
+    "aarohi_nyas",
+    "S, r, P"
+   ],
+   [
+    "avarohi_nyas",
+    "S, r, P"
+   ],
+   [
+    "vaadi",
+    "P"
+   ],
+   [
+    "samvaadi",
+    "S"
+   ],
+   [
+    "thaat",
+    "Todi"
+   ],
+   [
+    "prahar",
+    "day 1st"
+   ]
+  ],
+  "basant": [
+   [
+    "name",
+    "Basant"
+   ],
+   [
+    "aaroha",
+    "S, G, M, d, N, `S"
+   ],
+   [
+    "avaroha",
+    "`S, N, d, P, M, G, M, N, d, M, G, r, S"
+   ],
+   [
+    "mukhyanga",
+    "-- M, d, `r, `S\n-- N, `S, `r, N, d, P\n-- G, M, d, N, M, G\n-- M, d, G, M, G\n-- M, G, M, G, r, S"
+   ],
+   [
+    "aarohi_nyas",
+    "S, G"
+   ],
+   [
+    "avarohi_nyas",
+    "`S, P, G"
+   ],
+   [
+    "vaadi",
+    "`S"
+   ],
+   [
+    "samvaadi",
+    "P"
+   ],
+   [
+    "thaat",
+    "Poorvi"
+   ],
+   [
+    "prahar",
+    "day 1st"
+   ]
+  ],
+  "basant mukhari": [
+   [
+    "name",
+    "Basant Mukhari"
+   ],
+   [
+    "aaroha",
+    "S, r, G, m, P, d, n, `S"
+   ],
+   [
+    "avaroha",
+    "`S, n, d, P, m, G, r, S, ,n, S"
+   ],
+   [
+    "mukhyanga",
+    "-- S, r, G\n-- G, m\n-- P, m\n-- P, d, n, d, P, m\n-- P, m, G, m\n-- G, r\n-- r, S\n-- ,n, ,d, ,n, S, r\n-- r, G, m\n-- G, r, S\n-- G, m, r, S"
+   ],
+   [
+    "aarohi_nyas",
+    "S, G, m"
+   ],
+   [
+    "avarohi_nyas",
+    "`S, P, m, r"
+   ],
+   [
+    "vaadi",
+    "P"
+   ],
+   [
+    "samvaadi",
+    "S"
+   ],
+   [
+    "thaat",
+    "Bhairav"
+   ],
+   [
+    "prahar",
+    "day 2nd"
+   ]
+  ],
+  "bhairav": [
+   [
+    "name",
+    "Bhairav"
+   ],
+   [
+    "aaroha",
+    "S, r, G, m, P, d, N, `S"
+   ],
+   [
+    "avaroha",
+    "`S, N, d, P, m, G, r, S"
+   ],
+   [
+    "mukhyanga",
+    "-- r, r, S\n-- d, d, P\n-- G, m, d, d, P\n-- G, m, r, r, S\n-- ,N, S"
+   ],
+   [
+    "aarohi_nyas",
+    "S, m, P, d"
+   ],
+   [
+    "avarohi_nyas",
+    "`S, d, P, r"
+   ],
+   [
+    "vaadi",
+    "d"
+   ],
+   [
+    "samvaadi",
+    "r"
+   ],
+   [
+    "thaat",
+    "Bhairav"
+   ],
+   [
+    "prahar",
+    "day 1st"
+   ]
+  ],
+  "bhairavi": [
+   [
+    "name",
+    "Bhairavi"
+   ],
+   [
+    "aaroha",
+    "S, r, g, m, P, d, n, `S"
+   ],
+   [
+    "avaroha",
+    "`S, n, d, P, m, g, r, S"
+   ],
+   [
+    "mukhyanga",
+    "-- g, S, r, S\n-- g, m, P\n-- d, m, d, n, `S\n-- `r, `S, d, P, g, m, r, S"
+   ],
+   [
+    "aarohi_nyas",
+    "S, m, P"
+   ],
+   [
+    "avarohi_nyas",
+    "`S, P, m"
+   ],
+   [
+    "vaadi",
+    "m"
+   ],
+   [
+    "samvaadi",
+    "S"
+   ],
+   [
+    "thaat",
+    "Bhairavi"
+   ],
+   [
+    "prahar",
+    "day 1st"
+   ]
+  ],
+  "bhatiyar": [
+   [
+    "name",
+    "Bhatiyar"
+   ],
+   [
+    "aaroha",
+    "S, r, S, S, m, m, D, P, S, D, D, N, P, m, P, G, M, D, `S"
+   ],
+   [
+    "avaroha",
+    "`S, `r, N, D, P, D, N, P, m, P, G, r, S"
+   ],
+   [
+    "mukhyanga",
+    "-- S, m, P\n-- P, G, r, S\n-- S, D, N, D\n-- N, P\n-- D, m\n-- P, G\n-- P, G, r, S\n-- M, D, `S"
+   ],
+   [
+    "aarohi_nyas",
+    "S, m, P, D"
+   ],
+   [
+    "avarohi_nyas",
+    "m, S"
+   ],
+   [
+    "vaadi",
+    "S"
+   ],
+   [
+    "samvaadi",
+    "S"
+   ],
+   [
+    "thaat",
+    "Marwa"
+   ],
+   [
+    "prahar",
+    "day 4th"
+   ]
+  ],
+  "bheem": [
+   [
+    "name",
+    "Bheem"
+   ],
+   [
+    "aaroha",
+    ",n, S, G, m, P, n, `S"
+   ],
+   [
+    "avaroha",
+    "`S, n, D, P, m, G, P, m, G, m, R, S, ,n, S, ,P, ,n, S"
+   ],
+   [
+    "mukhyanga",
+    "-- ,n, S, G, m, P, `S, n\n-- P, `S, n, `S\n-- `S, P, D, P\n-- D, m, P\n-- G, m, R, ,n, S"
+   ],
+   [
+    "aarohi_nyas",
+    "S, G, P"
+   ],
+   [
+    "avarohi_nyas",
+    "`S, P, G"
+   ],
+   [
+    "vaadi",
+    "S"
+   ],
+   [
+    "samvaadi",
+    "P"
+   ],
+   [
+    "thaat",
+    "Kafi"
+   ],
+   [
+    "prahar",
+    "day 1st"
+   ]
+  ],
+  "bheempalasi": [
+   [
+    "name",
+    "Bheempalasi"
+   ],
+   [
+    "aaroha",
+    ",n, S, g, m, P, n, `S"
+   ],
+   [
+    "avaroha",
+    "`S, n, D, P, m, g, R, S, ,n, S, ,P, ,n, S"
+   ],
+   [
+    "mukhyanga",
+    "-- ,n, S, g, m, P\n-- n, D, P\n-- `S\n-- n, D, P\n-- m, g, R, S"
+   ],
+   [
+    "aarohi_nyas",
+    "S, m, P"
+   ],
+   [
+    "avarohi_nyas",
+    "`S, P, m"
+   ],
+   [
+    "vaadi",
+    "m"
+   ],
+   [
+    "samvaadi",
+    "S"
+   ],
+   [
+    "thaat",
+    "Kafi"
+   ],
+   [
+    "prahar",
+    "day 3rd"
+   ]
+  ],
+  "bhoopali": [
+   [
+    "name",
+    "Bhoopali"
+   ],
+   [
+    "aaroha",
+    "S, R, G, P, D, `S"
+   ],
+   [
+    "avaroha",
+    "`S, D, P, G, R, S, R, ,D, S"
+   ],
+   [
+    "mukhyanga",
+    "-- G, R, G\n-- P, G\n-- D, P\n-- `S, D, P, G\n-- P, G, R, G\n-- G, R, S"
+   ],
+   [
+    "aarohi_nyas",
+    "S, R, G, P"
+   ],
+   [
+    "avarohi_nyas",
+    "P, G, R, S"
+   ],
+   [
+    "vaadi",
+    "G"
+   ],
+   [
+    "samvaadi",
+    "D"
+   ],
+   [
+    "thaat",
+    "Kalyan"
+   ],
+   [
+    "prahar",
+    "night 1st"
+   ]
+  ],
+  "bhupal todi": [
+   [
+    "name",
+    "Bhupal Todi"
+   ],
+   [
+    "aaroha",
+    "S, r, g, P, d, `S"
+   ],
+   [
+    "avaroha",
+    "`S, d, P, g, r, S, ,d, r, S"
+   ],
+   [
+    "mukhyanga",
+    "-- S, ,d, S, r, g\n-- d, P, g, r, g, r, S"
+   ],
+   [
+    "aarohi_nyas",
+    "S, g, P, d"
+   ],
+   [
+    "avarohi_nyas",
+    "d, P, g, S"
+   ],
+   [
+    "vaadi",
+    "d"
+   ],
+   [
+    "samvaadi",
+    "g"
+   ],
+   [
+    "thaat",
+    "Bhairavi"
+   ],
+   [
+    "prahar",
+    "day 1st"
+   ]
+  ],
+  "bihag": [
+   [
+    "name",
+    "Bihag"
+   ],
+   [
+    "aaroha",
+    "S, G, m, P, N, `S"
+   ],
+   [
+    "avaroha",
+    "`S, N, D, P, M, P, G, m, G, R, S, `S, N, D, P, M, G, m, G, R, S"
+   ],
+   [
+    "mukhyanga",
+    "-- ,N, S, G\n-- G, m, G\n-- P, M, P, G, m, G\n-- P, M, G, m, G, R, S"
+   ],
+   [
+    "aarohi_nyas",
+    "S, G, P, N"
+   ],
+   [
+    "avarohi_nyas",
+    "`S, N, P, G"
+   ],
+   [
+    "vaadi",
+    "G"
+   ],
+   [
+    "samvaadi",
+    "N"
+   ],
+   [
+    "thaat",
+    "Kalyan"
+   ],
+   [
+    "prahar",
+    "day 2nd"
+   ]
+  ],
+  "bihagda": [
+   [
+    "name",
+    "Bihagda"
+   ],
+   [
+    "aaroha",
+    "S, G, m, P, N, `S"
+   ],
+   [
+    "avaroha",
+    "`S, N, D, P, P, D, n, D, P, G, m, G, P, m, G, R, S"
+   ],
+   [
+    "mukhyanga",
+    "-- S, G, m, P\n-- m, P, G, R, S\n-- G, m, n, D, P\n-- G, m, G\n-- G, m, P, N, `S\n-- `S, N, P\n-- D, n, D, P\n-- G, m, G\n-- m, P, m, P, G, R, S"
+   ],
+   [
+    "aarohi_nyas",
+    "G, m, N"
+   ],
+   [
+    "avarohi_nyas",
+    "G, m, N"
+   ],
+   [
+    "vaadi",
+    "G"
+   ],
+   [
+    "samvaadi",
+    "S"
+   ],
+   [
+    "thaat",
+    "Bilawal"
+   ],
+   [
+    "prahar",
+    "day 2nd"
+   ]
+  ],
+  "bilaskhani todi": [
+   [
+    "name",
+    "Bilaskhani Todi"
+   ],
+   [
+    "aaroha",
+    "S, r, g, P, d, `S"
+   ],
+   [
+    "avaroha",
+    "`S, `r, n, d, P, P, d, n, d, m, g, r, r, g, r, S"
+   ],
+   [
+    "mukhyanga",
+    "-- S, r, ,n, ,d, S\n-- S, r, g\n-- r, g, P\n-- P, d, n, d\n-- d, m, g, r\n-- g, r, S"
+   ],
+   [
+    "aarohi_nyas",
+    "S, g, P, d"
+   ],
+   [
+    "avarohi_nyas",
+    "d, P, g, S"
+   ],
+   [
+    "vaadi",
+    "d"
+   ],
+   [
+    "samvaadi",
+    "g"
+   ],
+   [
+    "thaat",
+    "Bhairavi"
+   ],
+   [
+    "prahar",
+    "day 2nd"
+   ]
+  ],
+  "chandrakauns": [
+   [
+    "name",
+    "Chandrakauns"
+   ],
+   [
+    "aaroha",
+    "S, g, m, d, N, `S"
+   ],
+   [
+    "avaroha",
+    "`S, N, d, m, g, m, g, S, ,N, S"
+   ],
+   [
+    "mukhyanga",
+    "-- S, g, m, g, S, ,N\n-- ,N, S\n-- g, m, d, N, `S\n-- N, d, `S\n-- N, d, m, g, m, g, S, ,N, S"
+   ],
+   [
+    "aarohi_nyas",
+    "S, m, N"
+   ],
+   [
+    "avarohi_nyas",
+    "`S, N, m"
+   ],
+   [
+    "vaadi",
+    "m"
+   ],
+   [
+    "samvaadi",
+    "S"
+   ],
+   [
+    "thaat",
+    "Not Defined"
+   ],
+   [
+    "prahar",
+    "night 2nd"
+   ]
+  ],
+  "charukeshi": [
+   [
+    "name",
+    "Charukeshi"
+   ],
+   [
+    "aaroha",
+    "S, R, G, m, P, d, n, `S"
+   ],
+   [
+    "avaroha",
+    "`S, n, d, P, m, G, R, S, ,d, ,n, S"
+   ],
+   [
+    "mukhyanga",
+    "-- ,d, ,n, S, R, G, m, G, R\n-- R, G, m, d, P\n-- R, G, m, R, S"
+   ],
+   [
+    "aarohi_nyas",
+    "R, G, m, P, d"
+   ],
+   [
+    "avarohi_nyas",
+    "R, G, m, P, d"
+   ],
+   [
+    "vaadi",
+    "m"
+   ],
+   [
+    "samvaadi",
+    "S"
+   ],
+   [
+    "thaat",
+    "Not Defined"
+   ],
+   [
+    "prahar",
+    "day 2nd"
+   ]
+  ],
+  "chhayanut": [
+   [
+    "name",
+    "Chhayanut"
+   ],
+   [
+    "aaroha",
+    "S, R, G, R, G, P, m, G, R, S, S, R, G, m, P, D, N, `S"
+   ],
+   [
+    "avaroha",
+    "`S, N, D, P, M, P, D, P, R, G, m, P, m, G, R, S"
+   ],
+   [
+    "mukhyanga",
+    "-- ,P, R, R\n-- R, G, m, P\n-- G, m, R, S\n-- `S, P, R, G\n-- m, G, m, R, S, R, S"
+   ],
+   [
+    "aarohi_nyas",
+    "R, G, P"
+   ],
+   [
+    "avarohi_nyas",
+    "`S, P, R"
+   ],
+   [
+    "vaadi",
+    "P"
+   ],
+   [
+    "samvaadi",
+    "R"
+   ],
+   [
+    "thaat",
+    "Kalyan"
+   ],
+   [
+    "prahar",
+    "day 2nd"
+   ]
+  ],
+  "darbari kanada": [
+   [
+    "name",
+    "Darbari Kanada"
+   ],
+   [
+    "aaroha",
+    "S, R, g, m, P, d, n, `S"
+   ],
+   [
+    "avaroha",
+    "`S, d, n, P, m, P, g, m, R, S"
+   ],
+   [
+    "mukhyanga",
+    "-- S, R, g, R, g\n-- m, P, d, P, d, n, P\n-- n, m, P, `S\n-- `S, n, d, n, P, m, P, m, g, m, R, S\n-- ,d, ,n, S"
+   ],
+   [
+    "aarohi_nyas",
+    "S, R, P"
+   ],
+   [
+    "avarohi_nyas",
+    "`S, P, R"
+   ],
+   [
+    "vaadi",
+    "R"
+   ],
+   [
+    "samvaadi",
+    "P"
+   ],
+   [
+    "thaat",
+    "Asawari"
+   ],
+   [
+    "prahar",
+    "day 3rd"
+   ]
+  ],
+  "des": [
+   [
+    "name",
+    "Des"
+   ],
+   [
+    "aaroha",
+    "S, R, m, P, N, `S"
+   ],
+   [
+    "avaroha",
+    "`S, n, D, P, D, m, G, R, G, ,N, S"
+   ],
+   [
+    "mukhyanga",
+    "-- D, S, m, G, R\n-- G, ,N, S, S\n-- R, m, P, N\n-- `S, `R, n, "
+   ],
+   [
+    "aarohi_nyas",
+    "R, P, N, `S"
+   ],
+   [
+    "avarohi_nyas",
+    "`S, P, R"
+   ],
+   [
+    "vaadi",
+    "R"
+   ],
+   [
+    "samvaadi",
+    "P"
+   ],
+   [
+    "thaat",
+    "Khamaj"
+   ],
+   [
+    "prahar",
+    "night 2nd"
+   ]
+  ],
+  "deshkar": [
+   [
+    "name",
+    "Deshkar"
+   ],
+   [
+    "aaroha",
+    "S, R, G, P, D, `S"
+   ],
+   [
+    "avaroha",
+    "`S, D, P, D, G, P, G, R, S"
+   ],
+   [
+    "mukhyanga",
+    "-- S, R, G, P, D\n-- D, G, P\n-- `S, D\n-- P, D, G, P\n-- G, R, S\n-- ,"
+   ],
+   [
+    "aarohi_nyas",
+    "P, D, `S"
+   ],
+   [
+    "avarohi_nyas",
+    "`S, D, P"
+   ],
+   [
+    "vaadi",
+    "D"
+   ],
+   [
+    "samvaadi",
+    "G"
+   ],
+   [
+    "thaat",
+    "Bilawal"
+   ],
+   [
+    "prahar",
+    "day 1st"
+   ]
+  ],
+  "desi": [
+   [
+    "name",
+    "Desi"
+   ],
+   [
+    "aaroha",
+    "S, R, m, P, n, `S"
+   ],
+   [
+    "avaroha",
+    "`S, P, D, m, P, R, g, S, R, ,n, S"
+   ],
+   [
+    "mukhyanga",
+    "-- R, m, P\n-- D, m, P, `S\n-- `S, P, D, m, P\n-- R, g, S, R, ,n, S"
+   ],
+   [
+    "aarohi_nyas",
+    "S, R, P"
+   ],
+   [
+    "avarohi_nyas",
+    "P, R, S"
+   ],
+   [
+    "vaadi",
+    "P"
+   ],
+   [
+    "samvaadi",
+    "S"
+   ],
+   [
+    "thaat",
+    "Kafi"
+   ],
+   [
+    "prahar",
+    "day 1st"
+   ]
+  ],
+  "dev gandhar": [
+   [
+    "name",
+    "Dev Gandhar"
+   ],
+   [
+    "aaroha",
+    "S, R, G, m, P, m, g, R, G, m, P, d, n, `S"
+   ],
+   [
+    "avaroha",
+    "`S, n, d, P, m, P, g, R, G, m, g, R, S"
+   ],
+   [
+    "mukhyanga",
+    "-- ,d, ,n, S, R, G, m, G, m\n-- d, m, P, n, d, P\n-- d, m, P, g, R, S\n-- R, G, m\n-- P, g, R, S\n-- d, m, P, g, R, G, m, g, R, S"
+   ],
+   [
+    "aarohi_nyas",
+    "G, m, P"
+   ],
+   [
+    "avarohi_nyas",
+    "`S, P, R"
+   ],
+   [
+    "vaadi",
+    "d"
+   ],
+   [
+    "samvaadi",
+    "G"
+   ],
+   [
+    "thaat",
+    "Asawari"
+   ],
+   [
+    "prahar",
+    "day 2nd"
+   ]
+  ],
+  "devgiri bilawal": [
+   [
+    "name",
+    "Devgiri Bilawal"
+   ],
+   [
+    "aaroha",
+    "S, R, G, P, D, N, `S"
+   ],
+   [
+    "avaroha",
+    "`S, N, D, P, D, n, D, P, m, G, R, S, ,N, S, ,D, ,P, G, R, S"
+   ],
+   [
+    "mukhyanga",
+    "-- S\n-- ,D, ,N, ,D, S, R, G\n-- G, R, S\n-- ,D, ,P, G\n-- ,N, R, G, m, G\n-- G, P, m\n-- G, R, S"
+   ],
+   [
+    "aarohi_nyas",
+    "S, G, P"
+   ],
+   [
+    "avarohi_nyas",
+    "P, G, `S"
+   ],
+   [
+    "vaadi",
+    "S"
+   ],
+   [
+    "samvaadi",
+    "P"
+   ],
+   [
+    "thaat",
+    "Bilawal"
+   ],
+   [
+    "prahar",
+    "day 1st"
+   ]
+  ],
+  "devshree": [
+   [
+    "name",
+    "Devshree"
+   ],
+   [
+    "aaroha",
+    "S, R, M, P, n, `S"
+   ],
+   [
+    "avaroha",
+    "`S, n, P, M, R, S"
+   ],
+   [
+    "mukhyanga",
+    "-- R, M, P\n-- M, P, n, P\n-- M, R, S\n-- ,n, ,P, ,n, S"
+   ],
+   [
+    "aarohi_nyas",
+    "R, P, n"
+   ],
+   [
+    "avarohi_nyas",
+    "n, P, R"
+   ],
+   [
+    "vaadi",
+    "P"
+   ],
+   [
+    "samvaadi",
+    "R"
+   ],
+   [
+    "thaat",
+    "Kalyan"
+   ],
+   [
+    "prahar",
+    "day 2nd"
+   ]
+  ],
+  "dhanashree (bhairavi ang)": [
+   [
+    "name",
+    "Dhanashree (Bhairavi Ang)"
+   ],
+   [
+    "aaroha",
+    ",n, S, g, m, P, n, `S"
+   ],
+   [
+    "avaroha",
+    "`S, n, d, P, m, P, g, m, g, r, S"
+   ],
+   [
+    "mukhyanga",
+    "-- S\n-- g, m, P, n, d, P\n-- P, d, m, P, g\n-- m, g, r, S\n-- g, m, P, g, r, S"
+   ],
+   [
+    "aarohi_nyas",
+    "S, P"
+   ],
+   [
+    "avarohi_nyas",
+    "`S, P, g"
+   ],
+   [
+    "vaadi",
+    "P"
+   ],
+   [
+    "samvaadi",
+    "S"
+   ],
+   [
+    "thaat",
+    "Bhairavi"
+   ],
+   [
+    "prahar",
+    "day 3rd"
+   ]
+  ],
+  "dhani": [
+   [
+    "name",
+    "Dhani"
+   ],
+   [
+    "aaroha",
+    "S, g, m, P, n, `S"
+   ],
+   [
+    "avaroha",
+    "`S, n, P, m, g, S"
+   ],
+   [
+    "mukhyanga",
+    "-- ,n, S, g\n-- S, g, m, P, g\n-- n, P, g, S"
+   ],
+   [
+    "aarohi_nyas",
+    "g, n"
+   ],
+   [
+    "avarohi_nyas",
+    "g, n"
+   ],
+   [
+    "vaadi",
+    "g"
+   ],
+   [
+    "samvaadi",
+    "n"
+   ],
+   [
+    "thaat",
+    "Kafi"
+   ],
+   [
+    "prahar",
+    "day 3rd"
+   ]
+  ],
+  "durga": [
+   [
+    "name",
+    "Durga"
+   ],
+   [
+    "aaroha",
+    "S, R, m, P, D, `S"
+   ],
+   [
+    "avaroha",
+    "`S, D, P, D, m, R, S, ,D, S"
+   ],
+   [
+    "mukhyanga",
+    "-- m, P, D\n-- m, R, ,D, S\n-- R, R, P"
+   ],
+   [
+    "aarohi_nyas",
+    "S, R, P, D"
+   ],
+   [
+    "avarohi_nyas",
+    "`S, D, m, R"
+   ],
+   [
+    "vaadi",
+    "m"
+   ],
+   [
+    "samvaadi",
+    "S"
+   ],
+   [
+    "thaat",
+    "Bilawal"
+   ],
+   [
+    "prahar",
+    "day 2nd"
+   ]
+  ],
+  "gaud malhar": [
+   [
+    "name",
+    "Gaud Malhar"
+   ],
+   [
+    "aaroha",
+    "S, R, G, m, R, P, m, P, D, N, `S"
+   ],
+   [
+    "avaroha",
+    "`S, n, D, n, P, m, G, R, G, R, S, R, G, m"
+   ],
+   [
+    "mukhyanga",
+    "-- S, R, G, m\n-- R, G, m, G, m\n-- G, R, G, R, S\n-- m, P, D, n, P\n-- m, P, D, N, `S"
+   ],
+   [
+    "aarohi_nyas",
+    "S, m, P"
+   ],
+   [
+    "avarohi_nyas",
+    "`S, P, m"
+   ],
+   [
+    "vaadi",
+    "m"
+   ],
+   [
+    "samvaadi",
+    "S"
+   ],
+   [
+    "thaat",
+    "Bilawal"
+   ],
+   [
+    "prahar",
+    "night 2nd"
+   ]
+  ],
+  "gaud sarang": [
+   [
+    "name",
+    "Gaud Sarang"
+   ],
+   [
+    "aaroha",
+    "S, G, R, m, G, D, P, N, D, `S"
+   ],
+   [
+    "avaroha",
+    "`S, N, D, P, M, P, D, P, G, R, m, G, P, R, S"
+   ],
+   [
+    "mukhyanga",
+    "-- S, G, R, m, G, P, R, S\n-- m, G, P\n-- D, P, `S\n-- `S, D, P, m, G\n-- G, R, m, G, P, R, S"
+   ],
+   [
+    "aarohi_nyas",
+    "G, P, `S"
+   ],
+   [
+    "avarohi_nyas",
+    "`S, P, G"
+   ],
+   [
+    "vaadi",
+    "G"
+   ],
+   [
+    "samvaadi",
+    "D"
+   ],
+   [
+    "thaat",
+    "Kalyan"
+   ],
+   [
+    "prahar",
+    "day 3rd"
+   ]
+  ],
+  "gauri (bhairav ang)": [
+   [
+    "name",
+    "Gauri (Bhairav Ang)"
+   ],
+   [
+    "aaroha",
+    "S, r, ,N, S, S, r, G, m, P, d, P, P, d, N, `S"
+   ],
+   [
+    "avaroha",
+    "`S, N, d, P, m, G, r, G, m, G, r, S, r, ,N, S, ,d, ,N, ,d, S, ,N, S"
+   ],
+   [
+    "mukhyanga",
+    "-- S, r, S, ,N, S, G, r\n-- m, G, r, S, r, ,N, S"
+   ],
+   [
+    "aarohi_nyas",
+    ""
+   ],
+   [
+    "avarohi_nyas",
+    ""
+   ],
+   [
+    "vaadi",
+    "r"
+   ],
+   [
+    "samvaadi",
+    "P"
+   ],
+   [
+    "thaat",
+    "Bhairav"
+   ],
+   [
+    "prahar",
+    "day 4th"
+   ]
+  ],
+  "gopika basant": [
+   [
+    "name",
+    "Gopika Basant"
+   ],
+   [
+    "aaroha",
+    "S, g, m, P, m, g, g, m, d, n, `S"
+   ],
+   [
+    "avaroha",
+    "`S, n, d, m, P, g, m, P, m, g, S, ,d, ,n, S, g, m, g, S"
+   ],
+   [
+    "mukhyanga",
+    "-- ,d, ,n, S, g, m, P\n-- n, d, m, P, g, m, g, S\n-- g, m, d, n, d, P\n-- d, m, P, g, m, g, S\n-- ,d, ,n, S"
+   ],
+   [
+    "aarohi_nyas",
+    "S, m"
+   ],
+   [
+    "avarohi_nyas",
+    "`S, P, g"
+   ],
+   [
+    "vaadi",
+    "S"
+   ],
+   [
+    "samvaadi",
+    "P"
+   ],
+   [
+    "thaat",
+    "Asawari"
+   ],
+   [
+    "prahar",
+    "day 1st"
+   ]
+  ],
+  "gorakh kalyan": [
+   [
+    "name",
+    "Gorakh Kalyan"
+   ],
+   [
+    "aaroha",
+    "S, R, m, D, `S"
+   ],
+   [
+    "avaroha",
+    "`S, n, D, m, R, S, ,n, ,n, ,D, R, S"
+   ],
+   [
+    "mukhyanga",
+    "-- S, R, m\n-- R, m, R, S, ,n\n-- ,n, D, S\n-- R, m, D, n, D, `S\n-- `S, n, D, m, R\n-- m, R, S, ,n\n-- ,n, ,D, R, S"
+   ],
+   [
+    "aarohi_nyas",
+    "S, m, D"
+   ],
+   [
+    "avarohi_nyas",
+    "D, m, R, ,n"
+   ],
+   [
+    "vaadi",
+    "m"
+   ],
+   [
+    "samvaadi",
+    "S"
+   ],
+   [
+    "thaat",
+    "Khamaj"
+   ],
+   [
+    "prahar",
+    "day 2nd"
+   ]
+  ],
+  "gunkali": [
+   [
+    "name",
+    "Gunkali"
+   ],
+   [
+    "aaroha",
+    "S, r, m, P, d, `S"
+   ],
+   [
+    "avaroha",
+    "`S, d, P, m, r, r, S, ,d, S"
+   ],
+   [
+    "mukhyanga",
+    "-- S, r, m, P, d\n-- P, d, m, r\n-- r, S, ,d, S\n-- m, P, d, d, `S\n-- d, P, d, m\n-- P, m, r, S"
+   ],
+   [
+    "aarohi_nyas",
+    "S, r, d"
+   ],
+   [
+    "avarohi_nyas",
+    "d, r, S"
+   ],
+   [
+    "vaadi",
+    "d"
+   ],
+   [
+    "samvaadi",
+    "r"
+   ],
+   [
+    "thaat",
+    "Bhairav"
+   ],
+   [
+    "prahar",
+    "day 1st"
+   ]
+  ],
+  "gurjari todi": [
+   [
+    "name",
+    "Gurjari Todi"
+   ],
+   [
+    "aaroha",
+    "S, r, g, M, d, N, `S"
+   ],
+   [
+    "avaroha",
+    "`S, N, d, M, d, M, g, r, g, r, S, ,d, ,N, S"
+   ],
+   [
+    "mukhyanga",
+    "-- S, r, ,N, ,d, S\n-- r, g, M, d\n-- M, d, N, d\n-- N, d, M, g, r\n-- g, r, S"
+   ],
+   [
+    "aarohi_nyas",
+    "r, g, d, `S"
+   ],
+   [
+    "avarohi_nyas",
+    "r, g, d, `S"
+   ],
+   [
+    "vaadi",
+    "d"
+   ],
+   [
+    "samvaadi",
+    "r"
+   ],
+   [
+    "thaat",
+    "Todi"
+   ],
+   [
+    "prahar",
+    "day 2nd"
+   ]
+  ],
+  "hameer": [
+   [
+    "name",
+    "Hameer"
+   ],
+   [
+    "aaroha",
+    "S, G, m, D, N, D, `S"
+   ],
+   [
+    "avaroha",
+    "`S, N, D, P, M, P, D, P, G, m, P, G, m, R, S"
+   ],
+   [
+    "mukhyanga",
+    "-- P\n-- G, m, N, D\n-- D, P\n-- G, m, P, G, m, R, S"
+   ],
+   [
+    "aarohi_nyas",
+    "S, D, `S"
+   ],
+   [
+    "avarohi_nyas",
+    "`S, D, P, R"
+   ],
+   [
+    "vaadi",
+    "D"
+   ],
+   [
+    "samvaadi",
+    "G"
+   ],
+   [
+    "thaat",
+    "Kalyan"
+   ],
+   [
+    "prahar",
+    "day 2nd"
+   ]
+  ],
+  "hans dhwani": [
+   [
+    "name",
+    "Hans Dhwani"
+   ],
+   [
+    "aaroha",
+    "S, R, G, P, N, `S"
+   ],
+   [
+    "avaroha",
+    "`S, N, P, G, R, S, ,N, ,P, ,N, R, S"
+   ],
+   [
+    "mukhyanga",
+    "-- ,N, R, G, P, G, R, G, P, N, `S\n-- `S, N, P, G, R, G, P, G, "
+   ],
+   [
+    "aarohi_nyas",
+    "G, P, N"
+   ],
+   [
+    "avarohi_nyas",
+    "`S, N, P, G"
+   ],
+   [
+    "vaadi",
+    "S"
+   ],
+   [
+    "samvaadi",
+    "P"
+   ],
+   [
+    "thaat",
+    "Bilawal"
+   ],
+   [
+    "prahar",
+    "day 2nd"
+   ]
+  ],
+  "hans kinkini": [
+   [
+    "name",
+    "Hans Kinkini"
+   ],
+   [
+    "aaroha",
+    ",N, S, G, m, P, N, `S"
+   ],
+   [
+    "avaroha",
+    "`S, n, D, P, m, P, G, m, P, g, R, S, ,N, S"
+   ],
+   [
+    "mukhyanga",
+    "-- G, m, D, P\n-- m, P, g, R, S\n-- ,N, S, G, m, P, P\n-- m, P\n-- m, n, D, P\n-- D, P, m, P\n-- G, m, D, P, g, R, S"
+   ],
+   [
+    "aarohi_nyas",
+    "R, P, N"
+   ],
+   [
+    "avarohi_nyas",
+    "`S, N, P, R"
+   ],
+   [
+    "vaadi",
+    "P"
+   ],
+   [
+    "samvaadi",
+    "S"
+   ],
+   [
+    "thaat",
+    "Kafi"
+   ],
+   [
+    "prahar",
+    "day 3rd"
+   ]
+  ],
+  "harikauns": [
+   [
+    "name",
+    "Harikauns"
+   ],
+   [
+    "aaroha",
+    "S, g, M, D, n, `S"
+   ],
+   [
+    "avaroha",
+    "`S, n, D, M, g, S"
+   ],
+   [
+    "mukhyanga",
+    "-- S, ,D, ,n, S\n-- g, M, g, S\n-- g, M, D, n, `S\n-- `S, n, D, M, g, S\n-- g, M, g, S, ,n, S, ,D, ,n, g, S"
+   ],
+   [
+    "aarohi_nyas",
+    "S, g, D"
+   ],
+   [
+    "avarohi_nyas",
+    "D, g, S"
+   ],
+   [
+    "vaadi",
+    "g"
+   ],
+   [
+    "samvaadi",
+    "n"
+   ],
+   [
+    "thaat",
+    "Kafi"
+   ],
+   [
+    "prahar",
+    "day 2nd"
+   ]
+  ],
+  "hemant": [
+   [
+    "name",
+    "Hemant"
+   ],
+   [
+    "aaroha",
+    "S, G, m, D, N, `S"
+   ],
+   [
+    "avaroha",
+    "`S, N, D, P, m, G, R, S"
+   ],
+   [
+    "mukhyanga",
+    "-- G, m, D, N, D\n-- m, P, m\n-- N, D, P, m\n-- G, m, G, R, S\n-- G, m, D, P, m, G, R, S"
+   ],
+   [
+    "aarohi_nyas",
+    "S, G, m, D, N"
+   ],
+   [
+    "avarohi_nyas",
+    "S, G, m, D, N"
+   ],
+   [
+    "vaadi",
+    "m"
+   ],
+   [
+    "samvaadi",
+    "S"
+   ],
+   [
+    "thaat",
+    "Bilawal"
+   ],
+   [
+    "prahar",
+    "day 2nd"
+   ]
+  ],
+  "hemshri": [
+   [
+    "name",
+    "Hemshri"
+   ],
+   [
+    "aaroha",
+    ",N, S, g, m, P, N, `S"
+   ],
+   [
+    "avaroha",
+    "`S, n, P, m, g, m, g, S, ,N, ,N, S"
+   ],
+   [
+    "mukhyanga",
+    "-- ,N, S, g, m, P\n-- m, g, S, g, ,N, S\n-- g, m, P, `S\n-- n, P\n-- m\n-- P, m, g, m, P\n-- g, P, m, g, S, g, ,"
+   ],
+   [
+    "aarohi_nyas",
+    "S, m, P"
+   ],
+   [
+    "avarohi_nyas",
+    "`S, P, m"
+   ],
+   [
+    "vaadi",
+    "N"
+   ],
+   [
+    "samvaadi",
+    "g"
+   ],
+   [
+    "thaat",
+    "Kafi"
+   ],
+   [
+    "prahar",
+    "night 2nd"
+   ]
+  ],
+  "hindol": [
+   [
+    "name",
+    "Hindol"
+   ],
+   [
+    "aaroha",
+    "S, G, M, D, N, M, D, `S"
+   ],
+   [
+    "avaroha",
+    "`S, N, D, M, G, M, G, S, ,D, S"
+   ],
+   [
+    "mukhyanga",
+    "-- D, D, N, M, D, `S\n-- D, M, G\n-- S, ,D, ,"
+   ],
+   [
+    "aarohi_nyas",
+    "G, D, `S"
+   ],
+   [
+    "avarohi_nyas",
+    "D, G"
+   ],
+   [
+    "vaadi",
+    "D"
+   ],
+   [
+    "samvaadi",
+    "G"
+   ],
+   [
+    "thaat",
+    "Kalyan"
+   ],
+   [
+    "prahar",
+    "day 3rd"
+   ]
+  ],
+  "jaijaivanti": [
+   [
+    "name",
+    "Jaijaivanti"
+   ],
+   [
+    "aaroha",
+    "S, ,D, ,n, R, R, g, R, S, G, m, P, m, G, R, R, m, P, N, `S"
+   ],
+   [
+    "avaroha",
+    "`S, n, D, P, m, G, R, g, R, S, ,N, S, ,D, ,n, R, S"
+   ],
+   [
+    "mukhyanga",
+    "-- ,D, ,n, R\n-- R, g, R, S\n-- ,N, S\n-- R, m, P, N\n-- n, "
+   ],
+   [
+    "aarohi_nyas",
+    "S, R, P, N"
+   ],
+   [
+    "avarohi_nyas",
+    "`S, P, R"
+   ],
+   [
+    "vaadi",
+    "R"
+   ],
+   [
+    "samvaadi",
+    "P"
+   ],
+   [
+    "thaat",
+    "Kafi"
+   ],
+   [
+    "prahar",
+    "night 2nd"
+   ]
+  ],
+  "jaldhar kedar": [
+   [
+    "name",
+    "Jaldhar Kedar"
+   ],
+   [
+    "aaroha",
+    "S, R, m, P, D, `S"
+   ],
+   [
+    "avaroha",
+    "`S, D, P, m, R, S"
+   ],
+   [
+    "mukhyanga",
+    "-- S, R, S, m\n-- m, R, P, m\n-- m, P, D, `S\n-- `R, `S, D, P, m\n-- P, m, R, S"
+   ],
+   [
+    "aarohi_nyas",
+    "m, S"
+   ],
+   [
+    "avarohi_nyas",
+    "m, S"
+   ],
+   [
+    "vaadi",
+    "m"
+   ],
+   [
+    "samvaadi",
+    "S"
+   ],
+   [
+    "thaat",
+    "Bilawal"
+   ],
+   [
+    "prahar",
+    "night 2nd"
+   ]
+  ],
+  "jaunpuri": [
+   [
+    "name",
+    "Jaunpuri"
+   ],
+   [
+    "aaroha",
+    "S, R, m, P, d, n, `S"
+   ],
+   [
+    "avaroha",
+    "`S, n, d, P, m, g, R, S"
+   ],
+   [
+    "mukhyanga",
+    "-- R, m, P, d, m, P, `S\n-- `R, n, d, P\n-- m, P, n, d, P\n-- d, m, P, g, R, m, P"
+   ],
+   [
+    "aarohi_nyas",
+    "R, P, d, `S"
+   ],
+   [
+    "avarohi_nyas",
+    "d, P, g, R"
+   ],
+   [
+    "vaadi",
+    "d"
+   ],
+   [
+    "samvaadi",
+    "g"
+   ],
+   [
+    "thaat",
+    "Asawari"
+   ],
+   [
+    "prahar",
+    "day 2nd"
+   ]
+  ],
+  "jayat": [
+   [
+    "name",
+    "Jayat"
+   ],
+   [
+    "aaroha",
+    "S, r, G, P, D, P, `S"
+   ],
+   [
+    "avaroha",
+    "`S, P, D, P, P, D, G, P, P, G, r, S"
+   ],
+   [
+    "mukhyanga",
+    "-- P, D, P, `S\n-- `S, P\n-- P, D, G, P\n-- P, G, r, S"
+   ],
+   [
+    "aarohi_nyas",
+    "S, G, P"
+   ],
+   [
+    "avarohi_nyas",
+    "S, G, P"
+   ],
+   [
+    "vaadi",
+    "P"
+   ],
+   [
+    "samvaadi",
+    "S"
+   ],
+   [
+    "thaat",
+    "Marwa"
+   ],
+   [
+    "prahar",
+    "day 1st"
+   ]
+  ],
+  "jhinjhoti": [
+   [
+    "name",
+    "Jhinjhoti"
+   ],
+   [
+    "aaroha",
+    "S, R, m, P, D, `S"
+   ],
+   [
+    "avaroha",
+    "`S, n, D, P, m, G, R, G, S"
+   ],
+   [
+    "mukhyanga",
+    "-- ,D, S, R, m, G\n-- R, G, S, R, ,n, ,D, ,P, ,D, S\n-- ,P, ,D, S, R, G, m, G\n-- m, G, R, S\n-- R, ,n, ,D, S"
+   ],
+   [
+    "aarohi_nyas",
+    "S, P, D"
+   ],
+   [
+    "avarohi_nyas",
+    "`S, P, G"
+   ],
+   [
+    "vaadi",
+    "G"
+   ],
+   [
+    "samvaadi",
+    "n"
+   ],
+   [
+    "thaat",
+    "Khamaj"
+   ],
+   [
+    "prahar",
+    "night 2nd"
+   ]
+  ],
+  "jog": [
+   [
+    "name",
+    "Jog"
+   ],
+   [
+    "aaroha",
+    "S, G, m, P, n, `S"
+   ],
+   [
+    "avaroha",
+    "`S, n, P, m, g, S, ,n, S"
+   ],
+   [
+    "mukhyanga",
+    "-- G, m, P, n, P\n-- P, n, P, m, G, m\n-- G, m, g, S"
+   ],
+   [
+    "aarohi_nyas",
+    "G, m, P"
+   ],
+   [
+    "avarohi_nyas",
+    "P, m, G"
+   ],
+   [
+    "vaadi",
+    "m"
+   ],
+   [
+    "samvaadi",
+    "S"
+   ],
+   [
+    "thaat",
+    "Kafi"
+   ],
+   [
+    "prahar",
+    "night 2nd"
+   ]
+  ],
+  "jogeshwari": [
+   [
+    "name",
+    "Jogeshwari"
+   ],
+   [
+    "aaroha",
+    "S, G, m, D, n, `S"
+   ],
+   [
+    "avaroha",
+    "`S, n, D, m, G, m, g, S"
+   ],
+   [
+    "mukhyanga",
+    "-- S, G, m, g, S\n-- ,n, ,D\n-- ,m, ,D, ,n, S\n-- S, G, m\n-- n, D, m\n-- D, n, `S\n-- `S, D\n-- n, m\n-- D, G\n-- m, g, S"
+   ],
+   [
+    "aarohi_nyas",
+    "S, G, m, D"
+   ],
+   [
+    "avarohi_nyas",
+    "D, m, G, S"
+   ],
+   [
+    "vaadi",
+    "m"
+   ],
+   [
+    "samvaadi",
+    "S"
+   ],
+   [
+    "thaat",
+    "Kafi"
+   ],
+   [
+    "prahar",
+    "night 2nd"
+   ]
+  ],
+  "jogiya": [
+   [
+    "name",
+    "Jogiya"
+   ],
+   [
+    "aaroha",
+    "S, r, m, P, d, `S"
+   ],
+   [
+    "avaroha",
+    "`S, N, d, P, m, m, r, S"
+   ],
+   [
+    "mukhyanga",
+    "-- r, m, m\n-- m, P, d\n-- P, d, N, d, P\n-- P, d, m, r, S"
+   ],
+   [
+    "aarohi_nyas",
+    "S, m, P, d"
+   ],
+   [
+    "avarohi_nyas",
+    "`S, d, m, r"
+   ],
+   [
+    "vaadi",
+    "m"
+   ],
+   [
+    "samvaadi",
+    "S"
+   ],
+   [
+    "thaat",
+    "Bhairav"
+   ],
+   [
+    "prahar",
+    "day 1st"
+   ]
+  ],
+  "jogkauns": [
+   [
+    "name",
+    "Jogkauns"
+   ],
+   [
+    "aaroha",
+    "S, G, m, d, N, `S"
+   ],
+   [
+    "avaroha",
+    "`S, N, d, P, m, P, d, n, d, P, m, G, m, S, g, S"
+   ],
+   [
+    "mukhyanga",
+    "-- G, m\n-- G, m, P, m\n-- G, m, d, N, `S\n-- `S, N, d\n-- P, d, n, d, m, P, m\n-- G, m, S, g, S"
+   ],
+   [
+    "aarohi_nyas",
+    "S, m"
+   ],
+   [
+    "avarohi_nyas",
+    "m, S"
+   ],
+   [
+    "vaadi",
+    "m"
+   ],
+   [
+    "samvaadi",
+    "S"
+   ],
+   [
+    "thaat",
+    "Bhairavi"
+   ],
+   [
+    "prahar",
+    "day 3rd"
+   ]
+  ],
+  "kafi": [
+   [
+    "name",
+    "Kafi"
+   ],
+   [
+    "aaroha",
+    "S, R, g, m, P, D, n, `S"
+   ],
+   [
+    "avaroha",
+    "`S, n, D, P, m, g, R, S"
+   ],
+   [
+    "mukhyanga",
+    "-- g, R\n-- m, P\n-- m, P, D, P\n-- D, n, `S\n-- n, D, P\n-- S, R, m, P\n-- D, m, P, g, R"
+   ],
+   [
+    "aarohi_nyas",
+    "S, P"
+   ],
+   [
+    "avarohi_nyas",
+    "`S, P, R"
+   ],
+   [
+    "vaadi",
+    "P"
+   ],
+   [
+    "samvaadi",
+    "S"
+   ],
+   [
+    "thaat",
+    "Kafi"
+   ],
+   [
+    "prahar",
+    "day 2nd"
+   ]
+  ],
+  "kalawati": [
+   [
+    "name",
+    "Kalawati"
+   ],
+   [
+    "aaroha",
+    "S, G, P, D, n, `S"
+   ],
+   [
+    "avaroha",
+    "`S, n, D, P, G, P, G, S, ,n, ,D, S"
+   ],
+   [
+    "mukhyanga",
+    "-- S, G, P, D\n-- P, D, n, D\n-- D, P\n-- G, P, D, S, n\n-- D, n, S\n-- n, P\n-- D, G\n-- P, G, S\n-- n, D, S"
+   ],
+   [
+    "aarohi_nyas",
+    "G, D"
+   ],
+   [
+    "avarohi_nyas",
+    "D, G"
+   ],
+   [
+    "vaadi",
+    "P"
+   ],
+   [
+    "samvaadi",
+    "S"
+   ],
+   [
+    "thaat",
+    "Khamaj"
+   ],
+   [
+    "prahar",
+    "night 1st"
+   ]
+  ],
+  "kamod": [
+   [
+    "name",
+    "Kamod"
+   ],
+   [
+    "aaroha",
+    "S, R, P, G, m, R, S, m, R, P, D, N, `S"
+   ],
+   [
+    "avaroha",
+    "`S, N, D, P, M, P, D, P, G, m, P, G, m, R, S"
+   ],
+   [
+    "mukhyanga",
+    "-- S, m, R, R, P\n-- G, m, P, G, m, R, S\n-- `S, `R, `S\n-- D, D, P\n-- m, R, P\n-- D, M, P\n-- G, m, R, S"
+   ],
+   [
+    "aarohi_nyas",
+    "S, R, P"
+   ],
+   [
+    "avarohi_nyas",
+    "`S, P, R"
+   ],
+   [
+    "vaadi",
+    "P"
+   ],
+   [
+    "samvaadi",
+    "R"
+   ],
+   [
+    "thaat",
+    "Kalyan"
+   ],
+   [
+    "prahar",
+    "night 1st"
+   ]
+  ],
+  "kaushik dhwani (bhinn shadj)": [
+   [
+    "name",
+    "Kaushik Dhwani (Bhinn Shadj)"
+   ],
+   [
+    "aaroha",
+    "S, G, m, D, N, `S"
+   ],
+   [
+    "avaroha",
+    "`S, N, D, m, G, S"
+   ],
+   [
+    "mukhyanga",
+    "-- G, m, D, N, D, `S\n-- N, `S, D\n-- G, m\n-- D, m, G, S"
+   ],
+   [
+    "aarohi_nyas",
+    "S, G, m, D, N"
+   ],
+   [
+    "avarohi_nyas",
+    "S, G, m, D, N"
+   ],
+   [
+    "vaadi",
+    "m"
+   ],
+   [
+    "samvaadi",
+    "S"
+   ],
+   [
+    "thaat",
+    "Bilawal"
+   ],
+   [
+    "prahar",
+    "day 2nd"
+   ]
+  ],
+  "kausi kanada": [
+   [
+    "name",
+    "Kausi Kanada"
+   ],
+   [
+    "aaroha",
+    ",n, S, g, m, d, n, `S"
+   ],
+   [
+    "avaroha",
+    "`S, n, d, P, m, g, R, g, m, R, S"
+   ],
+   [
+    "mukhyanga",
+    "-- g, m, d, P\n-- m, g, R\n-- g, m, S\n-- g, m, P, m, g, R\n-- g, S, ,d, ,n, R, S"
+   ],
+   [
+    "aarohi_nyas",
+    "S, m"
+   ],
+   [
+    "avarohi_nyas",
+    "`S, m"
+   ],
+   [
+    "vaadi",
+    "m"
+   ],
+   [
+    "samvaadi",
+    "S"
+   ],
+   [
+    "thaat",
+    "Asawari"
+   ],
+   [
+    "prahar",
+    "day 1st"
+   ]
+  ],
+  "kedar": [
+   [
+    "name",
+    "Kedar"
+   ],
+   [
+    "aaroha",
+    "S, M, P, D, N, `S"
+   ],
+   [
+    "avaroha",
+    "`S, N, D, P, M, P, D, P, m, m, R, S"
+   ],
+   [
+    "mukhyanga",
+    "-- S, m\n-- m, P\n-- M, P, D, P, m\n-- S, R, S\n-- M, P, D, P, M\n-- P, `S\n-- `S, `R, `S, `S, D, D, P"
+   ],
+   [
+    "aarohi_nyas",
+    "S, m, P"
+   ],
+   [
+    "avarohi_nyas",
+    "`S, P, m"
+   ],
+   [
+    "vaadi",
+    "M"
+   ],
+   [
+    "samvaadi",
+    "S"
+   ],
+   [
+    "thaat",
+    "Kalyan"
+   ],
+   [
+    "prahar",
+    "day 1st"
+   ]
+  ],
+  "keerwani": [
+   [
+    "name",
+    "Keerwani"
+   ],
+   [
+    "aaroha",
+    "S, R, g, m, P, d, N, `S"
+   ],
+   [
+    "avaroha",
+    "`S, N, d, P, m, g, R, S"
+   ],
+   [
+    "mukhyanga",
+    "-- P, d, `S\n-- `S, N, `S, `R, `g, `R, `S, N, d, P\n-- d, P, m, P\n-- P, m, g, R\n-- g, m\n-- g, R, S, ,N, ,d, ,N, R, S"
+   ],
+   [
+    "aarohi_nyas",
+    "S, R, P"
+   ],
+   [
+    "avarohi_nyas",
+    "`S, P, R"
+   ],
+   [
+    "vaadi",
+    "P"
+   ],
+   [
+    "samvaadi",
+    "S"
+   ],
+   [
+    "thaat",
+    "Not Defined"
+   ],
+   [
+    "prahar",
+    "day 2nd"
+   ]
+  ],
+  "khamaj": [
+   [
+    "name",
+    "Khamaj"
+   ],
+   [
+    "aaroha",
+    "S, G, m, P, D, N, `S"
+   ],
+   [
+    "avaroha",
+    "`S, n, D, P, m, G, R, G, S, ,N, S, G, m, P"
+   ],
+   [
+    "mukhyanga",
+    "-- G, m, P, D\n-- G, m, G\n-- P, `S, N, `S\n-- n, D, P\n-- m, P, m, G\n-- "
+   ],
+   [
+    "aarohi_nyas",
+    "S, m, P"
+   ],
+   [
+    "avarohi_nyas",
+    "`S, P, G"
+   ],
+   [
+    "vaadi",
+    "G"
+   ],
+   [
+    "samvaadi",
+    "N"
+   ],
+   [
+    "thaat",
+    "Khamaj"
+   ],
+   [
+    "prahar",
+    "day 2nd"
+   ]
+  ],
+  "khambavati": [
+   [
+    "name",
+    "Khambavati"
+   ],
+   [
+    "aaroha",
+    "S, R, m, P, D, `S"
+   ],
+   [
+    "avaroha",
+    "`S, n, D, P, D, m, P, G, m, S, R, ,n, ,D, S"
+   ],
+   [
+    "mukhyanga",
+    "-- S, R, m, G, m, S\n-- R, m, P, D\n-- n, n, D, P, D, P\n-- m, P, D, `S\n-- P, D, `S, `R, `G, `S\n-- `R, n, D, `S\n-- D, m, P\n-- G, m, S\n-- R, ,n, ,D, S"
+   ],
+   [
+    "aarohi_nyas",
+    "S, P"
+   ],
+   [
+    "avarohi_nyas",
+    "D, P, G, S"
+   ],
+   [
+    "vaadi",
+    "G"
+   ],
+   [
+    "samvaadi",
+    "D"
+   ],
+   [
+    "thaat",
+    "Khamaj"
+   ],
+   [
+    "prahar",
+    "night 2nd"
+   ]
+  ],
+  "komal rishabh asawari": [
+   [
+    "name",
+    "Komal Rishabh Asawari"
+   ],
+   [
+    "aaroha",
+    "S, r, m, P, d, `S"
+   ],
+   [
+    "avaroha",
+    "`S, `r, n, d, m, P, d, m, g, r, g, r, ,n, ,d, r, S"
+   ],
+   [
+    "mukhyanga",
+    "-- m, P, d, `S\n-- `r, n, d, m, g, r\n-- g, r, S"
+   ],
+   [
+    "aarohi_nyas",
+    "S, m, P, d"
+   ],
+   [
+    "avarohi_nyas",
+    "d, m, r"
+   ],
+   [
+    "vaadi",
+    "d"
+   ],
+   [
+    "samvaadi",
+    "r"
+   ],
+   [
+    "thaat",
+    "Bhairavi"
+   ],
+   [
+    "prahar",
+    "day 2nd"
+   ]
+  ],
+  "lalit": [
+   [
+    "name",
+    "Lalit"
+   ],
+   [
+    "aaroha",
+    ",N, r, G, M, d, N, `S"
+   ],
+   [
+    "avaroha",
+    "`S, N, d, M, d, M, m, G, M, G, r, S"
+   ],
+   [
+    "mukhyanga",
+    "-- ,N, r, G, m, M, m, G, r, S\n-- G, M, d, N, d, M, m\n-- `r, N, d, M, m\n-- G, m, M, m\n-- G\n-- M, G, r, S"
+   ],
+   [
+    "aarohi_nyas",
+    "S, G, m"
+   ],
+   [
+    "avarohi_nyas",
+    "`S, m, G"
+   ],
+   [
+    "vaadi",
+    "S"
+   ],
+   [
+    "samvaadi",
+    "S"
+   ],
+   [
+    "thaat",
+    "Poorvi"
+   ],
+   [
+    "prahar",
+    "night 4th"
+   ]
+  ],
+  "lanka dahan sarang": [
+   [
+    "name",
+    "Lanka Dahan Sarang"
+   ],
+   [
+    "aaroha",
+    "S, R, m, P, N, `S"
+   ],
+   [
+    "avaroha",
+    "`S, n, D, P, m, P, D, P, g, R, g, R, S, ,N, S"
+   ],
+   [
+    "mukhyanga",
+    "-- m, P, `S\n-- n, P\n-- m, P\n-- R, g, R, S\n-- ,n, ,P, ,m, ,P, ,N, S"
+   ],
+   [
+    "aarohi_nyas",
+    "R, P, `S"
+   ],
+   [
+    "avarohi_nyas",
+    "`S, P, R"
+   ],
+   [
+    "vaadi",
+    "S"
+   ],
+   [
+    "samvaadi",
+    "m"
+   ],
+   [
+    "thaat",
+    "Kafi"
+   ],
+   [
+    "prahar",
+    "day 2nd"
+   ]
+  ],
+  "madhukauns": [
+   [
+    "name",
+    "Madhukauns"
+   ],
+   [
+    "aaroha",
+    "S, g, M, P, n, `S"
+   ],
+   [
+    "avaroha",
+    "`S, n, P, M, g, S"
+   ],
+   [
+    "mukhyanga",
+    "-- S, g, M\n-- P, M, g, M, P\n-- M, P, n, `S\n-- `S, n, P, M\n-- g, M, g, S"
+   ],
+   [
+    "aarohi_nyas",
+    "M, P, `S"
+   ],
+   [
+    "avarohi_nyas",
+    "P, M, S"
+   ],
+   [
+    "vaadi",
+    "P"
+   ],
+   [
+    "samvaadi",
+    "S"
+   ],
+   [
+    "thaat",
+    "Kafi"
+   ],
+   [
+    "prahar",
+    "day 2nd"
+   ]
+  ],
+  "madhumad sarang": [
+   [
+    "name",
+    "Madhumad Sarang"
+   ],
+   [
+    "aaroha",
+    ",n, S, R, m, P, n, `S"
+   ],
+   [
+    "avaroha",
+    "`S, n, P, m, R, S"
+   ],
+   [
+    "mukhyanga",
+    "-- ,n, S, R\n-- m, R\n-- P, m, R\n-- n, P, m, R\n-- P, m, R, S"
+   ],
+   [
+    "aarohi_nyas",
+    "S, P"
+   ],
+   [
+    "avarohi_nyas",
+    "`S, P"
+   ],
+   [
+    "vaadi",
+    "R"
+   ],
+   [
+    "samvaadi",
+    "P"
+   ],
+   [
+    "thaat",
+    "Kafi"
+   ],
+   [
+    "prahar",
+    "day 1st"
+   ]
+  ],
+  "madhuvanti": [
+   [
+    "name",
+    "Madhuvanti"
+   ],
+   [
+    "aaroha",
+    ",N, S, g, M, P, N, `S"
+   ],
+   [
+    "avaroha",
+    "`S, N, D, P, M, g, M, g, R, S, ,N, S"
+   ],
+   [
+    "mukhyanga",
+    "-- ,N, S, M, g, M, P\n-- M, g, S, R, S"
+   ],
+   [
+    "aarohi_nyas",
+    "S, g, P, N"
+   ],
+   [
+    "avarohi_nyas",
+    "`S, N, P, R"
+   ],
+   [
+    "vaadi",
+    "P"
+   ],
+   [
+    "samvaadi",
+    "S"
+   ],
+   [
+    "thaat",
+    "Todi"
+   ],
+   [
+    "prahar",
+    "day 4th"
+   ]
+  ],
+  "malgunji": [
+   [
+    "name",
+    "Malgunji"
+   ],
+   [
+    "aaroha",
+    "S, R, G, m, D, n, `S"
+   ],
+   [
+    "avaroha",
+    "`S, n, D, P, m, G, R, G, m, g, R, S"
+   ],
+   [
+    "mukhyanga",
+    "-- G, m, g, R, S\n-- ,n, S\n-- ,D, ,n, S, R, G, m"
+   ],
+   [
+    "aarohi_nyas",
+    "S, m"
+   ],
+   [
+    "avarohi_nyas",
+    "m, S"
+   ],
+   [
+    "vaadi",
+    "m"
+   ],
+   [
+    "samvaadi",
+    "S"
+   ],
+   [
+    "thaat",
+    "Kafi"
+   ],
+   [
+    "prahar",
+    "day 3rd"
+   ]
+  ],
+  "malhar": [
+   [
+    "name",
+    "Malhar"
+   ],
+   [
+    "aaroha",
+    ",N, S, m, R, P, g, m, R, S, m, R, P, n, D, N, `S"
+   ],
+   [
+    "avaroha",
+    "`S, n, D, n, P, m, P, g, g, m, R, S"
+   ],
+   [
+    "mukhyanga",
+    "-- S, R\n-- R, P\n-- g, g, m, R, S\n-- ,n, D, ,N, ,"
+   ],
+   [
+    "aarohi_nyas",
+    "S, R, P, N"
+   ],
+   [
+    "avarohi_nyas",
+    "`S, P, R"
+   ],
+   [
+    "vaadi",
+    "P"
+   ],
+   [
+    "samvaadi",
+    "S"
+   ],
+   [
+    "thaat",
+    "Kafi"
+   ],
+   [
+    "prahar",
+    "day 2nd"
+   ]
+  ],
+  "malkauns": [
+   [
+    "name",
+    "Malkauns"
+   ],
+   [
+    "aaroha",
+    "S, g, m, d, n, `S"
+   ],
+   [
+    "avaroha",
+    "`S, n, d, m, g, S"
+   ],
+   [
+    "mukhyanga",
+    "-- ,d, ,n, S, g, m\n-- g, m, n, d, m\n-- d, n, `S\n-- `g, `S, n, d"
+   ],
+   [
+    "aarohi_nyas",
+    "S, g, m"
+   ],
+   [
+    "avarohi_nyas",
+    "m, g, S"
+   ],
+   [
+    "vaadi",
+    "m"
+   ],
+   [
+    "samvaadi",
+    "S"
+   ],
+   [
+    "thaat",
+    "Bhairavi"
+   ],
+   [
+    "prahar",
+    "day 3rd"
+   ]
+  ],
+  "mand": [
+   [
+    "name",
+    "Mand"
+   ],
+   [
+    "aaroha",
+    "S, R, G, m, P, D, N, P, D, `S"
+   ],
+   [
+    "avaroha",
+    "`S, N, D, P, m, G, R, G, S"
+   ],
+   [
+    "mukhyanga",
+    "-- G, m, P, D, `S, N, D\n-- D, P, m\n-- m, P, G, R, "
+   ],
+   [
+    "aarohi_nyas",
+    "S, m, P"
+   ],
+   [
+    "avarohi_nyas",
+    "`S, D, m, G"
+   ],
+   [
+    "vaadi",
+    "S"
+   ],
+   [
+    "samvaadi",
+    "P"
+   ],
+   [
+    "thaat",
+    "Bilawal"
+   ],
+   [
+    "prahar",
+    "day 2nd"
+   ]
+  ],
+  "maru bihag": [
+   [
+    "name",
+    "Maru Bihag"
+   ],
+   [
+    "aaroha",
+    "S, G, M, P, N, `S"
+   ],
+   [
+    "avaroha",
+    "`S, N, D, P, M, G, M, G, R, S"
+   ],
+   [
+    "mukhyanga",
+    "-- M, G\n-- M, G, R, S\n-- S, ,N, S\n-- m, G, P\n-- M, G, M, G, R, S"
+   ],
+   [
+    "aarohi_nyas",
+    "G, P, N"
+   ],
+   [
+    "avarohi_nyas",
+    "`S, D, P, G, R"
+   ],
+   [
+    "vaadi",
+    "P"
+   ],
+   [
+    "samvaadi",
+    "S"
+   ],
+   [
+    "thaat",
+    "Kalyan"
+   ],
+   [
+    "prahar",
+    "day 2nd"
+   ]
+  ],
+  "marwa": [
+   [
+    "name",
+    "Marwa"
+   ],
+   [
+    "aaroha",
+    "S, ,D, ,N, r, G, M, D, N, `S"
+   ],
+   [
+    "avaroha",
+    "`S, N, D, M, G, r, S, ,N, ,D, S, ,N, r, S"
+   ],
+   [
+    "mukhyanga",
+    "-- S\n-- ,N, ,D, S, ,N, r\n-- r, G, M, D\n-- D, M, G, r\n-- ,N, ,D, r, S"
+   ],
+   [
+    "aarohi_nyas",
+    "r, D"
+   ],
+   [
+    "avarohi_nyas",
+    "D, r"
+   ],
+   [
+    "vaadi",
+    "r"
+   ],
+   [
+    "samvaadi",
+    "D"
+   ],
+   [
+    "thaat",
+    "Marwa"
+   ],
+   [
+    "prahar",
+    "day 4th"
+   ]
+  ],
+  "megh malhar": [
+   [
+    "name",
+    "Megh Malhar"
+   ],
+   [
+    "aaroha",
+    "S, m, R, m, P, ,n, `S"
+   ],
+   [
+    "avaroha",
+    "`S, n, P, m, R, S, R, ,n, S"
+   ],
+   [
+    "mukhyanga",
+    "-- ,n, S, R, P, m, R\n-- m, P, m, R\n-- m, P\n-- P, m, n, P, m, R\n-- R, R, P, m, R, R, S, ,n, S"
+   ],
+   [
+    "aarohi_nyas",
+    "S, m, P"
+   ],
+   [
+    "avarohi_nyas",
+    "P, m, R"
+   ],
+   [
+    "vaadi",
+    "m"
+   ],
+   [
+    "samvaadi",
+    "S"
+   ],
+   [
+    "thaat",
+    "Kafi"
+   ],
+   [
+    "prahar",
+    "day 1st"
+   ]
+  ],
+  "mohankauns": [
+   [
+    "name",
+    "Mohankauns"
+   ],
+   [
+    "aaroha",
+    "S, G, m, d, n, `S"
+   ],
+   [
+    "avaroha",
+    "`S, n, d, m, g, S"
+   ],
+   [
+    "mukhyanga",
+    "-- S, G, m, g, S\n-- ,n, ,d\n-- ,n, S\n-- S, m, G\n-- m, d, n, d, m, G\n-- m, G, g, S"
+   ],
+   [
+    "aarohi_nyas",
+    "S, G, m, d, n"
+   ],
+   [
+    "avarohi_nyas",
+    "n, d, m, S"
+   ],
+   [
+    "vaadi",
+    "m"
+   ],
+   [
+    "samvaadi",
+    "S"
+   ],
+   [
+    "thaat",
+    "Bhairavi"
+   ],
+   [
+    "prahar",
+    "day 2nd"
+   ]
+  ],
+  "multani": [
+   [
+    "name",
+    "Multani"
+   ],
+   [
+    "aaroha",
+    ",N, S, g, M, P, N, `S"
+   ],
+   [
+    "avaroha",
+    "`S, N, d, P, M, g, r, S"
+   ],
+   [
+    "mukhyanga",
+    "-- ,N, S\n-- M, g\n-- M, g, P\n-- M, g, M, g, r, S"
+   ],
+   [
+    "aarohi_nyas",
+    "S, g, P, N"
+   ],
+   [
+    "avarohi_nyas",
+    "N, P, g, S"
+   ],
+   [
+    "vaadi",
+    "P"
+   ],
+   [
+    "samvaadi",
+    "S"
+   ],
+   [
+    "thaat",
+    "Todi"
+   ],
+   [
+    "prahar",
+    "day 3rd"
+   ]
+  ],
+  "nand": [
+   [
+    "name",
+    "Nand"
+   ],
+   [
+    "aaroha",
+    "S, G, m, D, P, R, S, G, m, P, N, `S"
+   ],
+   [
+    "avaroha",
+    "S, D, N, P, D, M, P, G, G, m, D, P, R, S"
+   ],
+   [
+    "mukhyanga",
+    "-- S, G, m, D, P, R, S\n-- G, m, P, D, N\n-- D, P\n-- P, D, P, m, m, P\n-- G, m, D, P, R, S"
+   ],
+   [
+    "aarohi_nyas",
+    "S, G, m, P"
+   ],
+   [
+    "avarohi_nyas",
+    "P, m, G, S"
+   ],
+   [
+    "vaadi",
+    "S"
+   ],
+   [
+    "samvaadi",
+    "P"
+   ],
+   [
+    "thaat",
+    "Kalyan"
+   ],
+   [
+    "prahar",
+    "day 2nd"
+   ]
+  ],
+  "narayani": [
+   [
+    "name",
+    "Narayani"
+   ],
+   [
+    "aaroha",
+    "S, R, m, P, D, `S"
+   ],
+   [
+    "avaroha",
+    "`S, n, D, P, m, R, S"
+   ],
+   [
+    "mukhyanga",
+    "-- S, R, ,n, ,D, ,P\n-- ,m, ,P, ,D, S\n-- m, R\n-- m, R, S\n-- S, R, P\n-- m, P, n, D, D, P\n-- D, P, m, R, S"
+   ],
+   [
+    "aarohi_nyas",
+    "S, P"
+   ],
+   [
+    "avarohi_nyas",
+    "P, S"
+   ],
+   [
+    "vaadi",
+    "S"
+   ],
+   [
+    "samvaadi",
+    "P"
+   ],
+   [
+    "thaat",
+    "Khamaj"
+   ],
+   [
+    "prahar",
+    "day 2nd"
+   ]
+  ],
+  "nayaki kanada": [
+   [
+    "name",
+    "Nayaki Kanada"
+   ],
+   [
+    "aaroha",
+    "S, R, m, g, m, P, n, P, `S"
+   ],
+   [
+    "avaroha",
+    "`S, n, P, n, P, m, P, m, g, g, m, R, S"
+   ],
+   [
+    "mukhyanga",
+    "-- R, ,n, S, R, P, m, g\n-- g, m, P, m, R, S, R, S\n-- g, m, n, P\n-- n, m, P, m, g, m, P, m, R, S, R, R, S\n-- m, P, n, P, `S\n-- P, n, P\n-- g, m, R, S"
+   ],
+   [
+    "aarohi_nyas",
+    "R, P"
+   ],
+   [
+    "avarohi_nyas",
+    "P, m, R"
+   ],
+   [
+    "vaadi",
+    "m"
+   ],
+   [
+    "samvaadi",
+    "S"
+   ],
+   [
+    "thaat",
+    "Kafi"
+   ],
+   [
+    "prahar",
+    "day 2nd"
+   ]
+  ],
+  "nut-bhairav": [
+   [
+    "name",
+    "Nut-Bhairav"
+   ],
+   [
+    "aaroha",
+    "S, R, G, m, P, d, N, `S"
+   ],
+   [
+    "avaroha",
+    "`S, N, d, P, m, G, R, S"
+   ],
+   [
+    "mukhyanga",
+    "-- R, G, m, d, P\n-- m, G, R\n-- G, m, R, S, ,N, ,d, S"
+   ],
+   [
+    "aarohi_nyas",
+    "R, m, d"
+   ],
+   [
+    "avarohi_nyas",
+    "d, m, R"
+   ],
+   [
+    "vaadi",
+    "m"
+   ],
+   [
+    "samvaadi",
+    "S"
+   ],
+   [
+    "thaat",
+    "Bhairav"
+   ],
+   [
+    "prahar",
+    "day 1st"
+   ]
+  ],
+  "pancham jogeshwari": [
+   [
+    "name",
+    "Pancham Jogeshwari"
+   ],
+   [
+    "aaroha",
+    "S, G, m, D, n, `S"
+   ],
+   [
+    "avaroha",
+    "`S, n, D, m, G, m, P, m, g, S"
+   ],
+   [
+    "mukhyanga",
+    "-- S, G, m, g, S\n-- ,n, ,D\n-- ,m, ,D, ,n, S\n-- S, G, m\n-- m, P, m, g, S\n-- n, D, m\n-- D, n, `S\n-- `S, D\n-- n, D\n-- D, m\n-- P, m, g, S"
+   ],
+   [
+    "aarohi_nyas",
+    "S, G, m, D"
+   ],
+   [
+    "avarohi_nyas",
+    "D, m, G, S"
+   ],
+   [
+    "vaadi",
+    "m"
+   ],
+   [
+    "samvaadi",
+    "S"
+   ],
+   [
+    "thaat",
+    "Kafi"
+   ],
+   [
+    "prahar",
+    "night 2nd"
+   ]
+  ],
+  "parameshwari": [
+   [
+    "name",
+    "Parameshwari"
+   ],
+   [
+    "aaroha",
+    "S, r, g, m, D, n, `S"
+   ],
+   [
+    "avaroha",
+    "`S, n, D, m, g, r, S"
+   ],
+   [
+    "mukhyanga",
+    "-- S, r, g, m, D, m\n-- g, m, D, m, g, r\n-- g, r, ,n, ,d\n-- ,d, ,n, r, S"
+   ],
+   [
+    "aarohi_nyas",
+    "r, m, D"
+   ],
+   [
+    "avarohi_nyas",
+    "D, m, r"
+   ],
+   [
+    "vaadi",
+    "m"
+   ],
+   [
+    "samvaadi",
+    "S"
+   ],
+   [
+    "thaat",
+    "Not Defined"
+   ],
+   [
+    "prahar",
+    "day 2nd"
+   ]
+  ],
+  "patdeep": [
+   [
+    "name",
+    "Patdeep"
+   ],
+   [
+    "aaroha",
+    ",N, S, g, m, P, N, `S"
+   ],
+   [
+    "avaroha",
+    "`S, N, D, P, m, g, R, S, ,N, S"
+   ],
+   [
+    "mukhyanga",
+    "-- g, m, P, N, `S, D, P\n-- m, g, m, P, N, N, N, `S\n-- D, P, m, g, m, P\n-- P, g, m\n-- g, R, S, ,N, ,N, S"
+   ],
+   [
+    "aarohi_nyas",
+    "g, P, N, D, P, R"
+   ],
+   [
+    "avarohi_nyas",
+    "g, P, N, D, P, R"
+   ],
+   [
+    "vaadi",
+    "P"
+   ],
+   [
+    "samvaadi",
+    "S"
+   ],
+   [
+    "thaat",
+    "Kafi"
+   ],
+   [
+    "prahar",
+    "day 3rd"
+   ]
+  ],
+  "pilu": [
+   [
+    "name",
+    "Pilu"
+   ],
+   [
+    "aaroha",
+    "S, G, m, P, N, `S"
+   ],
+   [
+    "avaroha",
+    "`S, n, D, P, m, g, R, S, ,N, S, g, R, S"
+   ],
+   [
+    "mukhyanga",
+    "-- G, m, P, N, `S\n-- n, D, P\n-- m, P, N, d, P\n-- m, g, R, S\n-- P, g, R, S, ,N\n-- S, g, R, S"
+   ],
+   [
+    "aarohi_nyas",
+    "S, G, P, N"
+   ],
+   [
+    "avarohi_nyas",
+    "n, P, g"
+   ],
+   [
+    "vaadi",
+    "G"
+   ],
+   [
+    "samvaadi",
+    "N"
+   ],
+   [
+    "thaat",
+    "Kafi"
+   ],
+   [
+    "prahar",
+    "day 3rd"
+   ]
+  ],
+  "poorvi": [
+   [
+    "name",
+    "Poorvi"
+   ],
+   [
+    "aaroha",
+    "S, r, G, M, P, d, N, `S"
+   ],
+   [
+    "avaroha",
+    "`S, N, d, P, M, G, m, G, r, S"
+   ],
+   [
+    "mukhyanga",
+    "-- S, r, G\n-- M, G, m, G\n-- M, d, P\n-- N, d, P\n-- G, M, P\n-- M, G, m, G, r, S"
+   ],
+   [
+    "aarohi_nyas",
+    "S, G, P, N"
+   ],
+   [
+    "avarohi_nyas",
+    "`S, P, G"
+   ],
+   [
+    "vaadi",
+    "G"
+   ],
+   [
+    "samvaadi",
+    "N"
+   ],
+   [
+    "thaat",
+    "Poorvi"
+   ],
+   [
+    "prahar",
+    "day 4th"
+   ]
+  ],
+  "puriya": [
+   [
+    "name",
+    "Puriya"
+   ],
+   [
+    "aaroha",
+    ",N, r, G, M, D, N, `S"
+   ],
+   [
+    "avaroha",
+    "`S, N, D, M, G, M, D, G, M, G, r, S"
+   ],
+   [
+    "mukhyanga",
+    "-- N, R, G\n-- G, M, D, G, M, G\n-- N, M, G\n-- G, M, G, r, S\n-- ,N, ,M, ,D, S\n-- ,N, r, G, r, S"
+   ],
+   [
+    "aarohi_nyas",
+    "G, N"
+   ],
+   [
+    "avarohi_nyas",
+    "N, G"
+   ],
+   [
+    "vaadi",
+    "G"
+   ],
+   [
+    "samvaadi",
+    "N"
+   ],
+   [
+    "thaat",
+    "Marwa"
+   ],
+   [
+    "prahar",
+    "day 2nd"
+   ]
+  ],
+  "puriya dhanashri": [
+   [
+    "name",
+    "Puriya Dhanashri"
+   ],
+   [
+    "aaroha",
+    ",N, r, S, ,N, r, G, M, P, M, d, N, `S"
+   ],
+   [
+    "avaroha",
+    "`S, N, d, P, M, G, M, r, G, r, S"
+   ],
+   [
+    "mukhyanga",
+    "-- ,N, r, G, M, P\n-- P, M, G, M, r, G\n-- M, d, P\n-- M, d, N, `S\n-- N, `r\n-- N, d, P\n-- P, d, P, P, M, G, M, r, G\n-- r, S"
+   ],
+   [
+    "aarohi_nyas",
+    "S, G, P, N"
+   ],
+   [
+    "avarohi_nyas",
+    "`S, P, G, r"
+   ],
+   [
+    "vaadi",
+    "P"
+   ],
+   [
+    "samvaadi",
+    "S"
+   ],
+   [
+    "thaat",
+    "Poorvi"
+   ],
+   [
+    "prahar",
+    "day 4th"
+   ]
+  ],
+  "puriya kalyan": [
+   [
+    "name",
+    "Puriya Kalyan"
+   ],
+   [
+    "aaroha",
+    "S, r, G, M, P, D, N, `S"
+   ],
+   [
+    "avaroha",
+    "`S, N, D, P, M, G, r, G, r, S"
+   ],
+   [
+    "mukhyanga",
+    "-- ,N, r, G, M, P, M, r, G, r, S\n-- M, D, P\n-- M, D, N, `S"
+   ],
+   [
+    "aarohi_nyas",
+    "G, M, P, N"
+   ],
+   [
+    "avarohi_nyas",
+    "`S, N, P, G, r"
+   ],
+   [
+    "vaadi",
+    "S"
+   ],
+   [
+    "samvaadi",
+    "P"
+   ],
+   [
+    "thaat",
+    "Marwa"
+   ],
+   [
+    "prahar",
+    "day 4th"
+   ]
+  ],
+  "rageshree": [
+   [
+    "name",
+    "Rageshree"
+   ],
+   [
+    "aaroha",
+    "S, G, m, D, n, `S"
+   ],
+   [
+    "avaroha",
+    "`S, n, D, m, G, m, R, S"
+   ],
+   [
+    "mukhyanga",
+    "-- ,n, ,D, ,n, S\n-- G, m, R, S\n-- G, m, D, n, D, m\n-- G, m, R, S"
+   ],
+   [
+    "aarohi_nyas",
+    "G, m, D"
+   ],
+   [
+    "avarohi_nyas",
+    "G, m, D"
+   ],
+   [
+    "vaadi",
+    "G"
+   ],
+   [
+    "samvaadi",
+    "n"
+   ],
+   [
+    "thaat",
+    "Khamaj"
+   ],
+   [
+    "prahar",
+    "day 2nd"
+   ]
+  ],
+  "ramdasi malhar": [
+   [
+    "name",
+    "Ramdasi Malhar"
+   ],
+   [
+    "aaroha",
+    ",N, S, R, G, m, P, G, m, R, P, m, P, D, N, `S"
+   ],
+   [
+    "avaroha",
+    "`S, n, D, n, P, D, P, m, G, m, P, g, g, m, R, S"
+   ],
+   [
+    "mukhyanga",
+    "-- S, R, G, m\n-- m, R, P\n-- P, G, m\n-- P, g, g, m, R, S"
+   ],
+   [
+    "aarohi_nyas",
+    "S, m, P"
+   ],
+   [
+    "avarohi_nyas",
+    "S, m, P"
+   ],
+   [
+    "vaadi",
+    "m"
+   ],
+   [
+    "samvaadi",
+    "S"
+   ],
+   [
+    "thaat",
+    "Kafi"
+   ],
+   [
+    "prahar",
+    "day 1st"
+   ]
+  ],
+  "ramkali": [
+   [
+    "name",
+    "Ramkali"
+   ],
+   [
+    "aaroha",
+    "S, r, G, m, P, d, N, `S"
+   ],
+   [
+    "avaroha",
+    "`S, N, d, P, M, P, d, n, d, P, M, P, G, m, r, S"
+   ],
+   [
+    "mukhyanga",
+    "-- M, P, d, n, d, P\n-- M, P, G, m, r, S"
+   ],
+   [
+    "aarohi_nyas",
+    "S, P"
+   ],
+   [
+    "avarohi_nyas",
+    "`S, P, r"
+   ],
+   [
+    "vaadi",
+    "P"
+   ],
+   [
+    "samvaadi",
+    "S"
+   ],
+   [
+    "thaat",
+    "Bhairav"
+   ],
+   [
+    "prahar",
+    "day 1st"
+   ]
+  ],
+  "saalag varali": [
+   [
+    "name",
+    "Saalag Varali"
+   ],
+   [
+    "aaroha",
+    "S, r, g, P, D, n, `S"
+   ],
+   [
+    "avaroha",
+    "`S, n, D, P, g, r, S"
+   ],
+   [
+    "mukhyanga",
+    "-- g, P, D, n, D, P\n-- D, n, D, `S\n-- `S, n, D, P\n-- D, n, D, P\n-- r, g, r, S"
+   ],
+   [
+    "aarohi_nyas",
+    "S, g, P"
+   ],
+   [
+    "avarohi_nyas",
+    "S, g, P"
+   ],
+   [
+    "vaadi",
+    "P"
+   ],
+   [
+    "samvaadi",
+    "S"
+   ],
+   [
+    "thaat",
+    "Todi"
+   ],
+   [
+    "prahar",
+    "day 2nd"
+   ]
+  ],
+  "sarang (brindavani sarang)": [
+   [
+    "name",
+    "Sarang (Brindavani Sarang)"
+   ],
+   [
+    "aaroha",
+    "S, R, m, P, N, `S"
+   ],
+   [
+    "avaroha",
+    "`S, n, P, m, R, S, ,N, S"
+   ],
+   [
+    "mukhyanga",
+    "-- R, m\n-- P, R\n-- m, R, ,N, S\n-- m, P, n, P, m, R, ,N, S"
+   ],
+   [
+    "aarohi_nyas",
+    "S, R, P, N"
+   ],
+   [
+    "avarohi_nyas",
+    "`S, P, R"
+   ],
+   [
+    "vaadi",
+    "R"
+   ],
+   [
+    "samvaadi",
+    "P"
+   ],
+   [
+    "thaat",
+    "Kafi"
+   ],
+   [
+    "prahar",
+    "day 1st"
+   ]
+  ],
+  "saraswati": [
+   [
+    "name",
+    "Saraswati"
+   ],
+   [
+    "aaroha",
+    "S, R, M, P, D, `S"
+   ],
+   [
+    "avaroha",
+    "`S, n, D, P, M, P, M, R, S, ,n, ,D, S"
+   ],
+   [
+    "mukhyanga",
+    "-- R, M, P, D, n, D\n-- P, M, D, P\n-- M, R, M, P\n-- D, `S, n, D"
+   ],
+   [
+    "aarohi_nyas",
+    "R, P, `S"
+   ],
+   [
+    "avarohi_nyas",
+    "D, P, R"
+   ],
+   [
+    "vaadi",
+    "P"
+   ],
+   [
+    "samvaadi",
+    "R"
+   ],
+   [
+    "thaat",
+    "Kalyan"
+   ],
+   [
+    "prahar",
+    "day 2nd"
+   ]
+  ],
+  "saraswati kedar": [
+   [
+    "name",
+    "Saraswati Kedar"
+   ],
+   [
+    "aaroha",
+    "S, R, M, P, D, `S"
+   ],
+   [
+    "avaroha",
+    "`S, n, D, P, M, P, D, P, M, m, R, S"
+   ],
+   [
+    "mukhyanga",
+    "-- R, M, P, D, P\n-- M, P, m, R, S\n-- M, P, D, n, D, P, D, `S\n-- `S, n, D, P, M, m, R\n-- S, ,n, ,D, S"
+   ],
+   [
+    "aarohi_nyas",
+    "S, M, P, D"
+   ],
+   [
+    "avarohi_nyas",
+    "`S, P, m, R"
+   ],
+   [
+    "vaadi",
+    "M"
+   ],
+   [
+    "samvaadi",
+    "S"
+   ],
+   [
+    "thaat",
+    "Kalyan"
+   ],
+   [
+    "prahar",
+    "night 2nd"
+   ]
+  ],
+  "shahana kanada": [
+   [
+    "name",
+    "Shahana Kanada"
+   ],
+   [
+    "aaroha",
+    ",n, S, R, g, m, P, m, g, m, D, n, P, m, P, D, n, `S"
+   ],
+   [
+    "avaroha",
+    "`S, D, n, P, m, P, g, m, R, S"
+   ],
+   [
+    "mukhyanga",
+    "-- P, m, g, m, D\n-- D, n, P\n-- `S, D, n, P\n-- D, m, P, g, m, R, S"
+   ],
+   [
+    "aarohi_nyas",
+    "S, P, D"
+   ],
+   [
+    "avarohi_nyas",
+    "`S, D, P, R"
+   ],
+   [
+    "vaadi",
+    "P"
+   ],
+   [
+    "samvaadi",
+    "S"
+   ],
+   [
+    "thaat",
+    "Kafi"
+   ],
+   [
+    "prahar",
+    "day 3rd"
+   ]
+  ],
+  "shankara": [
+   [
+    "name",
+    "Shankara"
+   ],
+   [
+    "aaroha",
+    "S, G, P, N, D, `S"
+   ],
+   [
+    "avaroha",
+    "`S, N, P, G, P, D, P, G, P, R, G, R, S"
+   ],
+   [
+    "mukhyanga",
+    "-- G, P, N, D, `S, N\n-- D, P, G, P\n-- R, G, R, S"
+   ],
+   [
+    "aarohi_nyas",
+    "S, G, P, N"
+   ],
+   [
+    "avarohi_nyas",
+    "N, P, G, S"
+   ],
+   [
+    "vaadi",
+    "G"
+   ],
+   [
+    "samvaadi",
+    "N"
+   ],
+   [
+    "thaat",
+    "Bilawal"
+   ],
+   [
+    "prahar",
+    "night 2nd"
+   ]
+  ],
+  "shivranjani": [
+   [
+    "name",
+    "Shivranjani"
+   ],
+   [
+    "aaroha",
+    "S, R, g, P, D, `S"
+   ],
+   [
+    "avaroha",
+    "`S, D, P, g, R, S, R, ,D, S"
+   ],
+   [
+    "mukhyanga",
+    "-- R, g, P\n-- D, P, g, R\n-- g, S, R, D, S"
+   ],
+   [
+    "aarohi_nyas",
+    "P, `S"
+   ],
+   [
+    "avarohi_nyas",
+    "`S, P"
+   ],
+   [
+    "vaadi",
+    "P"
+   ],
+   [
+    "samvaadi",
+    "S"
+   ],
+   [
+    "thaat",
+    "Kafi"
+   ],
+   [
+    "prahar",
+    "night 1st"
+   ]
+  ],
+  "shree": [
+   [
+    "name",
+    "Shree"
+   ],
+   [
+    "aaroha",
+    "S, r, M, P, N, `S"
+   ],
+   [
+    "avaroha",
+    "`S, `r, N, d, P, M, P, d, M, G, r, S"
+   ],
+   [
+    "mukhyanga",
+    "-- S, ,N, r\n-- r, r, P\n-- M, P, d, M, G, r, G, r, S\n-- M, P, N, `S, `r\n-- `r, N, d, P\n-- M, d, M, G, r\n-- G, r, S"
+   ],
+   [
+    "aarohi_nyas",
+    "S, r, P"
+   ],
+   [
+    "avarohi_nyas",
+    "P, r, S"
+   ],
+   [
+    "vaadi",
+    "r"
+   ],
+   [
+    "samvaadi",
+    "P"
+   ],
+   [
+    "thaat",
+    "Poorvi"
+   ],
+   [
+    "prahar",
+    "day 4th"
+   ]
+  ],
+  "shuddha kalyan": [
+   [
+    "name",
+    "Shuddha Kalyan"
+   ],
+   [
+    "aaroha",
+    "S, R, G, P, D, `S"
+   ],
+   [
+    "avaroha",
+    "`S, N, D, P, M, G, R, S, G, R, G, P, R, S"
+   ],
+   [
+    "mukhyanga",
+    "-- G, R, G\n-- R, S\n-- ,N, ,D, ,P\n-- G, R, S\n-- G, R, G\n-- P, R, S"
+   ],
+   [
+    "aarohi_nyas",
+    "S, G, P"
+   ],
+   [
+    "avarohi_nyas",
+    "P, G, S"
+   ],
+   [
+    "vaadi",
+    "G"
+   ],
+   [
+    "samvaadi",
+    "D"
+   ],
+   [
+    "thaat",
+    "Kalyan"
+   ],
+   [
+    "prahar",
+    "day 1st"
+   ]
+  ],
+  "shuddha sarang": [
+   [
+    "name",
+    "Shuddha Sarang"
+   ],
+   [
+    "aaroha",
+    ",N, S, R, M, P, N, `S"
+   ],
+   [
+    "avaroha",
+    "`S, N, D, P, M, P, M, m, R, S, ,N, S"
+   ],
+   [
+    "mukhyanga",
+    "-- ,N, S, R, M, M, P\n-- M, P, M, m, R\n-- R, ,N, ,N, S\n-- ,N, ,D, S, ,N, R, S"
+   ],
+   [
+    "aarohi_nyas",
+    ",N, R, P, N"
+   ],
+   [
+    "avarohi_nyas",
+    "`S, N, P, R"
+   ],
+   [
+    "vaadi",
+    "R"
+   ],
+   [
+    "samvaadi",
+    "P"
+   ],
+   [
+    "thaat",
+    "Kalyan"
+   ],
+   [
+    "prahar",
+    "day 2nd"
+   ]
+  ],
+  "shyam kalyan": [
+   [
+    "name",
+    "Shyam Kalyan"
+   ],
+   [
+    "aaroha",
+    ",N, S, R, M, P, N, `S"
+   ],
+   [
+    "avaroha",
+    "`S, N, D, P, M, P, D, P, G, m, P, G, m, R, S, ,N, S"
+   ],
+   [
+    "mukhyanga",
+    "-- S, R, ,N, S, m, R\n-- R, M, M, P\n-- P, G, m, R\n-- M, P\n-- G, m, P\n-- G, m, R\n-- ,N, S, R, S"
+   ],
+   [
+    "aarohi_nyas",
+    "S, R, P, N"
+   ],
+   [
+    "avarohi_nyas",
+    "`S, N, P, R"
+   ],
+   [
+    "vaadi",
+    "P"
+   ],
+   [
+    "samvaadi",
+    "S"
+   ],
+   [
+    "thaat",
+    "Kalyan"
+   ],
+   [
+    "prahar",
+    "day 1st"
+   ]
+  ],
+  "sindhura": [
+   [
+    "name",
+    "Sindhura"
+   ],
+   [
+    "aaroha",
+    "S, R, m, P, D, `S"
+   ],
+   [
+    "avaroha",
+    "`S, n, D, P, m, g, R, m, g, R, S"
+   ],
+   [
+    "mukhyanga",
+    "-- R, m, P, D\n-- n, D, P, `S\n-- `R, `g, `R, `S\n-- n, D, P, m, g, R\n-- m, g, R, S"
+   ],
+   [
+    "aarohi_nyas",
+    "S, P, D"
+   ],
+   [
+    "avarohi_nyas",
+    "`S, D, P, g"
+   ],
+   [
+    "vaadi",
+    "S"
+   ],
+   [
+    "samvaadi",
+    "P"
+   ],
+   [
+    "thaat",
+    "Kafi"
+   ],
+   [
+    "prahar",
+    "day 4th"
+   ]
+  ],
+  "sohani": [
+   [
+    "name",
+    "Sohani"
+   ],
+   [
+    "aaroha",
+    "S, G, M, D, N, `S"
+   ],
+   [
+    "avaroha",
+    "`S, N, D, N, D, M, G, r, S"
+   ],
+   [
+    "mukhyanga",
+    "-- M, D, N, `S, `r, `S\n-- N, D, N, D\n-- `S, `r, `S, `r, N, `S, N, D, G, M, G"
+   ],
+   [
+    "aarohi_nyas",
+    "G, D"
+   ],
+   [
+    "avarohi_nyas",
+    "D, G"
+   ],
+   [
+    "vaadi",
+    "D"
+   ],
+   [
+    "samvaadi",
+    "G"
+   ],
+   [
+    "thaat",
+    "Marwa"
+   ],
+   [
+    "prahar",
+    "day 4th"
+   ]
+  ],
+  "sundarkauns": [
+   [
+    "name",
+    "Sundarkauns"
+   ],
+   [
+    "aaroha",
+    "S, g, m, D, n, `S"
+   ],
+   [
+    "avaroha",
+    "`S, n, D, m, g, m, g, S, ,n, S"
+   ],
+   [
+    "mukhyanga",
+    "-- ,n, ,n, ,D\n-- ,D, ,n, S\n-- g, m, g, S\n-- g, m, D\n-- n, D\n-- m, D, n, `S\n-- `S, D, n, D, m, g, S"
+   ],
+   [
+    "aarohi_nyas",
+    "S, m, D"
+   ],
+   [
+    "avarohi_nyas",
+    "`S, D, m"
+   ],
+   [
+    "vaadi",
+    "m"
+   ],
+   [
+    "samvaadi",
+    "S"
+   ],
+   [
+    "prahar",
+    "night 2nd"
+   ],
+   [
+    "thaat",
+    "Not Defined"
+   ]
+  ],
+  "surdasi malhar": [
+   [
+    "name",
+    "Surdasi Malhar"
+   ],
+   [
+    "aaroha",
+    "S, R, m, P, N, `S"
+   ],
+   [
+    "avaroha",
+    "`S, n, D, P, m, D, P, n, D, P, m, R, ,N, S"
+   ],
+   [
+    "mukhyanga",
+    "-- m, R, ,N, S\n-- `S\n-- n, D, m, P, n, D, P\n-- m, R, P, m, D, P\n-- m, R, ,N, S"
+   ],
+   [
+    "aarohi_nyas",
+    "S, R, m, P"
+   ],
+   [
+    "avarohi_nyas",
+    "`S, P, m, R"
+   ],
+   [
+    "vaadi",
+    "m"
+   ],
+   [
+    "samvaadi",
+    "S"
+   ],
+   [
+    "thaat",
+    "Kafi"
+   ],
+   [
+    "prahar",
+    "day 1st"
+   ]
+  ],
+  "tilak kamod": [
+   [
+    "name",
+    "Tilak Kamod"
+   ],
+   [
+    "aaroha",
+    ",P, ,N, S, R, G, S, S, R, m, P, N, `S"
+   ],
+   [
+    "avaroha",
+    "`S, P, D, m, G, S, R, G, S, ,N, ,P, ,N, S, R, G, S"
+   ],
+   [
+    "mukhyanga",
+    "-- ,P, ,N, S, R, G, S\n-- R, P, m, G\n-- S, R, G, S, ,N\n-- S, R, m, P, `S\n-- `S, `R, `G, `S\n-- `S, P, D, m, G\n-- S, R, m, G\n-- S, R, G, S, ,N"
+   ],
+   [
+    "aarohi_nyas",
+    ",N, P, `S"
+   ],
+   [
+    "avarohi_nyas",
+    "`S, G, S"
+   ],
+   [
+    "vaadi",
+    "S"
+   ],
+   [
+    "samvaadi",
+    "P"
+   ],
+   [
+    "thaat",
+    "Khamaj"
+   ],
+   [
+    "prahar",
+    "day 2nd"
+   ]
+  ],
+  "tilang": [
+   [
+    "name",
+    "Tilang"
+   ],
+   [
+    "aaroha",
+    "S, G, m, P, N, `S"
+   ],
+   [
+    "avaroha",
+    "`S, n, P, m, G, S"
+   ],
+   [
+    "mukhyanga",
+    "-- G, m, P, n, P, m, G\n-- n, P, G, m, G"
+   ],
+   [
+    "aarohi_nyas",
+    "S, G, P, N"
+   ],
+   [
+    "avarohi_nyas",
+    "S, P, G, S"
+   ],
+   [
+    "vaadi",
+    "G"
+   ],
+   [
+    "samvaadi",
+    "N"
+   ],
+   [
+    "thaat",
+    "Khamaj"
+   ],
+   [
+    "prahar",
+    "day 2nd"
+   ]
+  ],
+  "todi": [
+   [
+    "name",
+    "Todi"
+   ],
+   [
+    "aaroha",
+    "S, r, g, M, P, d, N, `S"
+   ],
+   [
+    "avaroha",
+    "`S, N, d, P, M, g, r, S"
+   ],
+   [
+    "mukhyanga",
+    "-- ,d\n-- ,N, S, r, g\n-- M, r, g\n-- r, S"
+   ],
+   [
+    "aarohi_nyas",
+    "S, g, d"
+   ],
+   [
+    "avarohi_nyas",
+    "d, g, S"
+   ],
+   [
+    "vaadi",
+    "d"
+   ],
+   [
+    "samvaadi",
+    "g"
+   ],
+   [
+    "thaat",
+    "Todi"
+   ],
+   [
+    "prahar",
+    "day 2nd"
+   ]
+  ],
+  "vachaspati": [
+   [
+    "name",
+    "Vachaspati"
+   ],
+   [
+    "aaroha",
+    "S, G, M, P, n, `S"
+   ],
+   [
+    "avaroha",
+    "`S, n, D, P, M, G, R, S, ,n, S"
+   ],
+   [
+    "mukhyanga",
+    "-- ,n, S, G, M\n-- P, D, P\n-- M, G, R, S\n-- R, ,n, S\n-- M, G, R, S"
+   ],
+   [
+    "aarohi_nyas",
+    "G, P, n"
+   ],
+   [
+    "avarohi_nyas",
+    "D, P, G, R"
+   ],
+   [
+    "vaadi",
+    "S"
+   ],
+   [
+    "samvaadi",
+    "P"
+   ],
+   [
+    "thaat",
+    "Carnatic Music System"
+   ],
+   [
+    "prahar",
+    "day 4th"
+   ]
+  ],
+  "vibhas": [
+   [
+    "name",
+    "Vibhas"
+   ],
+   [
+    "aaroha",
+    "S, r, G, P, d, `S"
+   ],
+   [
+    "avaroha",
+    "`S, d, P, G, r, S"
+   ],
+   [
+    "mukhyanga",
+    "-- P, d, d, P\n-- G, P, G, r, S"
+   ],
+   [
+    "aarohi_nyas",
+    "r, P, d"
+   ],
+   [
+    "avarohi_nyas",
+    "r, P, d"
+   ],
+   [
+    "vaadi",
+    "d"
+   ],
+   [
+    "samvaadi",
+    "r"
+   ],
+   [
+    "thaat",
+    "Bhairav"
+   ],
+   [
+    "prahar",
+    "day 1st"
+   ]
+  ],
+  "yaman": [
+   [
+    "name",
+    "Yaman"
+   ],
+   [
+    "aaroha",
+    ",N, R, G, M, D, N, `S"
+   ],
+   [
+    "avaroha",
+    "`S, N, D, P, M, G, R, S, ,N, R, S"
+   ],
+   [
+    "mukhyanga",
+    "-- ,N, R, G\n-- ,N, R, M, G\n-- M, P\n-- M, D, P, N, D, P, M, R, G, R\n-- ,N, R, ,D, ,N, S"
+   ],
+   [
+    "aarohi_nyas",
+    "S, G, N"
+   ],
+   [
+    "avarohi_nyas",
+    "`S, N, P, G"
+   ],
+   [
+    "vaadi",
+    "G"
+   ],
+   [
+    "samvaadi",
+    "N"
+   ],
+   [
+    "thaat",
+    "Kalyan"
+   ],
+   [
+    "prahar",
+    "night 1st"
+   ]
+  ]
+ }
+}
