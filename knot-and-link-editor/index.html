@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Knot & Link Editor</title>
+    <link rel="icon" href="data:," />
+    <script type="module" crossorigin src="./assets/index-DwpS2AMo.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-D_bd74xh.css">
+  </head>
+  <body>
+    <canvas id="view"></canvas>
+    <div id="eraser-cursor" hidden></div>
+
+    <div id="rail">
+      <div id="toolbar">
+        <!-- Each tool carries its own settings, shown only while that tool is
+             live. The squares open panels that float clear of the rail. -->
+        <div class="tool-row">
+          <button class="tool" data-tool="select" title="Select — click a strand (S)">
+            <span class="ico">↖</span><span class="lbl">Select</span>
+          </button>
+          <button id="sw-sel-color" class="swatch" hidden title="Colour of the selected strands"></button>
+          <button id="sw-sel-size" class="swatch" hidden title="Thickness of the selected strands"></button>
+        </div>
+        <div class="tool-row">
+          <button class="tool" data-tool="draw" title="Draw a strand (D)">
+            <span class="ico">✎</span><span class="lbl">Draw</span>
+          </button>
+          <button id="sw-draw-color" class="swatch" hidden title="Colour of the next strand"></button>
+          <button id="sw-draw-size" class="swatch" hidden title="Thickness of the next strand"></button>
+        </div>
+        <div class="tool-row">
+          <button class="tool" data-tool="erase" title="Erase from the selected strands (E)">
+            <span class="ico">◍</span><span class="lbl">Erase</span>
+          </button>
+          <button id="sw-erase-size" class="swatch" hidden title="Eraser size"></button>
+        </div>
+        <div class="sep"></div>
+        <button id="btn-undo" title="Undo (⌘Z)">
+          <span class="ico">↶</span><span class="lbl">Undo</span>
+        </button>
+        <button id="btn-redo" title="Redo (⇧⌘Z)">
+          <span class="ico">↷</span><span class="lbl">Redo</span>
+        </button>
+        <div class="sep"></div>
+        <button id="btn-delete" title="Delete selection (Del)">
+          <span class="ico">✕</span><span class="lbl">Delete</span>
+        </button>
+        <button id="btn-clear" title="Remove everything">
+          <span class="ico">⌫</span><span class="lbl">Clear</span>
+        </button>
+        <div class="sep"></div>
+        <button id="btn-help" title="Help (?)">
+          <span class="ico">?</span><span class="lbl">Help</span>
+        </button>
+      </div>
+
+      <!-- Left column is what happens, right column is what you do. -->
+      <div id="shortcuts">
+        <section>
+          <h3>Mode</h3>
+          <div class="row"><span>Select</span><kbd>S</kbd></div>
+          <div class="row"><span>Draw</span><kbd>D</kbd></div>
+          <div class="row"><span>Erase</span><kbd>E</kbd></div>
+        </section>
+
+        <section>
+          <h3>View</h3>
+          <div class="row"><span>Orbit</span><kbd>drag</kbd></div>
+          <div class="row"><span>Pan</span><kbd id="sc-pan">⌘ drag</kbd></div>
+          <div class="row"><span>Zoom</span><kbd>scroll</kbd></div>
+          <div class="row"><span>Frame all</span><kbd>F</kbd></div>
+        </section>
+
+        <section id="sc-draw" hidden>
+          <h3>Draw</h3>
+          <div class="row"><span>Go under</span><kbd>lift pen</kbd></div>
+          <div class="row"><span>Go under, no lift</span><kbd>hold U</kbd></div>
+          <div class="row"><span>Straight line</span><kbd>⇧ drag</kbd></div>
+          <div class="row"><span>Continue</span><kbd>grab an end</kbd></div>
+          <div class="row"><span>Finish</span><kbd>Enter</kbd></div>
+        </section>
+
+        <section id="sc-erase" hidden>
+          <h3>Erase</h3>
+          <div class="row"><span>Brush size</span><kbd>[ ]</kbd></div>
+        </section>
+
+        <section>
+          <h3>Edit</h3>
+          <div class="row"><span>Undo</span><kbd>⌘Z</kbd></div>
+          <div class="row"><span>Redo</span><kbd>⇧⌘Z</kbd></div>
+          <div class="row"><span>Delete</span><kbd>Del</kbd></div>
+          <div class="row"><span>Select all</span><kbd>A</kbd></div>
+          <div class="row"><span>Add to selection</span><kbd>⇧ click</kbd></div>
+          <div class="row"><span>Cancel</span><kbd>Esc</kbd></div>
+          <div class="row"><span>Help</span><kbd>?</kbd></div>
+        </section>
+      </div>
+    </div>
+
+    <div id="status"></div>
+
+    <div id="help">
+      <h1>Knot Editor</h1>
+      <p class="lede">Paint, but for knots in 3D space.</p>
+
+      <p class="lede2">
+        Press <kbd>D</kbd> and drag to draw a strand. <b>Lift the pen</b> wherever
+        it should pass under, then carry on &mdash; the gap gets filled in for
+        you. Come back near where you started to close the loop.
+      </p>
+      <p class="lede2">
+        Left-drag orbits, so you can see the depth you just made. Everything else
+        is in the panel on the left.
+      </p>
+
+      <details>
+        <summary>Over and under</summary>
+        <p>
+          Lift the pen across a crossing and that strand goes <b>under</b> &mdash;
+          or hold <kbd>U</kbd> as you draw through it, which means the same thing
+          without breaking the ink. Unmarked, the strand you drew <b>later</b>
+          goes over.
+        </p>
+        <p class="warn">
+          So a shape drawn without any pen lifts is never really knotted, however
+          tangled it looks. The breaks are what tie it.
+        </p>
+      </details>
+
+      <details>
+        <summary>Continuing a strand</summary>
+        <p>
+          One strand at a time is <b>live</b>: it glows, and a ball marks the end
+          your next stroke joins. Grab either ball to keep going &mdash; on this
+          strand or one from an hour ago, from any angle. What you already drew
+          never moves.
+        </p>
+        <p>Erase a bite out of a closed loop to open it up again.</p>
+      </details>
+
+      <details>
+        <summary>Colour and thickness</summary>
+        <p>
+          The squares beside <b>Draw</b> set what the next strand gets; the ones
+          beside <b>Select</b> change the strands you've picked. Nine presets, or
+          slide the hue for anything in between &mdash; every colour sits at the
+          same saturation, so none of them will fight the rest.
+        </p>
+      </details>
+
+      <details>
+        <summary>Editing</summary>
+        <p>
+          <b>Erase</b> only touches strands you've selected. <kbd>⌘Z</kbd> undoes
+          one stroke at a time.
+        </p>
+      </details>
+
+      <button id="help-close">Got it</button>
+    </div>
+
+    <div id="confirm" hidden>
+      <div class="box">
+        <p id="confirm-text"></p>
+        <div class="actions">
+          <button id="confirm-no" class="ghost">Cancel</button>
+          <button id="confirm-yes" class="danger">Delete</button>
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>
